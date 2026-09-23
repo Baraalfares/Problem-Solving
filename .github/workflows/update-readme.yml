@@ -4,9 +4,8 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'Data Structures & Algorithms/**'
-      - '.github/scripts/**'
+    paths-ignore:
+      - '.github/workflows/**'
   workflow_dispatch:
 
 permissions:

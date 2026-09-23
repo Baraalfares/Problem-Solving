@@ -5,7 +5,6 @@ import re
 import urllib.request
 import urllib.error
 
-# Root directories
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 DSA_DIR = os.path.join(REPO_ROOT, "Data Structures & Algorithms")
 README_PATH = os.path.join(REPO_ROOT, "README.md")
@@ -98,61 +97,123 @@ def fetch_leetcode_info(slug):
     return None
 
 def slug_to_title(slug):
-    # e.g., 'lonely-pixel-i' -> 'Lonely Pixel I'
     parts = slug.split("-")
     roman_numerals = {"i": "I", "ii": "II", "iii": "III", "iv": "IV", "v": "V"}
     return " ".join([roman_numerals.get(p.lower(), p.capitalize()) for p in parts])
 
-def find_solution_file(prob_dir):
+def find_dsa_solution_file(prob_dir):
     if not os.path.exists(prob_dir):
         return None
     files = sorted([f for f in os.listdir(prob_dir) if f.startswith("submission-") and not f.startswith(".")])
     if files:
         return files[-1]  # latest submission
-    all_code_files = sorted([f for f in os.listdir(prob_dir) if f.endswith((".cpp", ".py", ".java", ".ts", ".js", ".cs", ".go", ".rs"))])
-    if all_code_files:
-        return all_code_files[0]
+    code_files = sorted([f for f in os.listdir(prob_dir) if f.endswith((".cpp", ".py", ".java", ".ts", ".js", ".cs", ".go", ".rs"))])
+    if code_files:
+        return code_files[0]
     return None
+
+def find_all_problems():
+    problems = []
+
+    # 1. Scan Data Structures & Algorithms
+    if os.path.exists(DSA_DIR):
+        for d in sorted(os.listdir(DSA_DIR)):
+            prob_dir = os.path.join(DSA_DIR, d)
+            if os.path.isdir(prob_dir) and not d.startswith("."):
+                sol_file = find_dsa_solution_file(prob_dir)
+                rel_folder = f"Data Structures & Algorithms/{d}"
+                rel_sol = f"{rel_folder}/{sol_file}" if sol_file else None
+                problems.append({
+                    "slug": d,
+                    "folder_relpath": rel_folder,
+                    "sol_relpath": rel_sol,
+                    "source": "DSA"
+                })
+
+    # 2. Scan LeetBridge / Root problem folders (e.g. 0001-two-sum)
+    for d in sorted(os.listdir(REPO_ROOT)):
+        prob_dir = os.path.join(REPO_ROOT, d)
+        if not os.path.isdir(prob_dir) or d.startswith("."):
+            continue
+        if d in ["Data Structures & Algorithms"]:
+            continue
+
+        is_leetbridge = bool(re.match(r"^\d{4}-", d))
+        readme_path = os.path.join(prob_dir, "README.md")
+        has_readme = os.path.exists(readme_path)
+
+        if is_leetbridge or (has_readme and any(f.startswith("solution.") for f in os.listdir(prob_dir))):
+            slug = re.sub(r"^\d+-", "", d)
+            sol_files = sorted([f for f in os.listdir(prob_dir) if f.startswith("solution.")])
+            sol_file = sol_files[0] if sol_files else None
+            rel_sol = f"{d}/{sol_file}" if sol_file else None
+
+            readme_title = None
+            readme_diff = None
+            if has_readme:
+                try:
+                    with open(readme_path, "r", encoding="utf-8") as rf:
+                        txt = rf.read()
+                        m_title = re.search(r"^#\s+(?:\d+\.\s*)?([^\n\r]+)", txt, re.MULTILINE)
+                        if m_title:
+                            readme_title = m_title.group(1).strip()
+                        m_diff = re.search(r"\*\*Difficulty:\*\*\s*([A-Za-z]+)", txt)
+                        if m_diff:
+                            readme_diff = m_diff.group(1).strip()
+                except Exception:
+                    pass
+
+            problems.append({
+                "slug": slug,
+                "folder_relpath": d,
+                "sol_relpath": rel_sol,
+                "readme_title": readme_title,
+                "readme_diff": readme_diff,
+                "source": "LeetCode"
+            })
+
+    return problems
 
 def main():
     metadata = load_metadata()
     updated_meta = False
 
-    if not os.path.exists(DSA_DIR):
-        print(f"Directory {DSA_DIR} does not exist.")
-        return
-
-    problem_slugs = sorted([d for d in os.listdir(DSA_DIR) if os.path.isdir(os.path.join(DSA_DIR, d)) and not d.startswith(".")])
-    print(f"Found {len(problem_slugs)} problems in Data Structures & Algorithms.")
+    problems = find_all_problems()
+    print(f"Total problems discovered across repository: {len(problems)}")
 
     problems_by_diff = {"Easy": [], "Medium": [], "Hard": []}
 
-    for slug in problem_slugs:
-        prob_path = os.path.join(DSA_DIR, slug)
+    for item in problems:
+        slug = item["slug"]
         meta = metadata.get(slug)
         if not meta:
             fetched = fetch_leetcode_info(slug)
             if fetched:
                 meta = fetched
             else:
+                title = item.get("readme_title") or slug_to_title(slug)
+                diff = item.get("readme_diff") or "Easy"
                 meta = {
-                    "title": slug_to_title(slug),
-                    "difficulty": "Easy",  # default
+                    "title": title,
+                    "difficulty": diff,
                     "category": "Algorithms"
                 }
             metadata[slug] = meta
             updated_meta = True
 
-        diff = meta.get("difficulty", "Easy").capitalize()
+        diff = (item.get("readme_diff") or meta.get("difficulty", "Easy")).capitalize()
         if diff not in problems_by_diff:
             problems_by_diff[diff] = []
 
-        sol_file = find_solution_file(prob_path)
+        title = item.get("readme_title") or meta.get("title", slug_to_title(slug))
+        category = meta.get("category", "Algorithms")
+
         problems_by_diff[diff].append({
             "slug": slug,
-            "title": meta.get("title", slug_to_title(slug)),
-            "category": meta.get("category", "Algorithms"),
-            "sol_file": sol_file
+            "title": title,
+            "category": category,
+            "folder_relpath": item["folder_relpath"],
+            "sol_relpath": item["sol_relpath"]
         })
 
     if updated_meta:
@@ -171,9 +232,9 @@ def main():
     lines = [
         "---",
         "",
-        "## Data Structures & Algorithms",
+        "## Solved Problems Catalog",
         "",
-        "Curated list of problems solved and tracked in the [`Data Structures & Algorithms`](<Data Structures & Algorithms>) directory, categorized by difficulty level.",
+        "Curated list of all algorithmic and data structure problems solved and tracked across LeetCode and NeetCode, categorized by difficulty level.",
         "",
         "### Difficulty Overview",
         "| Level | Count |",
@@ -185,24 +246,24 @@ def main():
         ""
     ]
 
-    def render_table(diff_label, emoji, problems):
+    def render_table(diff_label, emoji, problem_items):
         table_lines = [
             "---",
             "",
-            f"### {emoji} {diff_label} ({len(problems)} Problems)",
+            f"### {emoji} {diff_label} ({len(problem_items)} Problems)",
             "",
             "| # | Problem | Category / Pattern | Solution |",
             "| :-: | :--- | :--- | :-: |"
         ]
-        for idx, item in enumerate(problems, 1):
-            prob_link = f"[{item['title']}](<Data Structures & Algorithms/{item['slug']}>)"
-            if item["sol_file"]:
-                ext = os.path.splitext(item["sol_file"])[1]
+        for idx, it in enumerate(problem_items, 1):
+            prob_link = f"[{it['title']}](<{it['folder_relpath']}>)"
+            if it["sol_relpath"]:
+                ext = os.path.splitext(it["sol_relpath"])[1]
                 lang = "C++" if ext == ".cpp" else "Python" if ext == ".py" else "Code"
-                sol_link = f"[{lang}](<Data Structures & Algorithms/{item['slug']}/{item['sol_file']}>)"
+                sol_link = f"[{lang}](<{it['sol_relpath']}>)"
             else:
-                sol_link = f"[Folder](<Data Structures & Algorithms/{item['slug']}>)"
-            table_lines.append(f"| {idx} | {prob_link} | {item['category']} | {sol_link} |")
+                sol_link = f"[Folder](<{it['folder_relpath']}>)"
+            table_lines.append(f"| {idx} | {prob_link} | {it['category']} | {sol_link} |")
         table_lines.append("")
         return table_lines
 
@@ -211,7 +272,7 @@ def main():
     if hard_count > 0:
         lines.extend(render_table("Hard", "🔴", problems_by_diff.get("Hard", [])))
 
-    new_dsa_section = "\n".join(lines).strip() + "\n"
+    new_section = "\n".join(lines).strip() + "\n"
 
     # Read existing README.md
     if os.path.exists(README_PATH):
@@ -223,12 +284,15 @@ def main():
     marker = "<!-- SOLUTIONS_END -->"
     if marker in content:
         top_part = content.split(marker)[0] + marker + "\n\n"
-        final_content = top_part + new_dsa_section
+        final_content = top_part + new_section
+    elif "## Solved Problems Catalog" in content:
+        top_part = content.split("## Solved Problems Catalog")[0]
+        final_content = top_part + new_section
     elif "## Data Structures & Algorithms" in content:
         top_part = content.split("## Data Structures & Algorithms")[0]
-        final_content = top_part + new_dsa_section
+        final_content = top_part + new_section
     else:
-        final_content = content.rstrip() + "\n\n" + new_dsa_section
+        final_content = content.rstrip() + "\n\n" + new_section
 
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(final_content)

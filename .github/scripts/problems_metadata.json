@@ -183,5 +183,10 @@
     "title": "Validate Parentheses",
     "difficulty": "Easy",
     "category": "Stack"
+  },
+  "two-sum": {
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "category": "Array / Hash Table"
   }
 }
