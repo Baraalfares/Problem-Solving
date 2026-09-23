@@ -1,0 +1,187 @@
+{
+  "append-characters-to-string-to-make-subsequence": {
+    "title": "Append Characters to String to Make Subsequence",
+    "difficulty": "Medium",
+    "category": "Two Pointers / Greedy"
+  },
+  "baseball-game": {
+    "title": "Baseball Game",
+    "difficulty": "Easy",
+    "category": "Stack / Simulation"
+  },
+  "concatenation-of-array": {
+    "title": "Concatenation of Array",
+    "difficulty": "Easy",
+    "category": "Array"
+  },
+  "confusing-number": {
+    "title": "Confusing Number",
+    "difficulty": "Easy",
+    "category": "Math / Hash Table"
+  },
+  "counting-elements": {
+    "title": "Counting Elements",
+    "difficulty": "Easy",
+    "category": "Hash Set / Counting"
+  },
+  "duplicate-integer": {
+    "title": "Duplicate Integer",
+    "difficulty": "Easy",
+    "category": "Hash Set (Contains Duplicate)"
+  },
+  "find-anagram-mappings": {
+    "title": "Find Anagram Mappings",
+    "difficulty": "Easy",
+    "category": "Hash Map"
+  },
+  "find-smallest-common-element-in-all-rows": {
+    "title": "Find Smallest Common Element in All Rows",
+    "difficulty": "Medium",
+    "category": "Matrix / Counting / Binary Search"
+  },
+  "is-anagram": {
+    "title": "Is Anagram",
+    "difficulty": "Easy",
+    "category": "Hash Table / String"
+  },
+  "is-palindrome": {
+    "title": "Is Palindrome",
+    "difficulty": "Easy",
+    "category": "Two Pointers / String"
+  },
+  "is-subsequence": {
+    "title": "Is Subsequence",
+    "difficulty": "Easy",
+    "category": "Two Pointers"
+  },
+  "largest-unique-number": {
+    "title": "Largest Unique Number",
+    "difficulty": "Easy",
+    "category": "Hash Map / Counting"
+  },
+  "length-of-last-word": {
+    "title": "Length of Last Word",
+    "difficulty": "Easy",
+    "category": "String Manipulation"
+  },
+  "lonely-pixel-i": {
+    "title": "Lonely Pixel I",
+    "difficulty": "Medium",
+    "category": "Matrix / Hash Table / Counting"
+  },
+  "max-consecutive-ones": {
+    "title": "Max Consecutive Ones",
+    "difficulty": "Easy",
+    "category": "Array / Sliding Window"
+  },
+  "maximum-distance-in-arrays": {
+    "title": "Maximum Distance in Arrays",
+    "difficulty": "Medium",
+    "category": "Greedy / Array"
+  },
+  "merge-sorted-array": {
+    "title": "Merge Sorted Array",
+    "difficulty": "Easy",
+    "category": "Two Pointers"
+  },
+  "merge-strings-alternately": {
+    "title": "Merge Strings Alternately",
+    "difficulty": "Easy",
+    "category": "Two Pointers / String"
+  },
+  "merge-two-sorted-linked-lists": {
+    "title": "Merge Two Sorted Linked Lists",
+    "difficulty": "Easy",
+    "category": "Linked List / Two Pointers"
+  },
+  "minimum-stack": {
+    "title": "Minimum Stack",
+    "difficulty": "Medium",
+    "category": "Stack / Design"
+  },
+  "moving-average-from-data-stream": {
+    "title": "Moving Average from Data Stream",
+    "difficulty": "Easy",
+    "category": "Queue / Design"
+  },
+  "one-edit-distance": {
+    "title": "One Edit Distance",
+    "difficulty": "Medium",
+    "category": "String / Two Pointers"
+  },
+  "palindrome-permutation": {
+    "title": "Palindrome Permutation",
+    "difficulty": "Easy",
+    "category": "Hash Set / Bitmask"
+  },
+  "perform-string-shifts": {
+    "title": "Perform String Shifts",
+    "difficulty": "Easy",
+    "category": "String / Math"
+  },
+  "remove-element": {
+    "title": "Remove Element",
+    "difficulty": "Easy",
+    "category": "Two Pointers / Array"
+  },
+  "replace-elements-with-greatest-element-on-right-side": {
+    "title": "Replace Elements with Greatest Element on Right Side",
+    "difficulty": "Easy",
+    "category": "Array / Traversal from Right"
+  },
+  "reverse-a-linked-list": {
+    "title": "Reverse a Linked List",
+    "difficulty": "Easy",
+    "category": "Linked List"
+  },
+  "reverse-string": {
+    "title": "Reverse String",
+    "difficulty": "Easy",
+    "category": "Two Pointers / String"
+  },
+  "reverse-words-in-a-string-ii": {
+    "title": "Reverse Words in a String II",
+    "difficulty": "Medium",
+    "category": "Two Pointers / In-place Array"
+  },
+  "score-of-a-string": {
+    "title": "Score of a String",
+    "difficulty": "Easy",
+    "category": "String / Math"
+  },
+  "sentence-similarity": {
+    "title": "Sentence Similarity",
+    "difficulty": "Easy",
+    "category": "Hash Set / Map"
+  },
+  "single-row-keyboard": {
+    "title": "Single-Row Keyboard",
+    "difficulty": "Easy",
+    "category": "Hash Map / String"
+  },
+  "valid-palindrome-ii": {
+    "title": "Valid Palindrome II",
+    "difficulty": "Easy",
+    "category": "Two Pointers / Greedy"
+  },
+  "valid-sudoku": {
+    "title": "Valid Sudoku",
+    "difficulty": "Medium",
+    "category": "Matrix / Hash Set"
+  },
+  "valid-word-abbreviation": {
+    "title": "Valid Word Abbreviation",
+    "difficulty": "Easy",
+    "category": "Two Pointers / String"
+  },
+  "valid-word-square": {
+    "title": "Valid Word Square",
+    "difficulty": "Easy",
+    "category": "Matrix / String"
+  },
+  "validate-parentheses": {
+    "title": "Validate Parentheses",
+    "difficulty": "Easy",
+    "category": "Stack"
+  }
+}
