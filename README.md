@@ -1,3 +1,5 @@
+---
+
 ## Solved Problems Catalog
 
 Curated list of all algorithmic and data structure problems solved and tracked across LeetCode and NeetCode, categorized by difficulty level.
