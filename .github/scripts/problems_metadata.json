@@ -188,5 +188,10 @@
     "title": "Two Sum",
     "difficulty": "Easy",
     "category": "Array / Hash Table"
+  },
+  "design-linked-list": {
+    "title": "Design Linked List",
+    "difficulty": "Medium",
+    "category": "Linked List / Design"
   }
 }
