@@ -193,5 +193,10 @@
     "title": "Design Linked List",
     "difficulty": "Medium",
     "category": "Linked List / Design"
+  },
+  "design-browser-history": {
+    "title": "Design Browser History",
+    "difficulty": "Medium",
+    "category": "Array / Linked List"
   }
 }
