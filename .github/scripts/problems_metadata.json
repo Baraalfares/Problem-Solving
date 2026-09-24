@@ -203,5 +203,10 @@
     "title": "Number of Students Unable to Eat Lunch",
     "difficulty": "Easy",
     "category": "Array / Stack"
+  },
+  "implement-stack-using-queues": {
+    "title": "Implement Stack using Queues",
+    "difficulty": "Easy",
+    "category": "Stack / Design"
   }
 }
