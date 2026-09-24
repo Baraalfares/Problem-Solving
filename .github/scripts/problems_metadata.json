@@ -198,5 +198,10 @@
     "title": "Design Browser History",
     "difficulty": "Medium",
     "category": "Array / Linked List"
+  },
+  "number-of-students-unable-to-eat-lunch": {
+    "title": "Number of Students Unable to Eat Lunch",
+    "difficulty": "Easy",
+    "category": "Array / Stack"
   }
 }
