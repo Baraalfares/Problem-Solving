@@ -218,5 +218,10 @@
     "title": "Longest Common Prefix",
     "difficulty": "Easy",
     "category": "Array / String"
+  },
+  "string-matching-in-an-array": {
+    "title": "String Matching in an Array",
+    "difficulty": "Easy",
+    "category": "Array / String"
   }
 }
