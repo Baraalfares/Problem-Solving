@@ -223,5 +223,10 @@
     "title": "String Matching in an Array",
     "difficulty": "Easy",
     "category": "Array / String"
+  },
+  "anagram-groups": {
+    "title": "Anagram Groups",
+    "difficulty": "Easy",
+    "category": "Algorithms"
   }
 }
