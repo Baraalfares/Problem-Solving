@@ -208,5 +208,10 @@
     "title": "Implement Stack using Queues",
     "difficulty": "Easy",
     "category": "Stack / Design"
+  },
+  "number-of-senior-citizens": {
+    "title": "Number of Senior Citizens",
+    "difficulty": "Easy",
+    "category": "Array / String"
   }
 }
