@@ -213,5 +213,10 @@
     "title": "Number of Senior Citizens",
     "difficulty": "Easy",
     "category": "Array / String"
+  },
+  "longest-common-prefix": {
+    "title": "Longest Common Prefix",
+    "difficulty": "Easy",
+    "category": "Array / String"
   }
 }
