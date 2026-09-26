@@ -233,5 +233,10 @@
     "title": "Isomorphic Strings",
     "difficulty": "Easy",
     "category": "Hash Table / String"
+  },
+  "can-place-flowers": {
+    "title": "Can Place Flowers",
+    "difficulty": "Easy",
+    "category": "Array / Greedy"
   }
 }
