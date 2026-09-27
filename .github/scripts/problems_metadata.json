@@ -238,5 +238,10 @@
     "title": "Can Place Flowers",
     "difficulty": "Easy",
     "category": "Array / Greedy"
+  },
+  "maximum-difference-between-even-and-odd-frequency-i": {
+    "title": "Maximum Difference Between Even and Odd Frequency I",
+    "difficulty": "Easy",
+    "category": "Hash Table / String"
   }
 }
