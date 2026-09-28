@@ -248,5 +248,10 @@
     "title": "Next Greater Element I",
     "difficulty": "Easy",
     "category": "Array / Hash Table"
+  },
+  "longest-strictly-increasing-or-strictly-decreasing-subarray": {
+    "title": "Longest Strictly Increasing or Strictly Decreasing Subarray",
+    "difficulty": "Easy",
+    "category": "Array"
   }
 }
