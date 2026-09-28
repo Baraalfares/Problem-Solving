@@ -253,5 +253,10 @@
     "title": "Longest Strictly Increasing or Strictly Decreasing Subarray",
     "difficulty": "Easy",
     "category": "Array"
+  },
+  "maximum-ascending-subarray-sum": {
+    "title": "Maximum Ascending Subarray Sum",
+    "difficulty": "Easy",
+    "category": "Array"
   }
 }
