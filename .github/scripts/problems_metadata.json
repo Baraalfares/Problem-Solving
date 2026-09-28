@@ -258,5 +258,10 @@
     "title": "Maximum Ascending Subarray Sum",
     "difficulty": "Easy",
     "category": "Array"
+  },
+  "find-pivot-index": {
+    "title": "Find Pivot Index",
+    "difficulty": "Easy",
+    "category": "Array / Prefix Sum"
   }
 }
