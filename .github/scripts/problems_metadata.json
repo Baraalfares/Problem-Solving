@@ -263,5 +263,10 @@
     "title": "Find Pivot Index",
     "difficulty": "Easy",
     "category": "Array / Prefix Sum"
+  },
+  "climbing-stairs": {
+    "title": "Climbing Stairs",
+    "difficulty": "Easy",
+    "category": "Math / Dynamic Programming"
   }
 }
