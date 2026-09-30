@@ -268,5 +268,10 @@
     "title": "Climbing Stairs",
     "difficulty": "Easy",
     "category": "Math / Dynamic Programming"
+  },
+  "kth-distinct-string-in-an-array": {
+    "title": "Kth Distinct String in an Array",
+    "difficulty": "Easy",
+    "category": "Array / Hash Table"
   }
 }
