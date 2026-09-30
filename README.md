@@ -56,7 +56,7 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 | 13 | [Is Palindrome](<Data Structures & Algorithms/is-palindrome>) | Two Pointers / String | [C++](<Data Structures & Algorithms/is-palindrome/submission-1.cpp>) |
 | 14 | [Is Subsequence](<Data Structures & Algorithms/is-subsequence>) | Two Pointers | [C++](<Data Structures & Algorithms/is-subsequence/submission-0.cpp>) |
 | 15 | [Isomorphic Strings](<Data Structures & Algorithms/isomorphic-strings>) | Hash Table / String | [C++](<Data Structures & Algorithms/isomorphic-strings/submission-0.cpp>) |
-| 16 | [Kth Distinct String in an Array](<Data Structures & Algorithms/kth-distinct-string-in-an-array>) | Array / Hash Table | [C++](<Data Structures & Algorithms/kth-distinct-string-in-an-array/submission-0.cpp>) |
+| 16 | [Kth Distinct String in an Array](<Data Structures & Algorithms/kth-distinct-string-in-an-array>) | Array / Hash Table | [C++](<Data Structures & Algorithms/kth-distinct-string-in-an-array/submission-1.cpp>) |
 | 17 | [Largest Unique Number](<Data Structures & Algorithms/largest-unique-number>) | Hash Map / Counting | [C++](<Data Structures & Algorithms/largest-unique-number/submission-0.cpp>) |
 | 18 | [Length of Last Word](<Data Structures & Algorithms/length-of-last-word>) | String Manipulation | [C++](<Data Structures & Algorithms/length-of-last-word/submission-0.cpp>) |
 | 19 | [Longest Common Prefix](<Data Structures & Algorithms/longest-common-prefix>) | Array / String | [C++](<Data Structures & Algorithms/longest-common-prefix/submission-0.cpp>) |
