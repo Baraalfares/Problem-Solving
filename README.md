@@ -30,14 +30,14 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 ### Difficulty Overview
 | Level | Count |
 | :--- | :---: |
-| 🟢 **Easy** | 45 |
+| 🟢 **Easy** | 46 |
 | 🟡 **Medium** | 10 |
 | 🔴 **Hard** | 0 |
-| **Total** | **55** |
+| **Total** | **56** |
 
 ---
 
-### 🟢 Easy (45 Problems)
+### 🟢 Easy (46 Problems)
 
 | # | Problem | Category / Pattern | Solution |
 | :-: | :--- | :--- | :-: |
@@ -73,19 +73,20 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 | 30 | [Number of Students Unable to Eat Lunch](<Data Structures & Algorithms/number-of-students-unable-to-eat-lunch>) | Array / Stack | [C++](<Data Structures & Algorithms/number-of-students-unable-to-eat-lunch/submission-1.cpp>) |
 | 31 | [Palindrome Permutation](<Data Structures & Algorithms/palindrome-permutation>) | Hash Set / Bitmask | [C++](<Data Structures & Algorithms/palindrome-permutation/submission-0.cpp>) |
 | 32 | [Perform String Shifts](<Data Structures & Algorithms/perform-string-shifts>) | String / Math | [C++](<Data Structures & Algorithms/perform-string-shifts/submission-0.cpp>) |
-| 33 | [Remove Element](<Data Structures & Algorithms/remove-element>) | Two Pointers / Array | [C++](<Data Structures & Algorithms/remove-element/submission-0.cpp>) |
-| 34 | [Replace Elements with Greatest Element on Right Side](<Data Structures & Algorithms/replace-elements-with-greatest-element-on-right-side>) | Array / Traversal from Right | [C++](<Data Structures & Algorithms/replace-elements-with-greatest-element-on-right-side/submission-0.cpp>) |
-| 35 | [Reverse a Linked List](<Data Structures & Algorithms/reverse-a-linked-list>) | Linked List | [C++](<Data Structures & Algorithms/reverse-a-linked-list/submission-1.cpp>) |
-| 36 | [Reverse String](<Data Structures & Algorithms/reverse-string>) | Two Pointers / String | [C++](<Data Structures & Algorithms/reverse-string/submission-0.cpp>) |
-| 37 | [Score of a String](<Data Structures & Algorithms/score-of-a-string>) | String / Math | [C++](<Data Structures & Algorithms/score-of-a-string/submission-0.cpp>) |
-| 38 | [Sentence Similarity](<Data Structures & Algorithms/sentence-similarity>) | Hash Set / Map | [C++](<Data Structures & Algorithms/sentence-similarity/submission-0.cpp>) |
-| 39 | [Single-Row Keyboard](<Data Structures & Algorithms/single-row-keyboard>) | Hash Map / String | [C++](<Data Structures & Algorithms/single-row-keyboard/submission-0.cpp>) |
-| 40 | [String Matching in an Array](<Data Structures & Algorithms/string-matching-in-an-array>) | Array / String | [C++](<Data Structures & Algorithms/string-matching-in-an-array/submission-0.cpp>) |
-| 41 | [Two Sum](<0001-two-sum>) | Array / Hash Table | [C++](<0001-two-sum/solution.cpp>) |
-| 42 | [Valid Palindrome II](<Data Structures & Algorithms/valid-palindrome-ii>) | Two Pointers / Greedy | [C++](<Data Structures & Algorithms/valid-palindrome-ii/submission-1.cpp>) |
-| 43 | [Valid Word Abbreviation](<Data Structures & Algorithms/valid-word-abbreviation>) | Two Pointers / String | [C++](<Data Structures & Algorithms/valid-word-abbreviation/submission-0.cpp>) |
-| 44 | [Valid Word Square](<Data Structures & Algorithms/valid-word-square>) | Matrix / String | [C++](<Data Structures & Algorithms/valid-word-square/submission-1.cpp>) |
-| 45 | [Validate Parentheses](<Data Structures & Algorithms/validate-parentheses>) | Stack | [C++](<Data Structures & Algorithms/validate-parentheses/submission-0.cpp>) |
+| 33 | [Range Sum Query - Immutable](<Data Structures & Algorithms/range-sum-query-immutable>) | Array / Design | [C++](<Data Structures & Algorithms/range-sum-query-immutable/submission-0.cpp>) |
+| 34 | [Remove Element](<Data Structures & Algorithms/remove-element>) | Two Pointers / Array | [C++](<Data Structures & Algorithms/remove-element/submission-0.cpp>) |
+| 35 | [Replace Elements with Greatest Element on Right Side](<Data Structures & Algorithms/replace-elements-with-greatest-element-on-right-side>) | Array / Traversal from Right | [C++](<Data Structures & Algorithms/replace-elements-with-greatest-element-on-right-side/submission-0.cpp>) |
+| 36 | [Reverse a Linked List](<Data Structures & Algorithms/reverse-a-linked-list>) | Linked List | [C++](<Data Structures & Algorithms/reverse-a-linked-list/submission-1.cpp>) |
+| 37 | [Reverse String](<Data Structures & Algorithms/reverse-string>) | Two Pointers / String | [C++](<Data Structures & Algorithms/reverse-string/submission-0.cpp>) |
+| 38 | [Score of a String](<Data Structures & Algorithms/score-of-a-string>) | String / Math | [C++](<Data Structures & Algorithms/score-of-a-string/submission-0.cpp>) |
+| 39 | [Sentence Similarity](<Data Structures & Algorithms/sentence-similarity>) | Hash Set / Map | [C++](<Data Structures & Algorithms/sentence-similarity/submission-0.cpp>) |
+| 40 | [Single-Row Keyboard](<Data Structures & Algorithms/single-row-keyboard>) | Hash Map / String | [C++](<Data Structures & Algorithms/single-row-keyboard/submission-0.cpp>) |
+| 41 | [String Matching in an Array](<Data Structures & Algorithms/string-matching-in-an-array>) | Array / String | [C++](<Data Structures & Algorithms/string-matching-in-an-array/submission-0.cpp>) |
+| 42 | [Two Sum](<0001-two-sum>) | Array / Hash Table | [C++](<0001-two-sum/solution.cpp>) |
+| 43 | [Valid Palindrome II](<Data Structures & Algorithms/valid-palindrome-ii>) | Two Pointers / Greedy | [C++](<Data Structures & Algorithms/valid-palindrome-ii/submission-1.cpp>) |
+| 44 | [Valid Word Abbreviation](<Data Structures & Algorithms/valid-word-abbreviation>) | Two Pointers / String | [C++](<Data Structures & Algorithms/valid-word-abbreviation/submission-0.cpp>) |
+| 45 | [Valid Word Square](<Data Structures & Algorithms/valid-word-square>) | Matrix / String | [C++](<Data Structures & Algorithms/valid-word-square/submission-1.cpp>) |
+| 46 | [Validate Parentheses](<Data Structures & Algorithms/validate-parentheses>) | Stack | [C++](<Data Structures & Algorithms/validate-parentheses/submission-0.cpp>) |
 
 ---
 

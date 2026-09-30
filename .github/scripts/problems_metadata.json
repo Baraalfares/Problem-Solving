@@ -273,5 +273,10 @@
     "title": "Kth Distinct String in an Array",
     "difficulty": "Easy",
     "category": "Array / Hash Table"
+  },
+  "range-sum-query-immutable": {
+    "title": "Range Sum Query - Immutable",
+    "difficulty": "Easy",
+    "category": "Array / Design"
   }
 }
