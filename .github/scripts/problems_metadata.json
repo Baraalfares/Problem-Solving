@@ -283,5 +283,10 @@
     "title": "Word Pattern",
     "difficulty": "Easy",
     "category": "Hash Table / String"
+  },
+  "valid-parentheses": {
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "category": "String / Stack"
   }
 }
