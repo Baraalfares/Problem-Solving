@@ -298,5 +298,10 @@
     "title": "Design HashSet",
     "difficulty": "Easy",
     "category": "Array / Hash Table"
+  },
+  "height-checker": {
+    "title": "Height Checker",
+    "difficulty": "Easy",
+    "category": "Array / Sorting"
   }
 }
