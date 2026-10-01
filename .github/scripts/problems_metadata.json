@@ -293,5 +293,10 @@
     "title": "Maximum Number of Balloons",
     "difficulty": "Easy",
     "category": "Hash Table / String"
+  },
+  "design-hashset": {
+    "title": "Design HashSet",
+    "difficulty": "Easy",
+    "category": "Array / Hash Table"
   }
 }
