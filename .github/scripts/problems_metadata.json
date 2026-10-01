@@ -278,5 +278,10 @@
     "title": "Range Sum Query - Immutable",
     "difficulty": "Easy",
     "category": "Array / Design"
+  },
+  "word-pattern": {
+    "title": "Word Pattern",
+    "difficulty": "Easy",
+    "category": "Hash Table / String"
   }
 }
