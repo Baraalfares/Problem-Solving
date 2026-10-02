@@ -308,5 +308,10 @@
     "title": "Find Lucky Integer in an Array",
     "difficulty": "Easy",
     "category": "Array / Hash Table"
+  },
+  "special-array-i": {
+    "title": "Special Array I",
+    "difficulty": "Easy",
+    "category": "Array"
   }
 }
