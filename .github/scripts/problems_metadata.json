@@ -313,5 +313,10 @@
     "title": "Special Array I",
     "difficulty": "Easy",
     "category": "Array"
+  },
+  "check-if-array-is-sorted-and-rotated": {
+    "title": "Check if Array Is Sorted and Rotated",
+    "difficulty": "Easy",
+    "category": "Array"
   }
 }
