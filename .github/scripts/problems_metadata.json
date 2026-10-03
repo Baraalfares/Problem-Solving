@@ -323,5 +323,10 @@
     "title": "Monotonic Array",
     "difficulty": "Easy",
     "category": "Array"
+  },
+  "divide-array-into-equal-pairs": {
+    "title": "Divide Array Into Equal Pairs",
+    "difficulty": "Easy",
+    "category": "Array / Hash Table"
   }
 }
