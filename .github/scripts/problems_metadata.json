@@ -328,5 +328,10 @@
     "title": "Divide Array Into Equal Pairs",
     "difficulty": "Easy",
     "category": "Array / Hash Table"
+  },
+  "number-of-good-pairs": {
+    "title": "Number of Good Pairs",
+    "difficulty": "Easy",
+    "category": "Array / Hash Table"
   }
 }
