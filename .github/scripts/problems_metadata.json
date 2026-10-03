@@ -318,5 +318,10 @@
     "title": "Check if Array Is Sorted and Rotated",
     "difficulty": "Easy",
     "category": "Array"
+  },
+  "monotonic-array": {
+    "title": "Monotonic Array",
+    "difficulty": "Easy",
+    "category": "Array"
   }
 }
