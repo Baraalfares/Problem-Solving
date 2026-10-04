@@ -333,5 +333,10 @@
     "title": "Number of Good Pairs",
     "difficulty": "Easy",
     "category": "Array / Hash Table"
+  },
+  "find-words-that-can-be-formed-by-characters": {
+    "title": "Find Words That Can Be Formed by Characters",
+    "difficulty": "Easy",
+    "category": "Array / Hash Table"
   }
 }
