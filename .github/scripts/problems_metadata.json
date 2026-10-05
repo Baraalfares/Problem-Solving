@@ -348,5 +348,10 @@
     "title": "Ransom Note",
     "difficulty": "Easy",
     "category": "Hash Table / String"
+  },
+  "maximum-product-difference-between-two-pairs": {
+    "title": "Maximum Product Difference Between Two Pairs",
+    "difficulty": "Easy",
+    "category": "Array / Sorting"
   }
 }
