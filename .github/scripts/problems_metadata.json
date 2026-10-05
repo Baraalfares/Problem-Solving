@@ -338,5 +338,15 @@
     "title": "Find Words That Can Be Formed by Characters",
     "difficulty": "Easy",
     "category": "Array / Hash Table"
+  },
+  "count-the-number-of-consistent-strings": {
+    "title": "Count the Number of Consistent Strings",
+    "difficulty": "Easy",
+    "category": "Array / Hash Table"
+  },
+  "ransom-note": {
+    "title": "Ransom Note",
+    "difficulty": "Easy",
+    "category": "Hash Table / String"
   }
 }
