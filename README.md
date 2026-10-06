@@ -30,14 +30,14 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 ### Difficulty Overview
 | Level | Count |
 | :--- | :---: |
-| 🟢 **Easy** | 66 |
+| 🟢 **Easy** | 67 |
 | 🟡 **Medium** | 10 |
 | 🔴 **Hard** | 0 |
-| **Total** | **76** |
+| **Total** | **77** |
 
 ---
 
-### 🟢 Easy (66 Problems)
+### 🟢 Easy (67 Problems)
 
 | # | Problem | Category / Pattern | Solution |
 | :-: | :--- | :--- | :-: |
@@ -97,16 +97,17 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 | 54 | [Reverse String](<Data Structures & Algorithms/reverse-string>) | Two Pointers / String | [C++](<Data Structures & Algorithms/reverse-string/submission-0.cpp>) |
 | 55 | [Score of a String](<Data Structures & Algorithms/score-of-a-string>) | String / Math | [C++](<Data Structures & Algorithms/score-of-a-string/submission-0.cpp>) |
 | 56 | [Sentence Similarity](<Data Structures & Algorithms/sentence-similarity>) | Hash Set / Map | [C++](<Data Structures & Algorithms/sentence-similarity/submission-0.cpp>) |
-| 57 | [Single-Row Keyboard](<Data Structures & Algorithms/single-row-keyboard>) | Hash Map / String | [C++](<Data Structures & Algorithms/single-row-keyboard/submission-0.cpp>) |
-| 58 | [Special Array I](<Data Structures & Algorithms/special-array-i>) | Array | [C++](<Data Structures & Algorithms/special-array-i/submission-0.cpp>) |
-| 59 | [String Matching in an Array](<Data Structures & Algorithms/string-matching-in-an-array>) | Array / String | [C++](<Data Structures & Algorithms/string-matching-in-an-array/submission-0.cpp>) |
-| 60 | [Two Sum](<0001-two-sum>) | Array / Hash Table | [C++](<0001-two-sum/solution.cpp>) |
-| 61 | [Valid Palindrome II](<Data Structures & Algorithms/valid-palindrome-ii>) | Two Pointers / Greedy | [C++](<Data Structures & Algorithms/valid-palindrome-ii/submission-1.cpp>) |
-| 62 | [Valid Parentheses](<0020-valid-parentheses>) | String / Stack | [C++](<0020-valid-parentheses/solution.cpp>) |
-| 63 | [Valid Word Abbreviation](<Data Structures & Algorithms/valid-word-abbreviation>) | Two Pointers / String | [C++](<Data Structures & Algorithms/valid-word-abbreviation/submission-0.cpp>) |
-| 64 | [Valid Word Square](<Data Structures & Algorithms/valid-word-square>) | Matrix / String | [C++](<Data Structures & Algorithms/valid-word-square/submission-1.cpp>) |
-| 65 | [Validate Parentheses](<Data Structures & Algorithms/validate-parentheses>) | Stack | [C++](<Data Structures & Algorithms/validate-parentheses/submission-0.cpp>) |
-| 66 | [Word Pattern](<Data Structures & Algorithms/word-pattern>) | Hash Table / String | [C++](<Data Structures & Algorithms/word-pattern/submission-0.cpp>) |
+| 57 | [Set Mismatch](<Data Structures & Algorithms/set-mismatch>) | Array / Hash Table | [C++](<Data Structures & Algorithms/set-mismatch/submission-3.cpp>) |
+| 58 | [Single-Row Keyboard](<Data Structures & Algorithms/single-row-keyboard>) | Hash Map / String | [C++](<Data Structures & Algorithms/single-row-keyboard/submission-0.cpp>) |
+| 59 | [Special Array I](<Data Structures & Algorithms/special-array-i>) | Array | [C++](<Data Structures & Algorithms/special-array-i/submission-0.cpp>) |
+| 60 | [String Matching in an Array](<Data Structures & Algorithms/string-matching-in-an-array>) | Array / String | [C++](<Data Structures & Algorithms/string-matching-in-an-array/submission-0.cpp>) |
+| 61 | [Two Sum](<0001-two-sum>) | Array / Hash Table | [C++](<0001-two-sum/solution.cpp>) |
+| 62 | [Valid Palindrome II](<Data Structures & Algorithms/valid-palindrome-ii>) | Two Pointers / Greedy | [C++](<Data Structures & Algorithms/valid-palindrome-ii/submission-1.cpp>) |
+| 63 | [Valid Parentheses](<0020-valid-parentheses>) | String / Stack | [C++](<0020-valid-parentheses/solution.cpp>) |
+| 64 | [Valid Word Abbreviation](<Data Structures & Algorithms/valid-word-abbreviation>) | Two Pointers / String | [C++](<Data Structures & Algorithms/valid-word-abbreviation/submission-0.cpp>) |
+| 65 | [Valid Word Square](<Data Structures & Algorithms/valid-word-square>) | Matrix / String | [C++](<Data Structures & Algorithms/valid-word-square/submission-1.cpp>) |
+| 66 | [Validate Parentheses](<Data Structures & Algorithms/validate-parentheses>) | Stack | [C++](<Data Structures & Algorithms/validate-parentheses/submission-0.cpp>) |
+| 67 | [Word Pattern](<Data Structures & Algorithms/word-pattern>) | Hash Table / String | [C++](<Data Structures & Algorithms/word-pattern/submission-0.cpp>) |
 
 ---
 

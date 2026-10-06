@@ -378,5 +378,10 @@
     "title": "Largest Substring Between Two Equal Characters",
     "difficulty": "Easy",
     "category": "Hash Table / String"
+  },
+  "set-mismatch": {
+    "title": "Set Mismatch",
+    "difficulty": "Easy",
+    "category": "Array / Hash Table"
   }
 }
