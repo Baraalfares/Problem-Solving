@@ -373,5 +373,10 @@
     "title": "Longest Palindrome",
     "difficulty": "Easy",
     "category": "Hash Table / String"
+  },
+  "largest-substring-between-two-equal-characters": {
+    "title": "Largest Substring Between Two Equal Characters",
+    "difficulty": "Easy",
+    "category": "Hash Table / String"
   }
 }
