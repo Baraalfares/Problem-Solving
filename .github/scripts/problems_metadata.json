@@ -368,5 +368,10 @@
     "title": "Redistribute Characters to Make All Strings Equal",
     "difficulty": "Easy",
     "category": "Hash Table / String"
+  },
+  "longest-palindrome": {
+    "title": "Longest Palindrome",
+    "difficulty": "Easy",
+    "category": "Hash Table / String"
   }
 }
