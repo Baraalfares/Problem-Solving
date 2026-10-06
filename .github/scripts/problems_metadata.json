@@ -363,5 +363,10 @@
     "title": "Minimum Changes To Make Alternating Binary String",
     "difficulty": "Easy",
     "category": "String"
+  },
+  "redistribute-characters-to-make-all-strings-equal": {
+    "title": "Redistribute Characters to Make All Strings Equal",
+    "difficulty": "Easy",
+    "category": "Hash Table / String"
   }
 }
