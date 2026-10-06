@@ -358,5 +358,10 @@
     "title": "Path Crossing",
     "difficulty": "Easy",
     "category": "Hash Table / String"
+  },
+  "minimum-changes-to-make-alternating-binary-string": {
+    "title": "Minimum Changes To Make Alternating Binary String",
+    "difficulty": "Easy",
+    "category": "String"
   }
 }
