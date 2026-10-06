@@ -383,5 +383,10 @@
     "title": "Set Mismatch",
     "difficulty": "Easy",
     "category": "Array / Hash Table"
+  },
+  "sort-colors": {
+    "title": "Sort Colors",
+    "difficulty": "Medium",
+    "category": "Array / Two Pointers"
   }
 }
