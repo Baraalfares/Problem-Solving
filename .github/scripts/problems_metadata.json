@@ -388,5 +388,10 @@
     "title": "Sort Colors",
     "difficulty": "Medium",
     "category": "Array / Two Pointers"
+  },
+  "count-vowel-strings-in-ranges": {
+    "title": "Count Vowel Strings in Ranges",
+    "difficulty": "Medium",
+    "category": "Array / String"
   }
 }
