@@ -403,5 +403,10 @@
     "title": "Custom Sort String",
     "difficulty": "Medium",
     "category": "Hash Table / String"
+  },
+  "wiggle-sort": {
+    "title": "Wiggle Sort",
+    "difficulty": "Medium",
+    "category": "Array / Greedy"
   }
 }
