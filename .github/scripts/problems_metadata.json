@@ -398,5 +398,10 @@
     "title": "Average Waiting Time",
     "difficulty": "Medium",
     "category": "Array / Simulation"
+  },
+  "custom-sort-string": {
+    "title": "Custom Sort String",
+    "difficulty": "Medium",
+    "category": "Hash Table / String"
   }
 }
