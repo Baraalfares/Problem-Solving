@@ -31,9 +31,9 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 | Level | Count |
 | :--- | :---: |
 | 🟢 **Easy** | 67 |
-| 🟡 **Medium** | 12 |
+| 🟡 **Medium** | 13 |
 | 🔴 **Hard** | 0 |
-| **Total** | **79** |
+| **Total** | **80** |
 
 ---
 
@@ -111,19 +111,20 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 
 ---
 
-### 🟡 Medium (12 Problems)
+### 🟡 Medium (13 Problems)
 
 | # | Problem | Category / Pattern | Solution |
 | :-: | :--- | :--- | :-: |
 | 1 | [Append Characters to String to Make Subsequence](<Data Structures & Algorithms/append-characters-to-string-to-make-subsequence>) | Two Pointers / Greedy | [C++](<Data Structures & Algorithms/append-characters-to-string-to-make-subsequence/submission-0.cpp>) |
-| 2 | [Count Vowel Strings in Ranges](<Data Structures & Algorithms/count-vowel-strings-in-ranges>) | Array / String | [C++](<Data Structures & Algorithms/count-vowel-strings-in-ranges/submission-0.cpp>) |
-| 3 | [Design Browser History](<Data Structures & Algorithms/design-browser-history>) | Array / Linked List | [C++](<Data Structures & Algorithms/design-browser-history/submission-0.cpp>) |
-| 4 | [Design Linked List](<0707-design-linked-list>) | Linked List / Design | [C++](<0707-design-linked-list/solution.cpp>) |
-| 5 | [Find Smallest Common Element in All Rows](<Data Structures & Algorithms/find-smallest-common-element-in-all-rows>) | Matrix / Counting / Binary Search | [C++](<Data Structures & Algorithms/find-smallest-common-element-in-all-rows/submission-2.cpp>) |
-| 6 | [Lonely Pixel I](<Data Structures & Algorithms/lonely-pixel-i>) | Matrix / Hash Table / Counting | [C++](<Data Structures & Algorithms/lonely-pixel-i/submission-0.cpp>) |
-| 7 | [Maximum Distance in Arrays](<Data Structures & Algorithms/maximum-distance-in-arrays>) | Greedy / Array | [C++](<Data Structures & Algorithms/maximum-distance-in-arrays/submission-0.cpp>) |
-| 8 | [Minimum Stack](<Data Structures & Algorithms/minimum-stack>) | Stack / Design | [C++](<Data Structures & Algorithms/minimum-stack/submission-0.cpp>) |
-| 9 | [One Edit Distance](<Data Structures & Algorithms/one-edit-distance>) | String / Two Pointers | [C++](<Data Structures & Algorithms/one-edit-distance/submission-0.cpp>) |
-| 10 | [Reverse Words in a String II](<Data Structures & Algorithms/reverse-words-in-a-string-ii>) | Two Pointers / In-place Array | [C++](<Data Structures & Algorithms/reverse-words-in-a-string-ii/submission-0.cpp>) |
-| 11 | [Sort Colors](<Data Structures & Algorithms/sort-colors>) | Array / Two Pointers | [C++](<Data Structures & Algorithms/sort-colors/submission-0.cpp>) |
-| 12 | [Valid Sudoku](<Data Structures & Algorithms/valid-sudoku>) | Matrix / Hash Set | [C++](<Data Structures & Algorithms/valid-sudoku/submission-0.cpp>) |
+| 2 | [Average Waiting Time](<Data Structures & Algorithms/average-waiting-time>) | Array / Simulation | [C++](<Data Structures & Algorithms/average-waiting-time/submission-0.cpp>) |
+| 3 | [Count Vowel Strings in Ranges](<Data Structures & Algorithms/count-vowel-strings-in-ranges>) | Array / String | [C++](<Data Structures & Algorithms/count-vowel-strings-in-ranges/submission-0.cpp>) |
+| 4 | [Design Browser History](<Data Structures & Algorithms/design-browser-history>) | Array / Linked List | [C++](<Data Structures & Algorithms/design-browser-history/submission-0.cpp>) |
+| 5 | [Design Linked List](<0707-design-linked-list>) | Linked List / Design | [C++](<0707-design-linked-list/solution.cpp>) |
+| 6 | [Find Smallest Common Element in All Rows](<Data Structures & Algorithms/find-smallest-common-element-in-all-rows>) | Matrix / Counting / Binary Search | [C++](<Data Structures & Algorithms/find-smallest-common-element-in-all-rows/submission-2.cpp>) |
+| 7 | [Lonely Pixel I](<Data Structures & Algorithms/lonely-pixel-i>) | Matrix / Hash Table / Counting | [C++](<Data Structures & Algorithms/lonely-pixel-i/submission-0.cpp>) |
+| 8 | [Maximum Distance in Arrays](<Data Structures & Algorithms/maximum-distance-in-arrays>) | Greedy / Array | [C++](<Data Structures & Algorithms/maximum-distance-in-arrays/submission-0.cpp>) |
+| 9 | [Minimum Stack](<Data Structures & Algorithms/minimum-stack>) | Stack / Design | [C++](<Data Structures & Algorithms/minimum-stack/submission-0.cpp>) |
+| 10 | [One Edit Distance](<Data Structures & Algorithms/one-edit-distance>) | String / Two Pointers | [C++](<Data Structures & Algorithms/one-edit-distance/submission-0.cpp>) |
+| 11 | [Reverse Words in a String II](<Data Structures & Algorithms/reverse-words-in-a-string-ii>) | Two Pointers / In-place Array | [C++](<Data Structures & Algorithms/reverse-words-in-a-string-ii/submission-0.cpp>) |
+| 12 | [Sort Colors](<Data Structures & Algorithms/sort-colors>) | Array / Two Pointers | [C++](<Data Structures & Algorithms/sort-colors/submission-0.cpp>) |
+| 13 | [Valid Sudoku](<Data Structures & Algorithms/valid-sudoku>) | Matrix / Hash Set | [C++](<Data Structures & Algorithms/valid-sudoku/submission-0.cpp>) |
