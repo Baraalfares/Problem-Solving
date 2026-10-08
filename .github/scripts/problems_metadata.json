@@ -413,5 +413,10 @@
     "title": "Largest Number",
     "difficulty": "Medium",
     "category": "Array / String"
+  },
+  "continuous-subarray-sum": {
+    "title": "Continuous Subarray Sum",
+    "difficulty": "Medium",
+    "category": "Array / Hash Table"
   }
 }
