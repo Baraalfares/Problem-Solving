@@ -408,5 +408,10 @@
     "title": "Wiggle Sort",
     "difficulty": "Medium",
     "category": "Array / Greedy"
+  },
+  "largest-number": {
+    "title": "Largest Number",
+    "difficulty": "Medium",
+    "category": "Array / String"
   }
 }
