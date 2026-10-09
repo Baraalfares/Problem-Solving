@@ -428,5 +428,10 @@
     "title": "Brick Wall",
     "difficulty": "Medium",
     "category": "Array / Hash Table"
+  },
+  "minimum-number-of-operations-to-make-array-empty": {
+    "title": "Minimum Number of Operations to Make Array Empty",
+    "difficulty": "Medium",
+    "category": "Array / Hash Table"
   }
 }
