@@ -423,5 +423,10 @@
     "title": "Subarray Sum Equals K",
     "difficulty": "Medium",
     "category": "Array / Hash Table"
+  },
+  "brick-wall": {
+    "title": "Brick Wall",
+    "difficulty": "Medium",
+    "category": "Array / Hash Table"
   }
 }
