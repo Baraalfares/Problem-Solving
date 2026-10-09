@@ -418,5 +418,10 @@
     "title": "Continuous Subarray Sum",
     "difficulty": "Medium",
     "category": "Array / Hash Table"
+  },
+  "subarray-sum-equals-k": {
+    "title": "Subarray Sum Equals K",
+    "difficulty": "Medium",
+    "category": "Array / Hash Table"
   }
 }
