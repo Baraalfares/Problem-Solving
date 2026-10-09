@@ -117,7 +117,7 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 | :-: | :--- | :--- | :-: |
 | 1 | [Append Characters to String to Make Subsequence](<Data Structures & Algorithms/append-characters-to-string-to-make-subsequence>) | Two Pointers / Greedy | [C++](<Data Structures & Algorithms/append-characters-to-string-to-make-subsequence/submission-0.cpp>) |
 | 2 | [Average Waiting Time](<Data Structures & Algorithms/average-waiting-time>) | Array / Simulation | [C++](<Data Structures & Algorithms/average-waiting-time/submission-0.cpp>) |
-| 3 | [Brick Wall](<Data Structures & Algorithms/brick-wall>) | Array / Hash Table | [C++](<Data Structures & Algorithms/brick-wall/submission-0.cpp>) |
+| 3 | [Brick Wall](<Data Structures & Algorithms/brick-wall>) | Array / Hash Table | [C++](<Data Structures & Algorithms/brick-wall/submission-1.cpp>) |
 | 4 | [Continuous Subarray Sum](<Data Structures & Algorithms/continuous-subarray-sum>) | Array / Hash Table | [C++](<Data Structures & Algorithms/continuous-subarray-sum/submission-0.cpp>) |
 | 5 | [Count Vowel Strings in Ranges](<Data Structures & Algorithms/count-vowel-strings-in-ranges>) | Array / String | [C++](<Data Structures & Algorithms/count-vowel-strings-in-ranges/submission-0.cpp>) |
 | 6 | [Custom Sort String](<Data Structures & Algorithms/custom-sort-string>) | Hash Table / String | [C++](<Data Structures & Algorithms/custom-sort-string/submission-0.cpp>) |
