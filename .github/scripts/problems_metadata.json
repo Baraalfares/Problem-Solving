@@ -438,5 +438,10 @@
     "title": "Number of Sub-arrays With Odd Sum",
     "difficulty": "Medium",
     "category": "Array / Math"
+  },
+  "minimum-number-of-swaps-to-make-the-string-balanced": {
+    "title": "Minimum Number of Swaps to Make the String Balanced",
+    "difficulty": "Medium",
+    "category": "Two Pointers / String"
   }
 }
