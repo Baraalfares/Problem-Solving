@@ -433,5 +433,10 @@
     "title": "Minimum Number of Operations to Make Array Empty",
     "difficulty": "Medium",
     "category": "Array / Hash Table"
+  },
+  "number-of-sub-arrays-with-odd-sum": {
+    "title": "Number of Sub-arrays With Odd Sum",
+    "difficulty": "Medium",
+    "category": "Array / Math"
   }
 }
