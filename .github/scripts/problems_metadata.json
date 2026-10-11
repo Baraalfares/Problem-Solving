@@ -443,5 +443,10 @@
     "title": "Minimum Number of Swaps to Make the String Balanced",
     "difficulty": "Medium",
     "category": "Two Pointers / String"
+  },
+  "range-sum-query-2d-immutable": {
+    "title": "Range Sum Query 2D - Immutable",
+    "difficulty": "Medium",
+    "category": "Array / Design"
   }
 }
