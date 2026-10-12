@@ -453,5 +453,10 @@
     "title": "String Encode And Decode",
     "difficulty": "Easy",
     "category": "Algorithms"
+  },
+  "binary-search": {
+    "title": "Binary Search",
+    "difficulty": "Easy",
+    "category": "Array / Binary Search"
   }
 }
