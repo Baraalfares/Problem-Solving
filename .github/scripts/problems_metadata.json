@@ -448,5 +448,10 @@
     "title": "Range Sum Query 2D - Immutable",
     "difficulty": "Medium",
     "category": "Array / Design"
+  },
+  "string-encode-and-decode": {
+    "title": "String Encode And Decode",
+    "difficulty": "Easy",
+    "category": "Algorithms"
   }
 }
