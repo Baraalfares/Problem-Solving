@@ -463,5 +463,10 @@
     "title": "Search 2d Matrix",
     "difficulty": "Easy",
     "category": "Algorithms"
+  },
+  "products-of-array-discluding-self": {
+    "title": "Products Of Array Discluding Self",
+    "difficulty": "Easy",
+    "category": "Algorithms"
   }
 }
