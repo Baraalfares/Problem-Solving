@@ -458,5 +458,10 @@
     "title": "Binary Search",
     "difficulty": "Easy",
     "category": "Array / Binary Search"
+  },
+  "search-2d-matrix": {
+    "title": "Search 2d Matrix",
+    "difficulty": "Easy",
+    "category": "Algorithms"
   }
 }
