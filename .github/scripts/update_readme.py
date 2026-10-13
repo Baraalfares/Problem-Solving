@@ -12,6 +12,7 @@ METADATA_PATH = os.path.join(os.path.dirname(__file__), "problems_metadata.json"
 
 # Known NeetCode -> LeetCode slug mappings
 NEETCODE_ALIASES = {
+    "top-k-elements-in-list": "top-k-frequent-elements",
     "duplicate-integer": "contains-duplicate",
     "is-anagram": "valid-anagram",
     "two-integer-sum": "two-sum",

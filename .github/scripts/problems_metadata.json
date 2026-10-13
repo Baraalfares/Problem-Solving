@@ -490,8 +490,8 @@
     "category": "Array / Hash Table"
   },
   "top-k-elements-in-list": {
-    "title": "Top K Elements In List",
-    "difficulty": "Easy",
-    "category": "Algorithms"
+    "title": "Top K Frequent Elements",
+    "difficulty": "Medium",
+    "category": "Array / Hash Table"
   }
 }
