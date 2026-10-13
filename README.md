@@ -31,9 +31,9 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 | Level | Count |
 | :--- | :---: |
 | 🟢 **Easy** | 71 |
-| 🟡 **Medium** | 24 |
+| 🟡 **Medium** | 25 |
 | 🔴 **Hard** | 0 |
-| **Total** | **95** |
+| **Total** | **96** |
 
 ---
 
@@ -115,7 +115,7 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 
 ---
 
-### 🟡 Medium (24 Problems)
+### 🟡 Medium (25 Problems)
 
 | # | Problem | Category / Pattern | Solution |
 | :-: | :--- | :--- | :-: |
@@ -123,23 +123,24 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 | 2 | [Average Waiting Time](<Data Structures & Algorithms/average-waiting-time>) | Array / Simulation | [C++](<Data Structures & Algorithms/average-waiting-time/submission-0.cpp>) |
 | 3 | [Brick Wall](<Data Structures & Algorithms/brick-wall>) | Array / Hash Table | [C++](<Data Structures & Algorithms/brick-wall/submission-1.cpp>) |
 | 4 | [Continuous Subarray Sum](<Data Structures & Algorithms/continuous-subarray-sum>) | Array / Hash Table | [C++](<Data Structures & Algorithms/continuous-subarray-sum/submission-0.cpp>) |
-| 5 | [Count Vowel Strings in Ranges](<Data Structures & Algorithms/count-vowel-strings-in-ranges>) | Array / String | [C++](<Data Structures & Algorithms/count-vowel-strings-in-ranges/submission-0.cpp>) |
-| 6 | [Custom Sort String](<Data Structures & Algorithms/custom-sort-string>) | Hash Table / String | [C++](<Data Structures & Algorithms/custom-sort-string/submission-0.cpp>) |
-| 7 | [Design Browser History](<Data Structures & Algorithms/design-browser-history>) | Array / Linked List | [C++](<Data Structures & Algorithms/design-browser-history/submission-0.cpp>) |
-| 8 | [Design Linked List](<0707-design-linked-list>) | Linked List / Design | [C++](<0707-design-linked-list/solution.cpp>) |
-| 9 | [Find All Duplicates in an Array](<0442-find-all-duplicates-in-an-array>) | Array / Hash Table | [C++](<0442-find-all-duplicates-in-an-array/solution.cpp>) |
-| 10 | [Find Smallest Common Element in All Rows](<Data Structures & Algorithms/find-smallest-common-element-in-all-rows>) | Matrix / Counting / Binary Search | [C++](<Data Structures & Algorithms/find-smallest-common-element-in-all-rows/submission-2.cpp>) |
-| 11 | [Largest Number](<Data Structures & Algorithms/largest-number>) | Array / String | [C++](<Data Structures & Algorithms/largest-number/submission-1.cpp>) |
-| 12 | [Lonely Pixel I](<Data Structures & Algorithms/lonely-pixel-i>) | Matrix / Hash Table / Counting | [C++](<Data Structures & Algorithms/lonely-pixel-i/submission-0.cpp>) |
-| 13 | [Maximum Distance in Arrays](<Data Structures & Algorithms/maximum-distance-in-arrays>) | Greedy / Array | [C++](<Data Structures & Algorithms/maximum-distance-in-arrays/submission-0.cpp>) |
-| 14 | [Minimum Number of Operations to Make Array Empty](<Data Structures & Algorithms/minimum-number-of-operations-to-make-array-empty>) | Array / Hash Table | [C++](<Data Structures & Algorithms/minimum-number-of-operations-to-make-array-empty/submission-1.cpp>) |
-| 15 | [Minimum Number of Swaps to Make the String Balanced](<Data Structures & Algorithms/minimum-number-of-swaps-to-make-the-string-balanced>) | Two Pointers / String | [C++](<Data Structures & Algorithms/minimum-number-of-swaps-to-make-the-string-balanced/submission-0.cpp>) |
-| 16 | [Minimum Stack](<Data Structures & Algorithms/minimum-stack>) | Stack / Design | [C++](<Data Structures & Algorithms/minimum-stack/submission-0.cpp>) |
-| 17 | [Number of Sub-arrays With Odd Sum](<Data Structures & Algorithms/number-of-sub-arrays-with-odd-sum>) | Array / Math | [C++](<Data Structures & Algorithms/number-of-sub-arrays-with-odd-sum/submission-0.cpp>) |
-| 18 | [One Edit Distance](<Data Structures & Algorithms/one-edit-distance>) | String / Two Pointers | [C++](<Data Structures & Algorithms/one-edit-distance/submission-0.cpp>) |
-| 19 | [Range Sum Query 2D - Immutable](<Data Structures & Algorithms/range-sum-query-2d-immutable>) | Array / Design | [C++](<Data Structures & Algorithms/range-sum-query-2d-immutable/submission-0.cpp>) |
-| 20 | [Reverse Words in a String II](<Data Structures & Algorithms/reverse-words-in-a-string-ii>) | Two Pointers / In-place Array | [C++](<Data Structures & Algorithms/reverse-words-in-a-string-ii/submission-0.cpp>) |
-| 21 | [Sort Colors](<Data Structures & Algorithms/sort-colors>) | Array / Two Pointers | [C++](<Data Structures & Algorithms/sort-colors/submission-0.cpp>) |
-| 22 | [Subarray Sum Equals K](<Data Structures & Algorithms/subarray-sum-equals-k>) | Array / Hash Table | [C++](<Data Structures & Algorithms/subarray-sum-equals-k/submission-1.cpp>) |
-| 23 | [Valid Sudoku](<Data Structures & Algorithms/valid-sudoku>) | Matrix / Hash Set | [C++](<Data Structures & Algorithms/valid-sudoku/submission-0.cpp>) |
-| 24 | [Wiggle Sort](<Data Structures & Algorithms/wiggle-sort>) | Array / Greedy | [C++](<Data Structures & Algorithms/wiggle-sort/submission-0.cpp>) |
+| 5 | [Count Number of Bad Pairs](<2364-count-number-of-bad-pairs>) | Array / Hash Table | [C++](<2364-count-number-of-bad-pairs/solution.cpp>) |
+| 6 | [Count Vowel Strings in Ranges](<Data Structures & Algorithms/count-vowel-strings-in-ranges>) | Array / String | [C++](<Data Structures & Algorithms/count-vowel-strings-in-ranges/submission-0.cpp>) |
+| 7 | [Custom Sort String](<Data Structures & Algorithms/custom-sort-string>) | Hash Table / String | [C++](<Data Structures & Algorithms/custom-sort-string/submission-0.cpp>) |
+| 8 | [Design Browser History](<Data Structures & Algorithms/design-browser-history>) | Array / Linked List | [C++](<Data Structures & Algorithms/design-browser-history/submission-0.cpp>) |
+| 9 | [Design Linked List](<0707-design-linked-list>) | Linked List / Design | [C++](<0707-design-linked-list/solution.cpp>) |
+| 10 | [Find All Duplicates in an Array](<0442-find-all-duplicates-in-an-array>) | Array / Hash Table | [C++](<0442-find-all-duplicates-in-an-array/solution.cpp>) |
+| 11 | [Find Smallest Common Element in All Rows](<Data Structures & Algorithms/find-smallest-common-element-in-all-rows>) | Matrix / Counting / Binary Search | [C++](<Data Structures & Algorithms/find-smallest-common-element-in-all-rows/submission-2.cpp>) |
+| 12 | [Largest Number](<Data Structures & Algorithms/largest-number>) | Array / String | [C++](<Data Structures & Algorithms/largest-number/submission-1.cpp>) |
+| 13 | [Lonely Pixel I](<Data Structures & Algorithms/lonely-pixel-i>) | Matrix / Hash Table / Counting | [C++](<Data Structures & Algorithms/lonely-pixel-i/submission-0.cpp>) |
+| 14 | [Maximum Distance in Arrays](<Data Structures & Algorithms/maximum-distance-in-arrays>) | Greedy / Array | [C++](<Data Structures & Algorithms/maximum-distance-in-arrays/submission-0.cpp>) |
+| 15 | [Minimum Number of Operations to Make Array Empty](<Data Structures & Algorithms/minimum-number-of-operations-to-make-array-empty>) | Array / Hash Table | [C++](<Data Structures & Algorithms/minimum-number-of-operations-to-make-array-empty/submission-1.cpp>) |
+| 16 | [Minimum Number of Swaps to Make the String Balanced](<Data Structures & Algorithms/minimum-number-of-swaps-to-make-the-string-balanced>) | Two Pointers / String | [C++](<Data Structures & Algorithms/minimum-number-of-swaps-to-make-the-string-balanced/submission-0.cpp>) |
+| 17 | [Minimum Stack](<Data Structures & Algorithms/minimum-stack>) | Stack / Design | [C++](<Data Structures & Algorithms/minimum-stack/submission-0.cpp>) |
+| 18 | [Number of Sub-arrays With Odd Sum](<Data Structures & Algorithms/number-of-sub-arrays-with-odd-sum>) | Array / Math | [C++](<Data Structures & Algorithms/number-of-sub-arrays-with-odd-sum/submission-0.cpp>) |
+| 19 | [One Edit Distance](<Data Structures & Algorithms/one-edit-distance>) | String / Two Pointers | [C++](<Data Structures & Algorithms/one-edit-distance/submission-0.cpp>) |
+| 20 | [Range Sum Query 2D - Immutable](<Data Structures & Algorithms/range-sum-query-2d-immutable>) | Array / Design | [C++](<Data Structures & Algorithms/range-sum-query-2d-immutable/submission-0.cpp>) |
+| 21 | [Reverse Words in a String II](<Data Structures & Algorithms/reverse-words-in-a-string-ii>) | Two Pointers / In-place Array | [C++](<Data Structures & Algorithms/reverse-words-in-a-string-ii/submission-0.cpp>) |
+| 22 | [Sort Colors](<Data Structures & Algorithms/sort-colors>) | Array / Two Pointers | [C++](<Data Structures & Algorithms/sort-colors/submission-0.cpp>) |
+| 23 | [Subarray Sum Equals K](<Data Structures & Algorithms/subarray-sum-equals-k>) | Array / Hash Table | [C++](<Data Structures & Algorithms/subarray-sum-equals-k/submission-1.cpp>) |
+| 24 | [Valid Sudoku](<Data Structures & Algorithms/valid-sudoku>) | Matrix / Hash Set | [C++](<Data Structures & Algorithms/valid-sudoku/submission-0.cpp>) |
+| 25 | [Wiggle Sort](<Data Structures & Algorithms/wiggle-sort>) | Array / Greedy | [C++](<Data Structures & Algorithms/wiggle-sort/submission-0.cpp>) |

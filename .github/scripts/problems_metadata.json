@@ -473,5 +473,10 @@
     "title": "Find All Duplicates in an Array",
     "difficulty": "Medium",
     "category": "Array / Hash Table"
+  },
+  "count-number-of-bad-pairs": {
+    "title": "Count Number of Bad Pairs",
+    "difficulty": "Medium",
+    "category": "Array / Hash Table"
   }
 }
