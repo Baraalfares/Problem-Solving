@@ -483,5 +483,10 @@
     "title": "Minimum Remove to Make Valid Parentheses",
     "difficulty": "Medium",
     "category": "String / Stack"
+  },
+  "longest-consecutive-sequence": {
+    "title": "Longest Consecutive Sequence",
+    "difficulty": "Medium",
+    "category": "Array / Hash Table"
   }
 }
