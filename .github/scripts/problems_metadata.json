@@ -468,5 +468,10 @@
     "title": "Products Of Array Discluding Self",
     "difficulty": "Easy",
     "category": "Algorithms"
+  },
+  "find-all-duplicates-in-an-array": {
+    "title": "Find All Duplicates in an Array",
+    "difficulty": "Medium",
+    "category": "Array / Hash Table"
   }
 }
