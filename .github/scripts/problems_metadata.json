@@ -498,5 +498,10 @@
     "title": "Maximize Sum of Squares of Digits",
     "difficulty": "Medium",
     "category": "Math / Greedy"
+  },
+  "time-needed-to-buy-tickets": {
+    "title": "Time Needed to Buy Tickets",
+    "difficulty": "Easy",
+    "category": "Array / Queue"
   }
 }
