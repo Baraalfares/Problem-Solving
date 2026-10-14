@@ -493,5 +493,10 @@
     "title": "Top K Frequent Elements",
     "difficulty": "Medium",
     "category": "Array / Hash Table"
+  },
+  "maximize-sum-of-squares-of-digits": {
+    "title": "Maximize Sum of Squares of Digits",
+    "difficulty": "Medium",
+    "category": "Math / Greedy"
   }
 }
