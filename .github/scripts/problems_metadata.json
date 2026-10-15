@@ -508,5 +508,10 @@
     "title": "Subarrays Distinct Element Sum of Squares I",
     "difficulty": "Easy",
     "category": "Array / Hash Table"
+  },
+  "subarray-sums-divisible-by-k": {
+    "title": "Subarray Sums Divisible by K",
+    "difficulty": "Medium",
+    "category": "Array / Hash Table"
   }
 }
