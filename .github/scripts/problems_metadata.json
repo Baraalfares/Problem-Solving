@@ -503,5 +503,10 @@
     "title": "Time Needed to Buy Tickets",
     "difficulty": "Easy",
     "category": "Array / Queue"
+  },
+  "subarrays-distinct-element-sum-of-squares-i": {
+    "title": "Subarrays Distinct Element Sum of Squares I",
+    "difficulty": "Easy",
+    "category": "Array / Hash Table"
   }
 }
