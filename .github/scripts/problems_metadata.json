@@ -513,5 +513,10 @@
     "title": "Subarray Sums Divisible by K",
     "difficulty": "Medium",
     "category": "Array / Hash Table"
+  },
+  "make-sum-divisible-by-p": {
+    "title": "Make Sum Divisible by P",
+    "difficulty": "Medium",
+    "category": "Array / Hash Table"
   }
 }
