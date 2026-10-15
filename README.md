@@ -135,7 +135,7 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 | 12 | [Largest Number](<Data Structures & Algorithms/largest-number>) | Array / String | [C++](<Data Structures & Algorithms/largest-number/submission-1.cpp>) |
 | 13 | [Lonely Pixel I](<Data Structures & Algorithms/lonely-pixel-i>) | Matrix / Hash Table / Counting | [C++](<Data Structures & Algorithms/lonely-pixel-i/submission-0.cpp>) |
 | 14 | [Longest Consecutive Sequence](<Data Structures & Algorithms/longest-consecutive-sequence>) | Array / Hash Table | [C++](<Data Structures & Algorithms/longest-consecutive-sequence/submission-0.cpp>) |
-| 15 | [Make Sum Divisible by P](<Data Structures & Algorithms/make-sum-divisible-by-p>) | Array / Hash Table | [C++](<Data Structures & Algorithms/make-sum-divisible-by-p/submission-1.cpp>) |
+| 15 | [Make Sum Divisible by P](<Data Structures & Algorithms/make-sum-divisible-by-p>) | Array / Hash Table | [C++](<Data Structures & Algorithms/make-sum-divisible-by-p/submission-3.cpp>) |
 | 16 | [Maximize Sum of Squares of Digits](<3723-maximize-sum-of-squares-of-digits>) | Math / Greedy | [C++](<3723-maximize-sum-of-squares-of-digits/solution.cpp>) |
 | 17 | [Maximum Distance in Arrays](<Data Structures & Algorithms/maximum-distance-in-arrays>) | Greedy / Array | [C++](<Data Structures & Algorithms/maximum-distance-in-arrays/submission-0.cpp>) |
 | 18 | [Minimum Number of Operations to Make Array Empty](<Data Structures & Algorithms/minimum-number-of-operations-to-make-array-empty>) | Array / Hash Table | [C++](<Data Structures & Algorithms/minimum-number-of-operations-to-make-array-empty/submission-1.cpp>) |
