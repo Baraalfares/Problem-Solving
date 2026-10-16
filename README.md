@@ -31,9 +31,9 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 | Level | Count |
 | :--- | :---: |
 | 🟢 **Easy** | 73 |
-| 🟡 **Medium** | 32 |
+| 🟡 **Medium** | 33 |
 | 🔴 **Hard** | 0 |
-| **Total** | **105** |
+| **Total** | **106** |
 
 ---
 
@@ -117,7 +117,7 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 
 ---
 
-### 🟡 Medium (32 Problems)
+### 🟡 Medium (33 Problems)
 
 | # | Problem | Category / Pattern | Solution |
 | :-: | :--- | :--- | :-: |
@@ -151,5 +151,6 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 | 28 | [Subarray Sum Equals K](<Data Structures & Algorithms/subarray-sum-equals-k>) | Array / Hash Table | [C++](<Data Structures & Algorithms/subarray-sum-equals-k/submission-1.cpp>) |
 | 29 | [Subarray Sums Divisible by K](<Data Structures & Algorithms/subarray-sums-divisible-by-k>) | Array / Hash Table | [C++](<Data Structures & Algorithms/subarray-sums-divisible-by-k/submission-1.cpp>) |
 | 30 | [Top K Frequent Elements](<Data Structures & Algorithms/top-k-elements-in-list>) | Array / Hash Table | [C++](<Data Structures & Algorithms/top-k-elements-in-list/submission-0.cpp>) |
-| 31 | [Valid Sudoku](<Data Structures & Algorithms/valid-sudoku>) | Matrix / Hash Set | [C++](<Data Structures & Algorithms/valid-sudoku/submission-0.cpp>) |
-| 32 | [Wiggle Sort](<Data Structures & Algorithms/wiggle-sort>) | Array / Greedy | [C++](<Data Structures & Algorithms/wiggle-sort/submission-0.cpp>) |
+| 31 | [Unique Substrings With Equal Digit Frequency](<Data Structures & Algorithms/unique-substrings-with-equal-digit-frequency>) | Hash Table / String | [C++](<Data Structures & Algorithms/unique-substrings-with-equal-digit-frequency/submission-0.cpp>) |
+| 32 | [Valid Sudoku](<Data Structures & Algorithms/valid-sudoku>) | Matrix / Hash Set | [C++](<Data Structures & Algorithms/valid-sudoku/submission-0.cpp>) |
+| 33 | [Wiggle Sort](<Data Structures & Algorithms/wiggle-sort>) | Array / Greedy | [C++](<Data Structures & Algorithms/wiggle-sort/submission-0.cpp>) |

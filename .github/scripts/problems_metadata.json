@@ -523,5 +523,10 @@
     "title": "Maximum Sum Score of Array",
     "difficulty": "Medium",
     "category": "Array / Prefix Sum"
+  },
+  "unique-substrings-with-equal-digit-frequency": {
+    "title": "Unique Substrings With Equal Digit Frequency",
+    "difficulty": "Medium",
+    "category": "Hash Table / String"
   }
 }
