@@ -528,5 +528,10 @@
     "title": "Unique Substrings With Equal Digit Frequency",
     "difficulty": "Medium",
     "category": "Hash Table / String"
+  },
+  "elements-in-array-after-removing-and-replacing-elements": {
+    "title": "Elements in Array After Removing and Replacing Elements",
+    "difficulty": "Medium",
+    "category": "Array"
   }
 }
