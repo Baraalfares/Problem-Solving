@@ -518,5 +518,10 @@
     "title": "Make Sum Divisible by P",
     "difficulty": "Medium",
     "category": "Array / Hash Table"
+  },
+  "maximum-sum-score-of-array": {
+    "title": "Maximum Sum Score of Array",
+    "difficulty": "Medium",
+    "category": "Array / Prefix Sum"
   }
 }
