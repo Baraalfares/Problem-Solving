@@ -533,5 +533,10 @@
     "title": "Elements in Array After Removing and Replacing Elements",
     "difficulty": "Medium",
     "category": "Array"
+  },
+  "move-zeroes": {
+    "title": "Move Zeroes",
+    "difficulty": "Easy",
+    "category": "Array / Two Pointers"
   }
 }
