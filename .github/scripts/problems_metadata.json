@@ -538,5 +538,10 @@
     "title": "Move Zeroes",
     "difficulty": "Easy",
     "category": "Array / Two Pointers"
+  },
+  "substrings-that-begin-and-end-with-the-same-letter": {
+    "title": "Substrings That Begin and End With the Same Letter",
+    "difficulty": "Medium",
+    "category": "Hash Table / Math"
   }
 }
