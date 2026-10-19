@@ -31,9 +31,9 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 | Level | Count |
 | :--- | :---: |
 | 🟢 **Easy** | 75 |
-| 🟡 **Medium** | 38 |
+| 🟡 **Medium** | 39 |
 | 🔴 **Hard** | 0 |
-| **Total** | **113** |
+| **Total** | **114** |
 
 ---
 
@@ -119,7 +119,7 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 
 ---
 
-### 🟡 Medium (38 Problems)
+### 🟡 Medium (39 Problems)
 
 | # | Problem | Category / Pattern | Solution |
 | :-: | :--- | :--- | :-: |
@@ -158,6 +158,7 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 | 33 | [Subarray Sums Divisible by K](<Data Structures & Algorithms/subarray-sums-divisible-by-k>) | Array / Hash Table | [C++](<Data Structures & Algorithms/subarray-sums-divisible-by-k/submission-1.cpp>) |
 | 34 | [Substrings That Begin and End With the Same Letter](<Data Structures & Algorithms/substrings-that-begin-and-end-with-the-same-letter>) | Hash Table / Math | [C++](<Data Structures & Algorithms/substrings-that-begin-and-end-with-the-same-letter/submission-1.cpp>) |
 | 35 | [Top K Frequent Elements](<Data Structures & Algorithms/top-k-elements-in-list>) | Array / Hash Table | [C++](<Data Structures & Algorithms/top-k-elements-in-list/submission-0.cpp>) |
-| 36 | [Unique Substrings With Equal Digit Frequency](<Data Structures & Algorithms/unique-substrings-with-equal-digit-frequency>) | Hash Table / String | [C++](<Data Structures & Algorithms/unique-substrings-with-equal-digit-frequency/submission-0.cpp>) |
-| 37 | [Valid Sudoku](<Data Structures & Algorithms/valid-sudoku>) | Matrix / Hash Set | [C++](<Data Structures & Algorithms/valid-sudoku/submission-0.cpp>) |
-| 38 | [Wiggle Sort](<Data Structures & Algorithms/wiggle-sort>) | Array / Greedy | [C++](<Data Structures & Algorithms/wiggle-sort/submission-0.cpp>) |
+| 36 | [Unique Length-3 Palindromic Subsequences](<Data Structures & Algorithms/unique-length-3-palindromic-subsequences>) | Hash Table / String | [C++](<Data Structures & Algorithms/unique-length-3-palindromic-subsequences/submission-0.cpp>) |
+| 37 | [Unique Substrings With Equal Digit Frequency](<Data Structures & Algorithms/unique-substrings-with-equal-digit-frequency>) | Hash Table / String | [C++](<Data Structures & Algorithms/unique-substrings-with-equal-digit-frequency/submission-0.cpp>) |
+| 38 | [Valid Sudoku](<Data Structures & Algorithms/valid-sudoku>) | Matrix / Hash Set | [C++](<Data Structures & Algorithms/valid-sudoku/submission-0.cpp>) |
+| 39 | [Wiggle Sort](<Data Structures & Algorithms/wiggle-sort>) | Array / Greedy | [C++](<Data Structures & Algorithms/wiggle-sort/submission-0.cpp>) |

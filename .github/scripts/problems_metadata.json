@@ -563,5 +563,10 @@
     "title": "Sort Features by Popularity",
     "difficulty": "Medium",
     "category": "Array / Hash Table"
+  },
+  "unique-length-3-palindromic-subsequences": {
+    "title": "Unique Length-3 Palindromic Subsequences",
+    "difficulty": "Medium",
+    "category": "Hash Table / String"
   }
 }
