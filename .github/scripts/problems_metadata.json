@@ -553,5 +553,10 @@
     "title": "Find Target Indices After Sorting Array",
     "difficulty": "Easy",
     "category": "Array / Binary Search"
+  },
+  "longest-common-subsequence-between-sorted-arrays": {
+    "title": "Longest Common Subsequence Between Sorted Arrays",
+    "difficulty": "Medium",
+    "category": "Array / Hash Table"
   }
 }
