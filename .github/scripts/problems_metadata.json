@@ -558,5 +558,10 @@
     "title": "Longest Common Subsequence Between Sorted Arrays",
     "difficulty": "Medium",
     "category": "Array / Hash Table"
+  },
+  "sort-features-by-popularity": {
+    "title": "Sort Features by Popularity",
+    "difficulty": "Medium",
+    "category": "Array / Hash Table"
   }
 }
