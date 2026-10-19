@@ -548,5 +548,10 @@
     "title": "Minimum Index of a Valid Split",
     "difficulty": "Medium",
     "category": "Array / Hash Table"
+  },
+  "find-target-indices-after-sorting-array": {
+    "title": "Find Target Indices After Sorting Array",
+    "difficulty": "Easy",
+    "category": "Array / Binary Search"
   }
 }
