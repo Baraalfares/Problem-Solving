@@ -568,5 +568,10 @@
     "title": "Unique Length-3 Palindromic Subsequences",
     "difficulty": "Medium",
     "category": "Hash Table / String"
+  },
+  "find-duplicate-integer": {
+    "title": "Find the Duplicate Number",
+    "difficulty": "Medium",
+    "category": "Array / Two Pointers"
   }
 }
