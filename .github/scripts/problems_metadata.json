@@ -573,5 +573,10 @@
     "title": "Find the Duplicate Number",
     "difficulty": "Medium",
     "category": "Array / Two Pointers"
+  },
+  "first-unique-number": {
+    "title": "First Unique Number",
+    "difficulty": "Medium",
+    "category": "Array / Hash Table"
   }
 }

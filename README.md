@@ -31,9 +31,9 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 | Level | Count |
 | :--- | :---: |
 | 🟢 **Easy** | 75 |
-| 🟡 **Medium** | 40 |
+| 🟡 **Medium** | 41 |
 | 🔴 **Hard** | 0 |
-| **Total** | **115** |
+| **Total** | **116** |
 
 ---
 
@@ -119,7 +119,7 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 
 ---
 
-### 🟡 Medium (40 Problems)
+### 🟡 Medium (41 Problems)
 
 | # | Problem | Category / Pattern | Solution |
 | :-: | :--- | :--- | :-: |
@@ -136,30 +136,31 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 | 11 | [Find All Duplicates in an Array](<0442-find-all-duplicates-in-an-array>) | Array / Hash Table | [C++](<0442-find-all-duplicates-in-an-array/solution.cpp>) |
 | 12 | [Find Smallest Common Element in All Rows](<Data Structures & Algorithms/find-smallest-common-element-in-all-rows>) | Matrix / Counting / Binary Search | [C++](<Data Structures & Algorithms/find-smallest-common-element-in-all-rows/submission-2.cpp>) |
 | 13 | [Find the Duplicate Number](<Data Structures & Algorithms/find-duplicate-integer>) | Array / Two Pointers | [C++](<Data Structures & Algorithms/find-duplicate-integer/submission-0.cpp>) |
-| 14 | [Largest Number](<Data Structures & Algorithms/largest-number>) | Array / String | [C++](<Data Structures & Algorithms/largest-number/submission-1.cpp>) |
-| 15 | [Lonely Pixel I](<Data Structures & Algorithms/lonely-pixel-i>) | Matrix / Hash Table / Counting | [C++](<Data Structures & Algorithms/lonely-pixel-i/submission-0.cpp>) |
-| 16 | [Longest Common Subsequence Between Sorted Arrays](<Data Structures & Algorithms/longest-common-subsequence-between-sorted-arrays>) | Array / Hash Table | [C++](<Data Structures & Algorithms/longest-common-subsequence-between-sorted-arrays/submission-0.cpp>) |
-| 17 | [Longest Consecutive Sequence](<Data Structures & Algorithms/longest-consecutive-sequence>) | Array / Hash Table | [C++](<Data Structures & Algorithms/longest-consecutive-sequence/submission-0.cpp>) |
-| 18 | [Make Sum Divisible by P](<Data Structures & Algorithms/make-sum-divisible-by-p>) | Array / Hash Table | [C++](<Data Structures & Algorithms/make-sum-divisible-by-p/submission-3.cpp>) |
-| 19 | [Maximize Sum of Squares of Digits](<3723-maximize-sum-of-squares-of-digits>) | Math / Greedy | [C++](<3723-maximize-sum-of-squares-of-digits/solution.cpp>) |
-| 20 | [Maximum Distance in Arrays](<Data Structures & Algorithms/maximum-distance-in-arrays>) | Greedy / Array | [C++](<Data Structures & Algorithms/maximum-distance-in-arrays/submission-0.cpp>) |
-| 21 | [Maximum Sum Score of Array](<Data Structures & Algorithms/maximum-sum-score-of-array>) | Array / Prefix Sum | [C++](<Data Structures & Algorithms/maximum-sum-score-of-array/submission-2.cpp>) |
-| 22 | [Minimum Index of a Valid Split](<Data Structures & Algorithms/minimum-index-of-a-valid-split>) | Array / Hash Table | [C++](<Data Structures & Algorithms/minimum-index-of-a-valid-split/submission-0.cpp>) |
-| 23 | [Minimum Number of Operations to Make Array Empty](<Data Structures & Algorithms/minimum-number-of-operations-to-make-array-empty>) | Array / Hash Table | [C++](<Data Structures & Algorithms/minimum-number-of-operations-to-make-array-empty/submission-1.cpp>) |
-| 24 | [Minimum Number of Swaps to Make the String Balanced](<Data Structures & Algorithms/minimum-number-of-swaps-to-make-the-string-balanced>) | Two Pointers / String | [C++](<Data Structures & Algorithms/minimum-number-of-swaps-to-make-the-string-balanced/submission-0.cpp>) |
-| 25 | [Minimum Remove to Make Valid Parentheses](<Data Structures & Algorithms/minimum-remove-to-make-valid-parentheses>) | String / Stack | [C++](<Data Structures & Algorithms/minimum-remove-to-make-valid-parentheses/submission-0.cpp>) |
-| 26 | [Minimum Stack](<Data Structures & Algorithms/minimum-stack>) | Stack / Design | [C++](<Data Structures & Algorithms/minimum-stack/submission-0.cpp>) |
-| 27 | [Number of Sub-arrays With Odd Sum](<Data Structures & Algorithms/number-of-sub-arrays-with-odd-sum>) | Array / Math | [C++](<Data Structures & Algorithms/number-of-sub-arrays-with-odd-sum/submission-0.cpp>) |
-| 28 | [One Edit Distance](<Data Structures & Algorithms/one-edit-distance>) | String / Two Pointers | [C++](<Data Structures & Algorithms/one-edit-distance/submission-0.cpp>) |
-| 29 | [Range Sum Query 2D - Immutable](<Data Structures & Algorithms/range-sum-query-2d-immutable>) | Array / Design | [C++](<Data Structures & Algorithms/range-sum-query-2d-immutable/submission-0.cpp>) |
-| 30 | [Reverse Words in a String II](<Data Structures & Algorithms/reverse-words-in-a-string-ii>) | Two Pointers / In-place Array | [C++](<Data Structures & Algorithms/reverse-words-in-a-string-ii/submission-0.cpp>) |
-| 31 | [Sort Colors](<Data Structures & Algorithms/sort-colors>) | Array / Two Pointers | [C++](<Data Structures & Algorithms/sort-colors/submission-0.cpp>) |
-| 32 | [Sort Features by Popularity](<Data Structures & Algorithms/sort-features-by-popularity>) | Array / Hash Table | [C++](<Data Structures & Algorithms/sort-features-by-popularity/submission-0.cpp>) |
-| 33 | [Subarray Sum Equals K](<Data Structures & Algorithms/subarray-sum-equals-k>) | Array / Hash Table | [C++](<Data Structures & Algorithms/subarray-sum-equals-k/submission-1.cpp>) |
-| 34 | [Subarray Sums Divisible by K](<Data Structures & Algorithms/subarray-sums-divisible-by-k>) | Array / Hash Table | [C++](<Data Structures & Algorithms/subarray-sums-divisible-by-k/submission-1.cpp>) |
-| 35 | [Substrings That Begin and End With the Same Letter](<Data Structures & Algorithms/substrings-that-begin-and-end-with-the-same-letter>) | Hash Table / Math | [C++](<Data Structures & Algorithms/substrings-that-begin-and-end-with-the-same-letter/submission-1.cpp>) |
-| 36 | [Top K Frequent Elements](<Data Structures & Algorithms/top-k-elements-in-list>) | Array / Hash Table | [C++](<Data Structures & Algorithms/top-k-elements-in-list/submission-0.cpp>) |
-| 37 | [Unique Length-3 Palindromic Subsequences](<Data Structures & Algorithms/unique-length-3-palindromic-subsequences>) | Hash Table / String | [C++](<Data Structures & Algorithms/unique-length-3-palindromic-subsequences/submission-0.cpp>) |
-| 38 | [Unique Substrings With Equal Digit Frequency](<Data Structures & Algorithms/unique-substrings-with-equal-digit-frequency>) | Hash Table / String | [C++](<Data Structures & Algorithms/unique-substrings-with-equal-digit-frequency/submission-0.cpp>) |
-| 39 | [Valid Sudoku](<Data Structures & Algorithms/valid-sudoku>) | Matrix / Hash Set | [C++](<Data Structures & Algorithms/valid-sudoku/submission-0.cpp>) |
-| 40 | [Wiggle Sort](<Data Structures & Algorithms/wiggle-sort>) | Array / Greedy | [C++](<Data Structures & Algorithms/wiggle-sort/submission-0.cpp>) |
+| 14 | [First Unique Number](<Data Structures & Algorithms/first-unique-number>) | Array / Hash Table | [C++](<Data Structures & Algorithms/first-unique-number/submission-1.cpp>) |
+| 15 | [Largest Number](<Data Structures & Algorithms/largest-number>) | Array / String | [C++](<Data Structures & Algorithms/largest-number/submission-1.cpp>) |
+| 16 | [Lonely Pixel I](<Data Structures & Algorithms/lonely-pixel-i>) | Matrix / Hash Table / Counting | [C++](<Data Structures & Algorithms/lonely-pixel-i/submission-0.cpp>) |
+| 17 | [Longest Common Subsequence Between Sorted Arrays](<Data Structures & Algorithms/longest-common-subsequence-between-sorted-arrays>) | Array / Hash Table | [C++](<Data Structures & Algorithms/longest-common-subsequence-between-sorted-arrays/submission-0.cpp>) |
+| 18 | [Longest Consecutive Sequence](<Data Structures & Algorithms/longest-consecutive-sequence>) | Array / Hash Table | [C++](<Data Structures & Algorithms/longest-consecutive-sequence/submission-0.cpp>) |
+| 19 | [Make Sum Divisible by P](<Data Structures & Algorithms/make-sum-divisible-by-p>) | Array / Hash Table | [C++](<Data Structures & Algorithms/make-sum-divisible-by-p/submission-3.cpp>) |
+| 20 | [Maximize Sum of Squares of Digits](<3723-maximize-sum-of-squares-of-digits>) | Math / Greedy | [C++](<3723-maximize-sum-of-squares-of-digits/solution.cpp>) |
+| 21 | [Maximum Distance in Arrays](<Data Structures & Algorithms/maximum-distance-in-arrays>) | Greedy / Array | [C++](<Data Structures & Algorithms/maximum-distance-in-arrays/submission-0.cpp>) |
+| 22 | [Maximum Sum Score of Array](<Data Structures & Algorithms/maximum-sum-score-of-array>) | Array / Prefix Sum | [C++](<Data Structures & Algorithms/maximum-sum-score-of-array/submission-2.cpp>) |
+| 23 | [Minimum Index of a Valid Split](<Data Structures & Algorithms/minimum-index-of-a-valid-split>) | Array / Hash Table | [C++](<Data Structures & Algorithms/minimum-index-of-a-valid-split/submission-0.cpp>) |
+| 24 | [Minimum Number of Operations to Make Array Empty](<Data Structures & Algorithms/minimum-number-of-operations-to-make-array-empty>) | Array / Hash Table | [C++](<Data Structures & Algorithms/minimum-number-of-operations-to-make-array-empty/submission-1.cpp>) |
+| 25 | [Minimum Number of Swaps to Make the String Balanced](<Data Structures & Algorithms/minimum-number-of-swaps-to-make-the-string-balanced>) | Two Pointers / String | [C++](<Data Structures & Algorithms/minimum-number-of-swaps-to-make-the-string-balanced/submission-0.cpp>) |
+| 26 | [Minimum Remove to Make Valid Parentheses](<Data Structures & Algorithms/minimum-remove-to-make-valid-parentheses>) | String / Stack | [C++](<Data Structures & Algorithms/minimum-remove-to-make-valid-parentheses/submission-0.cpp>) |
+| 27 | [Minimum Stack](<Data Structures & Algorithms/minimum-stack>) | Stack / Design | [C++](<Data Structures & Algorithms/minimum-stack/submission-0.cpp>) |
+| 28 | [Number of Sub-arrays With Odd Sum](<Data Structures & Algorithms/number-of-sub-arrays-with-odd-sum>) | Array / Math | [C++](<Data Structures & Algorithms/number-of-sub-arrays-with-odd-sum/submission-0.cpp>) |
+| 29 | [One Edit Distance](<Data Structures & Algorithms/one-edit-distance>) | String / Two Pointers | [C++](<Data Structures & Algorithms/one-edit-distance/submission-0.cpp>) |
+| 30 | [Range Sum Query 2D - Immutable](<Data Structures & Algorithms/range-sum-query-2d-immutable>) | Array / Design | [C++](<Data Structures & Algorithms/range-sum-query-2d-immutable/submission-0.cpp>) |
+| 31 | [Reverse Words in a String II](<Data Structures & Algorithms/reverse-words-in-a-string-ii>) | Two Pointers / In-place Array | [C++](<Data Structures & Algorithms/reverse-words-in-a-string-ii/submission-0.cpp>) |
+| 32 | [Sort Colors](<Data Structures & Algorithms/sort-colors>) | Array / Two Pointers | [C++](<Data Structures & Algorithms/sort-colors/submission-0.cpp>) |
+| 33 | [Sort Features by Popularity](<Data Structures & Algorithms/sort-features-by-popularity>) | Array / Hash Table | [C++](<Data Structures & Algorithms/sort-features-by-popularity/submission-0.cpp>) |
+| 34 | [Subarray Sum Equals K](<Data Structures & Algorithms/subarray-sum-equals-k>) | Array / Hash Table | [C++](<Data Structures & Algorithms/subarray-sum-equals-k/submission-1.cpp>) |
+| 35 | [Subarray Sums Divisible by K](<Data Structures & Algorithms/subarray-sums-divisible-by-k>) | Array / Hash Table | [C++](<Data Structures & Algorithms/subarray-sums-divisible-by-k/submission-1.cpp>) |
+| 36 | [Substrings That Begin and End With the Same Letter](<Data Structures & Algorithms/substrings-that-begin-and-end-with-the-same-letter>) | Hash Table / Math | [C++](<Data Structures & Algorithms/substrings-that-begin-and-end-with-the-same-letter/submission-1.cpp>) |
+| 37 | [Top K Frequent Elements](<Data Structures & Algorithms/top-k-elements-in-list>) | Array / Hash Table | [C++](<Data Structures & Algorithms/top-k-elements-in-list/submission-0.cpp>) |
+| 38 | [Unique Length-3 Palindromic Subsequences](<Data Structures & Algorithms/unique-length-3-palindromic-subsequences>) | Hash Table / String | [C++](<Data Structures & Algorithms/unique-length-3-palindromic-subsequences/submission-0.cpp>) |
+| 39 | [Unique Substrings With Equal Digit Frequency](<Data Structures & Algorithms/unique-substrings-with-equal-digit-frequency>) | Hash Table / String | [C++](<Data Structures & Algorithms/unique-substrings-with-equal-digit-frequency/submission-0.cpp>) |
+| 40 | [Valid Sudoku](<Data Structures & Algorithms/valid-sudoku>) | Matrix / Hash Set | [C++](<Data Structures & Algorithms/valid-sudoku/submission-0.cpp>) |
+| 41 | [Wiggle Sort](<Data Structures & Algorithms/wiggle-sort>) | Array / Greedy | [C++](<Data Structures & Algorithms/wiggle-sort/submission-0.cpp>) |
