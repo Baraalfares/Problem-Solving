@@ -588,5 +588,10 @@
     "title": "Remove Duplicates from Sorted Array",
     "difficulty": "Easy",
     "category": "Array / Two Pointers"
+  },
+  "merge-two-2d-arrays-by-summing-values": {
+    "title": "Merge Two 2D Arrays by Summing Values",
+    "difficulty": "Easy",
+    "category": "Array / Hash Table"
   }
 }
