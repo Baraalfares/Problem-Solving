@@ -598,5 +598,10 @@
     "title": "Adding Spaces to a String",
     "difficulty": "Medium",
     "category": "Array / Two Pointers"
+  },
+  "minimum-operations-to-sort-a-string": {
+    "title": "Minimum Operations to Sort a String",
+    "difficulty": "Medium",
+    "category": "String"
   }
 }
