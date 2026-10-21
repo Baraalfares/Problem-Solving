@@ -613,5 +613,10 @@
     "title": "Squares of a Sorted Array",
     "difficulty": "Easy",
     "category": "Array / Two Pointers"
+  },
+  "two-integer-sum-ii": {
+    "title": "Two Sum II - Input Array Is Sorted",
+    "difficulty": "Medium",
+    "category": "Array / Two Pointers"
   }
 }
