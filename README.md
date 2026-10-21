@@ -1,6 +1,16 @@
-# LeetCode Solutions
+# Problem Solving
 
-A collection of accepted LeetCode solutions automatically synced by LeetBridge.
+C++ solutions to algorithm and data structure problems from LeetCode and NeetCode. Browse by difficulty, open a solution, and follow my progress below.
+
+<p align="center"><img src="assets/overview.svg" alt="Problem-solving dashboard with total solved problems, difficulty counts, and a circular difficulty chart" width="100%"></p>
+
+**Explore:** [Easy problems](#easy) · [Medium problems](#medium) · [Latest synced solutions](#solution-archive) · [LeetCode profile](https://leetcode.com/u/bali19/)
+
+---
+
+### Latest synced solutions
+
+Accepted solutions in this section are synced automatically by LeetBridge. The dashboard and catalog include all solutions in this repository.
 
 <!-- SOLUTIONS_START -->
 
@@ -36,6 +46,8 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 | **Total** | **122** |
 
 ---
+
+<a id="easy"></a>
 
 ### 🟢 Easy (77 Problems)
 
@@ -120,6 +132,8 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 | 77 | [Word Pattern](<Data Structures & Algorithms/word-pattern>) | Hash Table / String | [C++](<Data Structures & Algorithms/word-pattern/submission-0.cpp>) |
 
 ---
+
+<a id="medium"></a>
 
 ### 🟡 Medium (45 Problems)
 

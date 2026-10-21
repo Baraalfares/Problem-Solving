@@ -4,11 +4,75 @@ import json
 import re
 import urllib.request
 import urllib.error
+import math
+from pathlib import Path
 
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 DSA_DIR = os.path.join(REPO_ROOT, "Data Structures & Algorithms")
 README_PATH = os.path.join(REPO_ROOT, "README.md")
 METADATA_PATH = os.path.join(os.path.dirname(__file__), "problems_metadata.json")
+OVERVIEW_PATH = Path(REPO_ROOT) / "assets" / "overview.svg"
+
+
+def write_overview(easy, medium, hard):
+    """Render the GitHub-friendly overview from the catalog counts."""
+    total = easy + medium + hard
+    counts = [("Easy", easy, "#36b782"), ("Medium", medium, "#e5ae46"),
+              ("Hard", hard, "#ef6b73")]
+    largest = max(easy, medium, hard, 1)
+    bars = []
+    for index, (label, count, color) in enumerate(counts):
+        y = 218 + index * 37
+        width = 228 * count / largest
+        bars.append(
+            f'<text x="54" y="{y}" class="label">{label}</text>'
+            f'<rect x="125" y="{y - 11}" width="228" height="9" rx="4.5" fill="#30363d"/>'
+            f'<rect x="125" y="{y - 11}" width="{width:.2f}" height="9" rx="4.5" fill="{color}"/>'
+            f'<text x="388" y="{y}" class="count" text-anchor="end">{count}</text>'
+        )
+
+    segments = []
+    circumference = 2 * math.pi * 82
+    offset = 0
+    for _, count, color in counts:
+        if count:
+            length = circumference * count / total
+            segments.append(
+                f'<circle cx="705" cy="181" r="82" fill="none" stroke="{color}" '
+                f'stroke-width="20" stroke-dasharray="{length:.4f} {circumference - length:.4f}" '
+                f'stroke-dashoffset="{-offset:.4f}" transform="rotate(-90 705 181)"/>'
+            )
+            offset += length
+
+    easy_share = round(100 * easy / total) if total else 0
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="350" viewBox="0 0 900 350" role="img" aria-labelledby="title desc">
+<title id="title">Problem Solving overview</title>
+<desc id="desc">{total} problems solved: {easy} easy, {medium} medium, and {hard} hard.</desc>
+<style>
+text {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }}
+.eyebrow {{ fill: #b998f4; font-size: 13px; font-weight: 700; letter-spacing: 2px; }}
+.total {{ fill: #f0f6fc; font-size: 76px; font-weight: 750; letter-spacing: -4px; }}
+.subtitle {{ fill: #9ca3af; font-size: 17px; }}
+.label {{ fill: #c9d1d9; font-size: 15px; font-weight: 600; }}
+.count {{ fill: #f0f6fc; font-size: 15px; font-weight: 700; }}
+.percentage {{ fill: #f0f6fc; font-size: 36px; font-weight: 750; }}
+.ring-label {{ fill: #9ca3af; font-size: 14px; }}
+</style>
+<rect x="1" y="1" width="898" height="348" rx="16" fill="#0d1117" stroke="#30363d"/>
+<rect x="1" y="1" width="5" height="348" rx="2.5" fill="#8b5bd5"/>
+<text x="54" y="51" class="eyebrow">PROBLEM SOLVING / OVERVIEW</text>
+<text x="50" y="139" class="total">{total}</text>
+<text x="54" y="168" class="subtitle">problems solved</text>
+{''.join(bars)}
+<circle cx="705" cy="181" r="82" fill="none" stroke="#30363d" stroke-width="20"/>
+{''.join(segments)}
+<text x="705" y="180" class="percentage" text-anchor="middle">{easy_share}%</text>
+<text x="705" y="204" class="ring-label" text-anchor="middle">easy</text>
+<text x="705" y="314" class="subtitle" text-anchor="middle">Difficulty mix</text>
+</svg>
+'''
+    OVERVIEW_PATH.parent.mkdir(parents=True, exist_ok=True)
+    OVERVIEW_PATH.write_text(svg, encoding="utf-8")
 
 # Known NeetCode -> LeetCode slug mappings
 NEETCODE_ALIASES = {
@@ -228,6 +292,7 @@ def main():
     medium_count = len(problems_by_diff.get("Medium", []))
     hard_count = len(problems_by_diff.get("Hard", []))
     total_count = easy_count + medium_count + hard_count
+    write_overview(easy_count, medium_count, hard_count)
 
     # Build markdown section
     lines = [
@@ -250,6 +315,8 @@ def main():
     def render_table(diff_label, emoji, problem_items):
         table_lines = [
             "---",
+            "",
+            f'<a id="{diff_label.lower()}"></a>',
             "",
             f"### {emoji} {diff_label} ({len(problem_items)} Problems)",
             "",
