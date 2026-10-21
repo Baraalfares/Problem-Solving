@@ -608,5 +608,10 @@
     "title": "Remove Duplicates from Sorted Array II",
     "difficulty": "Medium",
     "category": "Array / Two Pointers"
+  },
+  "squares-of-a-sorted-array": {
+    "title": "Squares of a Sorted Array",
+    "difficulty": "Easy",
+    "category": "Array / Two Pointers"
   }
 }

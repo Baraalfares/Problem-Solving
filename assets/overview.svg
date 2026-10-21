@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="350" viewBox="0 0 900 350" role="img" aria-labelledby="title desc">
 <title id="title">Problem Solving overview</title>
-<desc id="desc">122 problems solved: 77 easy, 45 medium, and 0 hard.</desc>
+<desc id="desc">123 problems solved: 78 easy, 45 medium, and 0 hard.</desc>
 <style>
 text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
 .eyebrow { fill: #b998f4; font-size: 13px; font-weight: 700; letter-spacing: 2px; }
@@ -14,11 +14,11 @@ text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
 <rect x="1" y="1" width="898" height="348" rx="16" fill="#0d1117" stroke="#30363d"/>
 <rect x="1" y="1" width="5" height="348" rx="2.5" fill="#8b5bd5"/>
 <text x="54" y="51" class="eyebrow">PROBLEM SOLVING / OVERVIEW</text>
-<text x="50" y="139" class="total">122</text>
+<text x="50" y="139" class="total">123</text>
 <text x="54" y="168" class="subtitle">problems solved</text>
-<text x="54" y="218" class="label">Easy</text><rect x="125" y="207" width="228" height="9" rx="4.5" fill="#30363d"/><rect x="125" y="207" width="228.00" height="9" rx="4.5" fill="#36b782"/><text x="388" y="218" class="count" text-anchor="end">77</text><text x="54" y="255" class="label">Medium</text><rect x="125" y="244" width="228" height="9" rx="4.5" fill="#30363d"/><rect x="125" y="244" width="133.25" height="9" rx="4.5" fill="#e5ae46"/><text x="388" y="255" class="count" text-anchor="end">45</text><text x="54" y="292" class="label">Hard</text><rect x="125" y="281" width="228" height="9" rx="4.5" fill="#30363d"/><rect x="125" y="281" width="0.00" height="9" rx="4.5" fill="#ef6b73"/><text x="388" y="292" class="count" text-anchor="end">0</text>
+<text x="54" y="218" class="label">Easy</text><rect x="125" y="207" width="228" height="9" rx="4.5" fill="#30363d"/><rect x="125" y="207" width="228.00" height="9" rx="4.5" fill="#36b782"/><text x="388" y="218" class="count" text-anchor="end">78</text><text x="54" y="255" class="label">Medium</text><rect x="125" y="244" width="228" height="9" rx="4.5" fill="#30363d"/><rect x="125" y="244" width="131.54" height="9" rx="4.5" fill="#e5ae46"/><text x="388" y="255" class="count" text-anchor="end">45</text><text x="54" y="292" class="label">Hard</text><rect x="125" y="281" width="228" height="9" rx="4.5" fill="#30363d"/><rect x="125" y="281" width="0.00" height="9" rx="4.5" fill="#ef6b73"/><text x="388" y="292" class="count" text-anchor="end">0</text>
 <circle cx="705" cy="181" r="82" fill="none" stroke="#30363d" stroke-width="20"/>
-<circle cx="705" cy="181" r="82" fill="none" stroke="#36b782" stroke-width="20" stroke-dasharray="325.1806 190.0406" stroke-dashoffset="0.0000" transform="rotate(-90 705 181)"/><circle cx="705" cy="181" r="82" fill="none" stroke="#e5ae46" stroke-width="20" stroke-dasharray="190.0406 325.1806" stroke-dashoffset="-325.1806" transform="rotate(-90 705 181)"/>
+<circle cx="705" cy="181" r="82" fill="none" stroke="#36b782" stroke-width="20" stroke-dasharray="326.7256 188.4956" stroke-dashoffset="0.0000" transform="rotate(-90 705 181)"/><circle cx="705" cy="181" r="82" fill="none" stroke="#e5ae46" stroke-width="20" stroke-dasharray="188.4956 326.7256" stroke-dashoffset="-326.7256" transform="rotate(-90 705 181)"/>
 <text x="705" y="180" class="percentage" text-anchor="middle">63%</text>
 <text x="705" y="204" class="ring-label" text-anchor="middle">easy</text>
 <text x="705" y="314" class="subtitle" text-anchor="middle">Difficulty mix</text>
