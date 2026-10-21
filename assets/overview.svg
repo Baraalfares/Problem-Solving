@@ -1,25 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="350" viewBox="0 0 900 350" role="img" aria-labelledby="title desc">
-<title id="title">Problem Solving overview</title>
-<desc id="desc">123 problems solved: 78 easy, 45 medium, and 0 hard.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+<title id="title">Baraa's coding journal — Problem Solving</title>
+<desc id="desc">123 problems solved: 78 easy, 45 medium, and 0 hard. Selected patterns: Hash maps, Prefix sums, and Counting.</desc>
 <style>
 text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-.eyebrow { fill: #b998f4; font-size: 13px; font-weight: 700; letter-spacing: 2px; }
-.total { fill: #f0f6fc; font-size: 76px; font-weight: 750; letter-spacing: -4px; }
-.subtitle { fill: #9ca3af; font-size: 17px; }
-.label { fill: #c9d1d9; font-size: 15px; font-weight: 600; }
-.count { fill: #f0f6fc; font-size: 15px; font-weight: 700; }
-.percentage { fill: #f0f6fc; font-size: 36px; font-weight: 750; }
-.ring-label { fill: #9ca3af; font-size: 14px; }
+.eyebrow { fill: #566271; font-size: 12px; font-weight: 600; letter-spacing: 1.4px; }
+.heading { fill: #172331; font-size: 34px; font-weight: 700; letter-spacing: -1.2px; }
+.total { fill: #172331; font-size: 76px; font-weight: 700; letter-spacing: -4px; }
+.subtitle { fill: #566271; font-size: 16px; }
+.label { fill: #172331; font-size: 14px; }
+.count { fill: #172331; font-size: 14px; font-weight: 700; }
+.percentage { fill: #172331; font-size: 36px; font-weight: 700; }
+.ring-label { fill: #566271; font-size: 14px; }
+.section { fill: #8b5bd5; font-size: 13px; font-weight: 700; letter-spacing: 1.2px; }
+.pattern { fill: #566271; font-size: 14px; }
+.example { fill: #172331; font-size: 14px; font-weight: 700; }
 </style>
-<rect x="1" y="1" width="898" height="348" rx="16" fill="#0d1117" stroke="#30363d"/>
-<rect x="1" y="1" width="5" height="348" rx="2.5" fill="#8b5bd5"/>
-<text x="54" y="51" class="eyebrow">PROBLEM SOLVING / OVERVIEW</text>
-<text x="50" y="139" class="total">123</text>
-<text x="54" y="168" class="subtitle">problems solved</text>
-<text x="54" y="218" class="label">Easy</text><rect x="125" y="207" width="228" height="9" rx="4.5" fill="#30363d"/><rect x="125" y="207" width="228.00" height="9" rx="4.5" fill="#36b782"/><text x="388" y="218" class="count" text-anchor="end">78</text><text x="54" y="255" class="label">Medium</text><rect x="125" y="244" width="228" height="9" rx="4.5" fill="#30363d"/><rect x="125" y="244" width="131.54" height="9" rx="4.5" fill="#e5ae46"/><text x="388" y="255" class="count" text-anchor="end">45</text><text x="54" y="292" class="label">Hard</text><rect x="125" y="281" width="228" height="9" rx="4.5" fill="#30363d"/><rect x="125" y="281" width="0.00" height="9" rx="4.5" fill="#ef6b73"/><text x="388" y="292" class="count" text-anchor="end">0</text>
-<circle cx="705" cy="181" r="82" fill="none" stroke="#30363d" stroke-width="20"/>
-<circle cx="705" cy="181" r="82" fill="none" stroke="#36b782" stroke-width="20" stroke-dasharray="326.7256 188.4956" stroke-dashoffset="0.0000" transform="rotate(-90 705 181)"/><circle cx="705" cy="181" r="82" fill="none" stroke="#e5ae46" stroke-width="20" stroke-dasharray="188.4956 326.7256" stroke-dashoffset="-326.7256" transform="rotate(-90 705 181)"/>
-<text x="705" y="180" class="percentage" text-anchor="middle">63%</text>
-<text x="705" y="204" class="ring-label" text-anchor="middle">easy</text>
-<text x="705" y="314" class="subtitle" text-anchor="middle">Difficulty mix</text>
+<rect x="1" y="1" width="898" height="538" rx="14" fill="#ffffff" stroke="#dce2e8"/>
+<rect x="40" y="36" width="4" height="86" fill="#8b5bd5"/>
+<text x="62" y="50" class="eyebrow">BARAA'S CODING JOURNAL</text>
+<text x="60" y="87" class="heading">Problem Solving</text>
+<text x="62" y="114" class="subtitle">A curated archive of accepted C++ solutions.</text>
+<text x="36" y="219" class="total">123</text>
+<text x="40" y="247" class="subtitle">problems solved</text>
+<text x="40" y="284" class="label">Easy</text><rect x="123" y="274" width="228" height="8" rx="4" fill="#f5f8fa"/><rect x="123" y="274" width="228.00" height="8" rx="4" fill="#36b782"/><text x="391" y="284" class="count" text-anchor="end">78</text><text x="40" y="316" class="label">Medium</text><rect x="123" y="306" width="228" height="8" rx="4" fill="#f5f8fa"/><rect x="123" y="306" width="131.54" height="8" rx="4" fill="#e5ae46"/><text x="391" y="316" class="count" text-anchor="end">45</text><text x="40" y="348" class="label">Hard</text><rect x="123" y="338" width="228" height="8" rx="4" fill="#f5f8fa"/><rect x="123" y="338" width="0.00" height="8" rx="4" fill="#ef6b73"/><text x="391" y="348" class="count" text-anchor="end">0</text>
+<circle cx="708" cy="254" r="76" fill="none" stroke="#f5f8fa" stroke-width="22"/>
+<circle cx="708" cy="254" r="76" fill="none" stroke="#36b782" stroke-width="22" stroke-dasharray="302.8189 174.7032" stroke-dashoffset="0.0000" transform="rotate(-90 708 254)"/><circle cx="708" cy="254" r="76" fill="none" stroke="#e5ae46" stroke-width="22" stroke-dasharray="174.7032 302.8189" stroke-dashoffset="-302.8189" transform="rotate(-90 708 254)"/>
+<text x="708" y="256" class="percentage" text-anchor="middle">63%</text>
+<text x="708" y="281" class="ring-label" text-anchor="middle">easy</text>
+<line x1="40" y1="382" x2="860" y2="382" stroke="#dce2e8"/>
+<text x="40" y="417" class="section">SELECTED PATTERNS</text>
+<rect x="40" y="435" width="265" height="67" rx="8" fill="#f5f8fa"/>
+<text x="54" y="460" class="pattern">Hash maps</text>
+<text x="54" y="483" class="example">Two Sum · Group Anagrams</text>
+<rect x="317" y="435" width="266" height="67" rx="8" fill="#f5f8fa"/>
+<text x="331" y="460" class="pattern">Prefix sums</text>
+<text x="331" y="483" class="example">Subarray Sum Equals K</text>
+<rect x="595" y="435" width="265" height="67" rx="8" fill="#f5f8fa"/>
+<text x="609" y="460" class="pattern">Counting</text>
+<text x="609" y="483" class="example">Top K Frequent Elements</text>
 </svg>
