@@ -31,9 +31,9 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 | Level | Count |
 | :--- | :---: |
 | 🟢 **Easy** | 77 |
-| 🟡 **Medium** | 44 |
+| 🟡 **Medium** | 45 |
 | 🔴 **Hard** | 0 |
-| **Total** | **121** |
+| **Total** | **122** |
 
 ---
 
@@ -121,7 +121,7 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 
 ---
 
-### 🟡 Medium (44 Problems)
+### 🟡 Medium (45 Problems)
 
 | # | Problem | Category / Pattern | Solution |
 | :-: | :--- | :--- | :-: |
@@ -158,14 +158,15 @@ Curated list of all algorithmic and data structure problems solved and tracked a
 | 31 | [Number of Sub-arrays With Odd Sum](<Data Structures & Algorithms/number-of-sub-arrays-with-odd-sum>) | Array / Math | [C++](<Data Structures & Algorithms/number-of-sub-arrays-with-odd-sum/submission-0.cpp>) |
 | 32 | [One Edit Distance](<Data Structures & Algorithms/one-edit-distance>) | String / Two Pointers | [C++](<Data Structures & Algorithms/one-edit-distance/submission-0.cpp>) |
 | 33 | [Range Sum Query 2D - Immutable](<Data Structures & Algorithms/range-sum-query-2d-immutable>) | Array / Design | [C++](<Data Structures & Algorithms/range-sum-query-2d-immutable/submission-0.cpp>) |
-| 34 | [Reverse Words in a String II](<Data Structures & Algorithms/reverse-words-in-a-string-ii>) | Two Pointers / In-place Array | [C++](<Data Structures & Algorithms/reverse-words-in-a-string-ii/submission-0.cpp>) |
-| 35 | [Sort Colors](<Data Structures & Algorithms/sort-colors>) | Array / Two Pointers | [C++](<Data Structures & Algorithms/sort-colors/submission-0.cpp>) |
-| 36 | [Sort Features by Popularity](<Data Structures & Algorithms/sort-features-by-popularity>) | Array / Hash Table | [C++](<Data Structures & Algorithms/sort-features-by-popularity/submission-0.cpp>) |
-| 37 | [Subarray Sum Equals K](<Data Structures & Algorithms/subarray-sum-equals-k>) | Array / Hash Table | [C++](<Data Structures & Algorithms/subarray-sum-equals-k/submission-1.cpp>) |
-| 38 | [Subarray Sums Divisible by K](<Data Structures & Algorithms/subarray-sums-divisible-by-k>) | Array / Hash Table | [C++](<Data Structures & Algorithms/subarray-sums-divisible-by-k/submission-1.cpp>) |
-| 39 | [Substrings That Begin and End With the Same Letter](<Data Structures & Algorithms/substrings-that-begin-and-end-with-the-same-letter>) | Hash Table / Math | [C++](<Data Structures & Algorithms/substrings-that-begin-and-end-with-the-same-letter/submission-1.cpp>) |
-| 40 | [Top K Frequent Elements](<Data Structures & Algorithms/top-k-elements-in-list>) | Array / Hash Table | [C++](<Data Structures & Algorithms/top-k-elements-in-list/submission-0.cpp>) |
-| 41 | [Unique Length-3 Palindromic Subsequences](<Data Structures & Algorithms/unique-length-3-palindromic-subsequences>) | Hash Table / String | [C++](<Data Structures & Algorithms/unique-length-3-palindromic-subsequences/submission-0.cpp>) |
-| 42 | [Unique Substrings With Equal Digit Frequency](<Data Structures & Algorithms/unique-substrings-with-equal-digit-frequency>) | Hash Table / String | [C++](<Data Structures & Algorithms/unique-substrings-with-equal-digit-frequency/submission-0.cpp>) |
-| 43 | [Valid Sudoku](<Data Structures & Algorithms/valid-sudoku>) | Matrix / Hash Set | [C++](<Data Structures & Algorithms/valid-sudoku/submission-0.cpp>) |
-| 44 | [Wiggle Sort](<Data Structures & Algorithms/wiggle-sort>) | Array / Greedy | [C++](<Data Structures & Algorithms/wiggle-sort/submission-0.cpp>) |
+| 34 | [Remove Duplicates from Sorted Array II](<Data Structures & Algorithms/remove-duplicates-from-sorted-array-ii>) | Array / Two Pointers | [C++](<Data Structures & Algorithms/remove-duplicates-from-sorted-array-ii/submission-0.cpp>) |
+| 35 | [Reverse Words in a String II](<Data Structures & Algorithms/reverse-words-in-a-string-ii>) | Two Pointers / In-place Array | [C++](<Data Structures & Algorithms/reverse-words-in-a-string-ii/submission-0.cpp>) |
+| 36 | [Sort Colors](<Data Structures & Algorithms/sort-colors>) | Array / Two Pointers | [C++](<Data Structures & Algorithms/sort-colors/submission-0.cpp>) |
+| 37 | [Sort Features by Popularity](<Data Structures & Algorithms/sort-features-by-popularity>) | Array / Hash Table | [C++](<Data Structures & Algorithms/sort-features-by-popularity/submission-0.cpp>) |
+| 38 | [Subarray Sum Equals K](<Data Structures & Algorithms/subarray-sum-equals-k>) | Array / Hash Table | [C++](<Data Structures & Algorithms/subarray-sum-equals-k/submission-1.cpp>) |
+| 39 | [Subarray Sums Divisible by K](<Data Structures & Algorithms/subarray-sums-divisible-by-k>) | Array / Hash Table | [C++](<Data Structures & Algorithms/subarray-sums-divisible-by-k/submission-1.cpp>) |
+| 40 | [Substrings That Begin and End With the Same Letter](<Data Structures & Algorithms/substrings-that-begin-and-end-with-the-same-letter>) | Hash Table / Math | [C++](<Data Structures & Algorithms/substrings-that-begin-and-end-with-the-same-letter/submission-1.cpp>) |
+| 41 | [Top K Frequent Elements](<Data Structures & Algorithms/top-k-elements-in-list>) | Array / Hash Table | [C++](<Data Structures & Algorithms/top-k-elements-in-list/submission-0.cpp>) |
+| 42 | [Unique Length-3 Palindromic Subsequences](<Data Structures & Algorithms/unique-length-3-palindromic-subsequences>) | Hash Table / String | [C++](<Data Structures & Algorithms/unique-length-3-palindromic-subsequences/submission-0.cpp>) |
+| 43 | [Unique Substrings With Equal Digit Frequency](<Data Structures & Algorithms/unique-substrings-with-equal-digit-frequency>) | Hash Table / String | [C++](<Data Structures & Algorithms/unique-substrings-with-equal-digit-frequency/submission-0.cpp>) |
+| 44 | [Valid Sudoku](<Data Structures & Algorithms/valid-sudoku>) | Matrix / Hash Set | [C++](<Data Structures & Algorithms/valid-sudoku/submission-0.cpp>) |
+| 45 | [Wiggle Sort](<Data Structures & Algorithms/wiggle-sort>) | Array / Greedy | [C++](<Data Structures & Algorithms/wiggle-sort/submission-0.cpp>) |

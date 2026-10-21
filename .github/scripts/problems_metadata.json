@@ -603,5 +603,10 @@
     "title": "Minimum Operations to Sort a String",
     "difficulty": "Medium",
     "category": "String"
+  },
+  "remove-duplicates-from-sorted-array-ii": {
+    "title": "Remove Duplicates from Sorted Array II",
+    "difficulty": "Medium",
+    "category": "Array / Two Pointers"
   }
 }
