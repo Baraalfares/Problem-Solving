@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" role="img" aria-labelledby="title desc">
 <title id="title">Baraa's coding journal — Problem Solving</title>
-<desc id="desc">123 problems solved: 78 easy, 45 medium, and 0 hard. Selected patterns: Hash maps, Prefix sums, and Counting.</desc>
+<desc id="desc">123 problems solved: 78 easy, 45 medium, and 0 hard.</desc>
 <style>
 text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
 .eyebrow { fill: #566271; font-size: 12px; font-weight: 600; letter-spacing: 1.4px; }
@@ -12,10 +12,8 @@ text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
 .percentage { fill: #172331; font-size: 36px; font-weight: 700; }
 .ring-label { fill: #566271; font-size: 14px; }
 .section { fill: #8b5bd5; font-size: 13px; font-weight: 700; letter-spacing: 1.2px; }
-.pattern { fill: #566271; font-size: 14px; }
-.example { fill: #172331; font-size: 14px; font-weight: 700; }
 </style>
-<rect x="1" y="1" width="898" height="538" rx="14" fill="#ffffff" stroke="#dce2e8"/>
+<rect x="1" y="1" width="898" height="438" rx="14" fill="#ffffff" stroke="#dce2e8"/>
 <rect x="40" y="36" width="4" height="86" fill="#8b5bd5"/>
 <text x="62" y="50" class="eyebrow">BARAA'S CODING JOURNAL</text>
 <text x="60" y="87" class="heading">Problem Solving</text>
@@ -29,13 +27,4 @@ text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
 <text x="708" y="281" class="ring-label" text-anchor="middle">easy</text>
 <line x1="40" y1="382" x2="860" y2="382" stroke="#dce2e8"/>
 <text x="40" y="417" class="section">SELECTED PATTERNS</text>
-<rect x="40" y="435" width="265" height="67" rx="8" fill="#f5f8fa"/>
-<text x="54" y="460" class="pattern">Hash maps</text>
-<text x="54" y="483" class="example">Two Sum · Group Anagrams</text>
-<rect x="317" y="435" width="266" height="67" rx="8" fill="#f5f8fa"/>
-<text x="331" y="460" class="pattern">Prefix sums</text>
-<text x="331" y="483" class="example">Subarray Sum Equals K</text>
-<rect x="595" y="435" width="265" height="67" rx="8" fill="#f5f8fa"/>
-<text x="609" y="460" class="pattern">Counting</text>
-<text x="609" y="483" class="example">Top K Frequent Elements</text>
 </svg>
