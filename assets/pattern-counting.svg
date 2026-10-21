@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="84" viewBox="0 0 288 84" role="img" aria-labelledby="title desc">
+<title id="title">Counting</title>
+<desc id="desc">Top K Frequent Elements. Open a counting solution.</desc>
+<style>text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }</style>
+<rect x="1" y="1" width="286" height="82" rx="8" fill="#f5f8fa" stroke="#dce2e8"/>
+<text x="16" y="31" fill="#566271" font-size="14">Counting</text>
+<text x="16" y="57" fill="#172331" font-size="14" font-weight="700">Top K Frequent Elements</text>
+<path d="M258 30l11-11m-11 0h11v11" fill="none" stroke="#8b5bd5" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

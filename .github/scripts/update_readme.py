@@ -5,13 +5,44 @@ import re
 import urllib.request
 import urllib.error
 import math
+from html import escape
 from pathlib import Path
+from urllib.parse import quote
 
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 DSA_DIR = os.path.join(REPO_ROOT, "Data Structures & Algorithms")
 README_PATH = os.path.join(REPO_ROOT, "README.md")
 METADATA_PATH = os.path.join(os.path.dirname(__file__), "problems_metadata.json")
 OVERVIEW_PATH = Path(REPO_ROOT) / "assets" / "overview.svg"
+PATTERN_CARDS = [
+    ("hash-maps", "Hash maps", "Two Sum · Group Anagrams", "Data Structures & Algorithms/anagram-groups"),
+    ("prefix-sums", "Prefix sums", "Subarray Sum Equals K", "Data Structures & Algorithms/subarray-sum-equals-k"),
+    ("counting", "Counting", "Top K Frequent Elements", "Data Structures & Algorithms/top-k-elements-in-list"),
+]
+
+
+def write_pattern_cards():
+    """Create one image per pattern so README links make whole cards clickable."""
+    OVERVIEW_PATH.parent.mkdir(parents=True, exist_ok=True)
+    links = []
+    for slug, label, example, target in PATTERN_CARDS:
+        asset_name = f"pattern-{slug}.svg"
+        svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="288" height="84" viewBox="0 0 288 84" role="img" aria-labelledby="title desc">
+<title id="title">{escape(label)}</title>
+<desc id="desc">{escape(example)}. Open a {escape(label.lower())} solution.</desc>
+<style>text {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }}</style>
+<rect x="1" y="1" width="286" height="82" rx="8" fill="#f5f8fa" stroke="#dce2e8"/>
+<text x="16" y="31" fill="#566271" font-size="14">{escape(label)}</text>
+<text x="16" y="57" fill="#172331" font-size="14" font-weight="700">{escape(example)}</text>
+<path d="M258 30l11-11m-11 0h11v11" fill="none" stroke="#8b5bd5" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+'''
+        (OVERVIEW_PATH.parent / asset_name).write_text(svg, encoding="utf-8")
+        links.append(
+            f'<a href="{quote(target)}"><img src="assets/{asset_name}" '
+            f'alt="{escape(label)}: {escape(example)} — open solution" width="32%"></a>'
+        )
+    return '<p align="center">' + "\n".join(links) + '</p>'
 
 
 def write_overview(easy, medium, hard):
@@ -45,9 +76,9 @@ def write_overview(easy, medium, hard):
             offset += length
 
     easy_share = round(100 * easy / total) if total else 0
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" role="img" aria-labelledby="title desc">
 <title id="title">Baraa's coding journal — Problem Solving</title>
-<desc id="desc">{total} problems solved: {easy} easy, {medium} medium, and {hard} hard. Selected patterns: Hash maps, Prefix sums, and Counting.</desc>
+<desc id="desc">{total} problems solved: {easy} easy, {medium} medium, and {hard} hard.</desc>
 <style>
 text {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }}
 .eyebrow {{ fill: #566271; font-size: 12px; font-weight: 600; letter-spacing: 1.4px; }}
@@ -59,10 +90,8 @@ text {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; 
 .percentage {{ fill: #172331; font-size: 36px; font-weight: 700; }}
 .ring-label {{ fill: #566271; font-size: 14px; }}
 .section {{ fill: #8b5bd5; font-size: 13px; font-weight: 700; letter-spacing: 1.2px; }}
-.pattern {{ fill: #566271; font-size: 14px; }}
-.example {{ fill: #172331; font-size: 14px; font-weight: 700; }}
 </style>
-<rect x="1" y="1" width="898" height="538" rx="14" fill="#ffffff" stroke="#dce2e8"/>
+<rect x="1" y="1" width="898" height="438" rx="14" fill="#ffffff" stroke="#dce2e8"/>
 <rect x="40" y="36" width="4" height="86" fill="#8b5bd5"/>
 <text x="62" y="50" class="eyebrow">BARAA'S CODING JOURNAL</text>
 <text x="60" y="87" class="heading">Problem Solving</text>
@@ -76,15 +105,6 @@ text {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; 
 <text x="708" y="281" class="ring-label" text-anchor="middle">easy</text>
 <line x1="40" y1="382" x2="860" y2="382" stroke="#dce2e8"/>
 <text x="40" y="417" class="section">SELECTED PATTERNS</text>
-<rect x="40" y="435" width="265" height="67" rx="8" fill="#f5f8fa"/>
-<text x="54" y="460" class="pattern">Hash maps</text>
-<text x="54" y="483" class="example">Two Sum · Group Anagrams</text>
-<rect x="317" y="435" width="266" height="67" rx="8" fill="#f5f8fa"/>
-<text x="331" y="460" class="pattern">Prefix sums</text>
-<text x="331" y="483" class="example">Subarray Sum Equals K</text>
-<rect x="595" y="435" width="265" height="67" rx="8" fill="#f5f8fa"/>
-<text x="609" y="460" class="pattern">Counting</text>
-<text x="609" y="483" class="example">Top K Frequent Elements</text>
 </svg>
 '''
     OVERVIEW_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -309,14 +329,17 @@ def main():
     hard_count = len(problems_by_diff.get("Hard", []))
     total_count = easy_count + medium_count + hard_count
     write_overview(easy_count, medium_count, hard_count)
+    pattern_cards = write_pattern_cards()
 
     # Own the entire README so older LeetBridge panels cannot survive a refresh.
     lines = [
         "<!-- Generated by .github/scripts/update_readme.py. Edit the generator to change this README. -->",
         "",
-        f'<p align="center"><img src="assets/overview.svg" alt="Baraa\'s coding journal: {total_count} problems solved — {easy_count} Easy, {medium_count} Medium, {hard_count} Hard. Selected patterns: Hash maps, Prefix sums, and Counting." width="100%"></p>',
+        f'<p align="center"><img src="assets/overview.svg" alt="Baraa\'s coding journal: {total_count} problems solved — {easy_count} Easy, {medium_count} Medium, {hard_count} Hard." width="100%"></p>',
         "",
-        '<p align="center"><a href="Data%20Structures%20%26%20Algorithms/anagram-groups">Hash maps ↗</a> · <a href="Data%20Structures%20%26%20Algorithms/subarray-sum-equals-k">Prefix sums ↗</a> · <a href="Data%20Structures%20%26%20Algorithms/top-k-elements-in-list">Counting ↗</a> · <a href="https://leetcode.com/u/bali19/">LeetCode profile ↗</a></p>',
+        pattern_cards,
+        "",
+        '<p align="center"><a href="https://leetcode.com/u/bali19/">LeetCode profile ↗</a></p>',
         "",
         '<details id="solution-archive">',
         f"<summary><strong>Browse all {total_count} solutions</strong></summary>",
