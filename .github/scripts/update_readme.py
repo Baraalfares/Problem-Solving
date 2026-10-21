@@ -15,60 +15,76 @@ OVERVIEW_PATH = Path(REPO_ROOT) / "assets" / "overview.svg"
 
 
 def write_overview(easy, medium, hard):
-    """Render the GitHub-friendly overview from the catalog counts."""
+    """Render the white Editorial design from the catalog counts."""
     total = easy + medium + hard
     counts = [("Easy", easy, "#36b782"), ("Medium", medium, "#e5ae46"),
               ("Hard", hard, "#ef6b73")]
     largest = max(easy, medium, hard, 1)
     bars = []
     for index, (label, count, color) in enumerate(counts):
-        y = 218 + index * 37
+        y = 284 + index * 32
         width = 228 * count / largest
         bars.append(
-            f'<text x="54" y="{y}" class="label">{label}</text>'
-            f'<rect x="125" y="{y - 11}" width="228" height="9" rx="4.5" fill="#30363d"/>'
-            f'<rect x="125" y="{y - 11}" width="{width:.2f}" height="9" rx="4.5" fill="{color}"/>'
-            f'<text x="388" y="{y}" class="count" text-anchor="end">{count}</text>'
+            f'<text x="40" y="{y}" class="label">{label}</text>'
+            f'<rect x="123" y="{y - 10}" width="228" height="8" rx="4" fill="#f5f8fa"/>'
+            f'<rect x="123" y="{y - 10}" width="{width:.2f}" height="8" rx="4" fill="{color}"/>'
+            f'<text x="391" y="{y}" class="count" text-anchor="end">{count}</text>'
         )
 
     segments = []
-    circumference = 2 * math.pi * 82
+    circumference = 2 * math.pi * 76
     offset = 0
     for _, count, color in counts:
         if count:
             length = circumference * count / total
             segments.append(
-                f'<circle cx="705" cy="181" r="82" fill="none" stroke="{color}" '
-                f'stroke-width="20" stroke-dasharray="{length:.4f} {circumference - length:.4f}" '
-                f'stroke-dashoffset="{-offset:.4f}" transform="rotate(-90 705 181)"/>'
+                f'<circle cx="708" cy="254" r="76" fill="none" stroke="{color}" '
+                f'stroke-width="22" stroke-dasharray="{length:.4f} {circumference - length:.4f}" '
+                f'stroke-dashoffset="{-offset:.4f}" transform="rotate(-90 708 254)"/>'
             )
             offset += length
 
     easy_share = round(100 * easy / total) if total else 0
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="350" viewBox="0 0 900 350" role="img" aria-labelledby="title desc">
-<title id="title">Problem Solving overview</title>
-<desc id="desc">{total} problems solved: {easy} easy, {medium} medium, and {hard} hard.</desc>
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+<title id="title">Baraa's coding journal — Problem Solving</title>
+<desc id="desc">{total} problems solved: {easy} easy, {medium} medium, and {hard} hard. Selected patterns: Hash maps, Prefix sums, and Counting.</desc>
 <style>
 text {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }}
-.eyebrow {{ fill: #b998f4; font-size: 13px; font-weight: 700; letter-spacing: 2px; }}
-.total {{ fill: #f0f6fc; font-size: 76px; font-weight: 750; letter-spacing: -4px; }}
-.subtitle {{ fill: #9ca3af; font-size: 17px; }}
-.label {{ fill: #c9d1d9; font-size: 15px; font-weight: 600; }}
-.count {{ fill: #f0f6fc; font-size: 15px; font-weight: 700; }}
-.percentage {{ fill: #f0f6fc; font-size: 36px; font-weight: 750; }}
-.ring-label {{ fill: #9ca3af; font-size: 14px; }}
+.eyebrow {{ fill: #566271; font-size: 12px; font-weight: 600; letter-spacing: 1.4px; }}
+.heading {{ fill: #172331; font-size: 34px; font-weight: 700; letter-spacing: -1.2px; }}
+.total {{ fill: #172331; font-size: 76px; font-weight: 700; letter-spacing: -4px; }}
+.subtitle {{ fill: #566271; font-size: 16px; }}
+.label {{ fill: #172331; font-size: 14px; }}
+.count {{ fill: #172331; font-size: 14px; font-weight: 700; }}
+.percentage {{ fill: #172331; font-size: 36px; font-weight: 700; }}
+.ring-label {{ fill: #566271; font-size: 14px; }}
+.section {{ fill: #8b5bd5; font-size: 13px; font-weight: 700; letter-spacing: 1.2px; }}
+.pattern {{ fill: #566271; font-size: 14px; }}
+.example {{ fill: #172331; font-size: 14px; font-weight: 700; }}
 </style>
-<rect x="1" y="1" width="898" height="348" rx="16" fill="#0d1117" stroke="#30363d"/>
-<rect x="1" y="1" width="5" height="348" rx="2.5" fill="#8b5bd5"/>
-<text x="54" y="51" class="eyebrow">PROBLEM SOLVING / OVERVIEW</text>
-<text x="50" y="139" class="total">{total}</text>
-<text x="54" y="168" class="subtitle">problems solved</text>
+<rect x="1" y="1" width="898" height="538" rx="14" fill="#ffffff" stroke="#dce2e8"/>
+<rect x="40" y="36" width="4" height="86" fill="#8b5bd5"/>
+<text x="62" y="50" class="eyebrow">BARAA'S CODING JOURNAL</text>
+<text x="60" y="87" class="heading">Problem Solving</text>
+<text x="62" y="114" class="subtitle">A curated archive of accepted C++ solutions.</text>
+<text x="36" y="219" class="total">{total}</text>
+<text x="40" y="247" class="subtitle">problems solved</text>
 {''.join(bars)}
-<circle cx="705" cy="181" r="82" fill="none" stroke="#30363d" stroke-width="20"/>
+<circle cx="708" cy="254" r="76" fill="none" stroke="#f5f8fa" stroke-width="22"/>
 {''.join(segments)}
-<text x="705" y="180" class="percentage" text-anchor="middle">{easy_share}%</text>
-<text x="705" y="204" class="ring-label" text-anchor="middle">easy</text>
-<text x="705" y="314" class="subtitle" text-anchor="middle">Difficulty mix</text>
+<text x="708" y="256" class="percentage" text-anchor="middle">{easy_share}%</text>
+<text x="708" y="281" class="ring-label" text-anchor="middle">easy</text>
+<line x1="40" y1="382" x2="860" y2="382" stroke="#dce2e8"/>
+<text x="40" y="417" class="section">SELECTED PATTERNS</text>
+<rect x="40" y="435" width="265" height="67" rx="8" fill="#f5f8fa"/>
+<text x="54" y="460" class="pattern">Hash maps</text>
+<text x="54" y="483" class="example">Two Sum · Group Anagrams</text>
+<rect x="317" y="435" width="266" height="67" rx="8" fill="#f5f8fa"/>
+<text x="331" y="460" class="pattern">Prefix sums</text>
+<text x="331" y="483" class="example">Subarray Sum Equals K</text>
+<rect x="595" y="435" width="265" height="67" rx="8" fill="#f5f8fa"/>
+<text x="609" y="460" class="pattern">Counting</text>
+<text x="609" y="483" class="example">Top K Frequent Elements</text>
 </svg>
 '''
     OVERVIEW_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -294,21 +310,20 @@ def main():
     total_count = easy_count + medium_count + hard_count
     write_overview(easy_count, medium_count, hard_count)
 
-    # Build markdown section
+    # Own the entire README so older LeetBridge panels cannot survive a refresh.
     lines = [
-        "---",
+        "<!-- Generated by .github/scripts/update_readme.py. Edit the generator to change this README. -->",
         "",
-        "## Solved Problems Catalog",
+        f'<p align="center"><img src="assets/overview.svg" alt="Baraa\'s coding journal: {total_count} problems solved — {easy_count} Easy, {medium_count} Medium, {hard_count} Hard. Selected patterns: Hash maps, Prefix sums, and Counting." width="100%"></p>',
         "",
-        "Curated list of all algorithmic and data structure problems solved and tracked across LeetCode and NeetCode, categorized by difficulty level.",
+        '<p align="center"><a href="Data%20Structures%20%26%20Algorithms/anagram-groups">Hash maps ↗</a> · <a href="Data%20Structures%20%26%20Algorithms/subarray-sum-equals-k">Prefix sums ↗</a> · <a href="Data%20Structures%20%26%20Algorithms/top-k-elements-in-list">Counting ↗</a> · <a href="https://leetcode.com/u/bali19/">LeetCode profile ↗</a></p>',
         "",
-        "### Difficulty Overview",
-        "| Level | Count |",
-        "| :--- | :---: |",
-        f"| 🟢 **Easy** | {easy_count} |",
-        f"| 🟡 **Medium** | {medium_count} |",
-        f"| 🔴 **Hard** | {hard_count} |",
-        f"| **Total** | **{total_count}** |",
+        '<details id="solution-archive">',
+        f"<summary><strong>Browse all {total_count} solutions</strong></summary>",
+        "",
+        "## Solution catalog",
+        "",
+        "LeetCode and NeetCode solutions, organized by difficulty and problem pattern.",
         ""
     ]
 
@@ -340,27 +355,8 @@ def main():
     if hard_count > 0:
         lines.extend(render_table("Hard", "🔴", problems_by_diff.get("Hard", [])))
 
-    new_section = "\n".join(lines).strip() + "\n"
-
-    # Read existing README.md
-    if os.path.exists(README_PATH):
-        with open(README_PATH, "r", encoding="utf-8") as f:
-            content = f.read()
-    else:
-        content = "# Problem Solving\n\n"
-
-    marker = "<!-- SOLUTIONS_END -->"
-    if marker in content:
-        top_part = content.split(marker)[0] + marker + "\n\n"
-        final_content = top_part + new_section
-    elif "## Solved Problems Catalog" in content:
-        top_part = content.split("## Solved Problems Catalog")[0]
-        final_content = top_part + new_section
-    elif "## Data Structures & Algorithms" in content:
-        top_part = content.split("## Data Structures & Algorithms")[0]
-        final_content = top_part + new_section
-    else:
-        final_content = content.rstrip() + "\n\n" + new_section
+    lines.extend(["</details>", ""])
+    final_content = "\n".join(lines)
 
     with open(README_PATH, "w", encoding="utf-8") as f:
         f.write(final_content)
