@@ -643,5 +643,10 @@
     "title": "Three Integer Sum",
     "difficulty": "Easy",
     "category": "Algorithms"
+  },
+  "first-missing-positive": {
+    "title": "First Missing Positive",
+    "difficulty": "Hard",
+    "category": "Array / Hash Table"
   }
 }
