@@ -618,5 +618,10 @@
     "title": "Two Sum II - Input Array Is Sorted",
     "difficulty": "Medium",
     "category": "Array / Two Pointers"
+  },
+  "count-pairs-in-two-arrays": {
+    "title": "Count Pairs in Two Arrays",
+    "difficulty": "Medium",
+    "category": "Array / Two Pointers"
   }
 }
