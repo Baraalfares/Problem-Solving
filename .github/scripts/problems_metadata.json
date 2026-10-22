@@ -628,5 +628,10 @@
     "title": "Maximum Number of People That Can Be Caught in Tag",
     "difficulty": "Medium",
     "category": "Array / Two Pointers"
+  },
+  "string-compression": {
+    "title": "String Compression",
+    "difficulty": "Medium",
+    "category": "Two Pointers / String"
   }
 }
