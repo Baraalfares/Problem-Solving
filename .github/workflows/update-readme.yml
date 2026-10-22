@@ -45,7 +45,7 @@ jobs:
             git fetch origin "$TARGET_BRANCH"
             git reset --hard FETCH_HEAD
             python .github/scripts/update_readme.py
-            git add README.md assets/overview.svg assets/pattern-*.svg .github/scripts/problems_metadata.json
+            git add README.md assets/overview.svg assets/pattern-*.svg assets/readme .github/scripts/problems_metadata.json
             if git diff --staged --quiet; then
               echo "README is already up to date"
               exit 0
