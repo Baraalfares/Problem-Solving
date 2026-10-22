@@ -4,38 +4,57 @@ on:
   push:
     branches:
       - main
-    paths-ignore:
-      - '.github/workflows/**'
+  # Recover automatically if a solution sync does not create a push run.
+  schedule:
+    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
+
+concurrency:
+  group: readme-update-${{ github.ref }}
+  cancel-in-progress: false
 
 permissions:
   contents: write
 
 jobs:
   update-readme:
+    if: github.ref_type == 'branch'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      - name: Run README update script
-        run: |
-          python .github/scripts/update_readme.py
-
-      - name: Commit and push changes
+      - name: Refresh README and publish changes
+        env:
+          TARGET_BRANCH: ${{ github.ref_name }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/overview.svg assets/pattern-*.svg .github/scripts/problems_metadata.json
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
+          for attempt in 1 2 3; do
+            # This disposable checkout contains only generated local changes.
+            # Regenerate from the latest solutions after a rejected push.
+            git fetch origin "$TARGET_BRANCH"
+            git reset --hard FETCH_HEAD
+            python .github/scripts/update_readme.py
+            git add README.md assets/overview.svg assets/pattern-*.svg assets/readme .github/scripts/problems_metadata.json
+            if git diff --staged --quiet; then
+              echo "README is already up to date"
+              exit 0
+            fi
             git commit -m "docs: auto-update README problems list [skip ci]"
-            git push
-          fi
+            if git push origin "HEAD:$TARGET_BRANCH"; then
+              exit 0
+            fi
+            echo "Push failed on attempt $attempt; retrying from the latest branch"
+          done
+          echo "::error::Could not publish the README after three attempts"
+          exit 1

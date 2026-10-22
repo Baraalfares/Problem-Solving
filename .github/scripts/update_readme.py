@@ -23,9 +23,18 @@ PATTERN_CARDS = [
 
 
 def asset_url(path):
-    """Change the image URL when its contents change to bypass stale caches."""
-    version = hashlib.sha256(path.read_bytes()).hexdigest()[:12]
-    return f"assets/{path.name}?v={version}"
+    """Publish a distinct file for each image version, independent of URL queries."""
+    content = path.read_bytes()
+    version = hashlib.sha256(content).hexdigest()[:12]
+    directory = path.parent / "readme"
+    directory.mkdir(parents=True, exist_ok=True)
+    versioned = directory / f"{path.stem}-{version}.svg"
+    versioned.write_bytes(content)
+    # Keep only the current generated version of this image in the working tree.
+    for previous in directory.glob(f"{path.stem}-*.svg"):
+        if previous != versioned and re.fullmatch(rf"{re.escape(path.stem)}-[0-9a-f]{{12}}\.svg", previous.name):
+            previous.unlink()
+    return f"assets/readme/{versioned.name}"
 
 
 def write_pattern_cards():
