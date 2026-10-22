@@ -149,7 +149,7 @@ LeetCode and NeetCode solutions, organized by difficulty and problem pattern.
 | 37 | [Reverse Words in a String II](<Data Structures & Algorithms/reverse-words-in-a-string-ii>) | Two Pointers / In-place Array | [C++](<Data Structures & Algorithms/reverse-words-in-a-string-ii/submission-0.cpp>) |
 | 38 | [Sort Colors](<Data Structures & Algorithms/sort-colors>) | Array / Two Pointers | [C++](<Data Structures & Algorithms/sort-colors/submission-0.cpp>) |
 | 39 | [Sort Features by Popularity](<Data Structures & Algorithms/sort-features-by-popularity>) | Array / Hash Table | [C++](<Data Structures & Algorithms/sort-features-by-popularity/submission-0.cpp>) |
-| 40 | [String Compression](<Data Structures & Algorithms/string-compression>) | Two Pointers / String | [C++](<Data Structures & Algorithms/string-compression/submission-0.cpp>) |
+| 40 | [String Compression](<Data Structures & Algorithms/string-compression>) | Two Pointers / String | [C++](<Data Structures & Algorithms/string-compression/submission-1.cpp>) |
 | 41 | [Subarray Sum Equals K](<Data Structures & Algorithms/subarray-sum-equals-k>) | Array / Hash Table | [C++](<Data Structures & Algorithms/subarray-sum-equals-k/submission-1.cpp>) |
 | 42 | [Subarray Sums Divisible by K](<Data Structures & Algorithms/subarray-sums-divisible-by-k>) | Array / Hash Table | [C++](<Data Structures & Algorithms/subarray-sums-divisible-by-k/submission-1.cpp>) |
 | 43 | [Substrings That Begin and End With the Same Letter](<Data Structures & Algorithms/substrings-that-begin-and-end-with-the-same-letter>) | Hash Table / Math | [C++](<Data Structures & Algorithms/substrings-that-begin-and-end-with-the-same-letter/submission-1.cpp>) |
