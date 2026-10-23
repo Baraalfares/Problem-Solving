@@ -167,7 +167,8 @@ NEETCODE_ALIASES = {
     "kth-smallest-element-in-a-bst": "kth-smallest-element-in-a-bst",
     "construct-binary-tree-from-preorder-and-inorder-traversal": "construct-binary-tree-from-preorder-and-inorder-traversal",
     "binary-tree-maximum-path-sum": "binary-tree-maximum-path-sum",
-    "serialize-and-deserialize-binary-tree": "serialize-and-deserialize-binary-tree"
+    "serialize-and-deserialize-binary-tree": "serialize-and-deserialize-binary-tree",
+    "max-water-container": "container-with-most-water"
 }
 
 def load_metadata():
