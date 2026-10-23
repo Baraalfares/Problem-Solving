@@ -648,5 +648,10 @@
     "title": "First Missing Positive",
     "difficulty": "Hard",
     "category": "Array / Hash Table"
+  },
+  "eating-bananas": {
+    "title": "Eating Bananas",
+    "difficulty": "Easy",
+    "category": "Algorithms"
   }
 }
