@@ -653,5 +653,10 @@
     "title": "Eating Bananas",
     "difficulty": "Easy",
     "category": "Algorithms"
+  },
+  "rotate-array": {
+    "title": "Rotate Array",
+    "difficulty": "Medium",
+    "category": "Array / Math"
   }
 }
