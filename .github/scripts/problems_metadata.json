@@ -653,5 +653,10 @@
     "title": "Koko Eating Bananas",
     "difficulty": "Medium",
     "category": "Array / Binary Search"
+  },
+  "rotate-array": {
+    "title": "Rotate Array",
+    "difficulty": "Medium",
+    "category": "Array / Math"
   }
 }
