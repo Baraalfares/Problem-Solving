@@ -663,5 +663,11 @@
     "title": "Rotate Array",
     "difficulty": "Medium",
     "category": "Array / Math"
+  },
+  "max-water-container": {
+    "title": "Container With Most Water",
+    "difficulty": "Medium",
+    "category": "Array / Two Pointers",
+    "source": "https://leetcode.com/problems/container-with-most-water/"
   }
 }
