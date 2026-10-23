@@ -640,9 +640,9 @@
     "category": "Array / Two Pointers"
   },
   "three-integer-sum": {
-    "title": "Three Integer Sum",
-    "difficulty": "Easy",
-    "category": "Algorithms"
+    "title": "3Sum",
+    "difficulty": "Medium",
+    "category": "Array / Two Pointers"
   },
   "first-missing-positive": {
     "title": "First Missing Positive",
@@ -650,9 +650,9 @@
     "category": "Array / Hash Table"
   },
   "eating-bananas": {
-    "title": "Eating Bananas",
-    "difficulty": "Easy",
-    "category": "Algorithms"
+    "title": "Koko Eating Bananas",
+    "difficulty": "Medium",
+    "category": "Array / Binary Search"
   },
   "rotate-array": {
     "title": "Rotate Array",
