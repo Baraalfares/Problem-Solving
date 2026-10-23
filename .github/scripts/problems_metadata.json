@@ -675,5 +675,11 @@
     "difficulty": "Medium",
     "category": "Array / Two Pointers",
     "source": "https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/"
+  },
+  "array-with-elements-not-equal-to-average-of-neighbors": {
+    "title": "Array With Elements Not Equal to Average of Neighbors",
+    "difficulty": "Medium",
+    "category": "Array / Greedy",
+    "source": "https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/"
   }
 }
