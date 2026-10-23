@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" role="img" aria-labelledby="title desc">
 <title id="title">Baraa's coding journal — Problem Solving</title>
-<desc id="desc">132 problems solved: 74 easy, 57 medium, and 1 hard.</desc>
+<desc id="desc">133 problems solved: 74 easy, 57 medium, and 1 hard. 1 awaiting difficulty.</desc>
 <style>
 text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
 .eyebrow { fill: #566271; font-size: 12px; font-weight: 600; letter-spacing: 1.4px; }
@@ -18,11 +18,11 @@ text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
 <text x="62" y="50" class="eyebrow">BARAA'S CODING JOURNAL</text>
 <text x="60" y="87" class="heading">Problem Solving</text>
 <text x="62" y="114" class="subtitle">A curated archive of accepted C++ solutions.</text>
-<text x="36" y="219" class="total">132</text>
+<text x="36" y="219" class="total">133</text>
 <text x="40" y="247" class="subtitle">problems solved</text>
-<text x="40" y="284" class="label">Easy</text><rect x="123" y="274" width="228" height="8" rx="4" fill="#f5f8fa"/><rect x="123" y="274" width="228.00" height="8" rx="4" fill="#36b782"/><text x="391" y="284" class="count" text-anchor="end">74</text><text x="40" y="316" class="label">Medium</text><rect x="123" y="306" width="228" height="8" rx="4" fill="#f5f8fa"/><rect x="123" y="306" width="175.62" height="8" rx="4" fill="#e5ae46"/><text x="391" y="316" class="count" text-anchor="end">57</text><text x="40" y="348" class="label">Hard</text><rect x="123" y="338" width="228" height="8" rx="4" fill="#f5f8fa"/><rect x="123" y="338" width="3.08" height="8" rx="4" fill="#ef6b73"/><text x="391" y="348" class="count" text-anchor="end">1</text>
+<text x="40" y="284" class="label">Easy</text><rect x="123" y="274" width="228" height="8" rx="4" fill="#f5f8fa"/><rect x="123" y="274" width="228.00" height="8" rx="4" fill="#36b782"/><text x="391" y="284" class="count" text-anchor="end">74</text><text x="40" y="316" class="label">Medium</text><rect x="123" y="306" width="228" height="8" rx="4" fill="#f5f8fa"/><rect x="123" y="306" width="175.62" height="8" rx="4" fill="#e5ae46"/><text x="391" y="316" class="count" text-anchor="end">57</text><text x="40" y="348" class="label">Hard</text><rect x="123" y="338" width="228" height="8" rx="4" fill="#f5f8fa"/><rect x="123" y="338" width="3.08" height="8" rx="4" fill="#ef6b73"/><text x="391" y="348" class="count" text-anchor="end">1</text><text x="40" y="371" class="ring-label">1 awaiting difficulty (gray)</text>
 <circle cx="708" cy="254" r="76" fill="none" stroke="#f5f8fa" stroke-width="22"/>
-<circle cx="708" cy="254" r="76" fill="none" stroke="#36b782" stroke-width="22" stroke-dasharray="267.7018 209.8203" stroke-dashoffset="0.0000" transform="rotate(-90 708 254)"/><circle cx="708" cy="254" r="76" fill="none" stroke="#e5ae46" stroke-width="22" stroke-dasharray="206.2027 271.3194" stroke-dashoffset="-267.7018" transform="rotate(-90 708 254)"/><circle cx="708" cy="254" r="76" fill="none" stroke="#ef6b73" stroke-width="22" stroke-dasharray="3.6176 473.9045" stroke-dashoffset="-473.9045" transform="rotate(-90 708 254)"/>
+<circle cx="708" cy="254" r="76" fill="none" stroke="#36b782" stroke-width="22" stroke-dasharray="265.6890 211.8331" stroke-dashoffset="0.0000" transform="rotate(-90 708 254)"/><circle cx="708" cy="254" r="76" fill="none" stroke="#e5ae46" stroke-width="22" stroke-dasharray="204.6523 272.8698" stroke-dashoffset="-265.6890" transform="rotate(-90 708 254)"/><circle cx="708" cy="254" r="76" fill="none" stroke="#ef6b73" stroke-width="22" stroke-dasharray="3.5904 473.9317" stroke-dashoffset="-470.3413" transform="rotate(-90 708 254)"/><circle cx="708" cy="254" r="76" fill="none" stroke="#94a3b8" stroke-width="22" stroke-dasharray="3.5904 473.9317" stroke-dashoffset="-473.9317" transform="rotate(-90 708 254)"/>
 <text x="708" y="256" class="percentage" text-anchor="middle">56%</text>
 <text x="708" y="281" class="ring-label" text-anchor="middle">easy</text>
 <line x1="40" y1="382" x2="860" y2="382" stroke="#dce2e8"/>
