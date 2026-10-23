@@ -6,6 +6,7 @@ import urllib.request
 import urllib.error
 import math
 import hashlib
+from functools import lru_cache
 from html import escape
 from pathlib import Path
 from urllib.parse import quote
@@ -62,9 +63,9 @@ def write_pattern_cards():
     return '<p align="center">' + "\n".join(links) + '</p>'
 
 
-def write_overview(easy, medium, hard):
+def write_overview(easy, medium, hard, pending=0):
     """Render the white Editorial design from the catalog counts."""
-    total = easy + medium + hard
+    total = easy + medium + hard + pending
     counts = [("Easy", easy, "#36b782"), ("Medium", medium, "#e5ae46"),
               ("Hard", hard, "#ef6b73")]
     largest = max(easy, medium, hard, 1)
@@ -82,7 +83,7 @@ def write_overview(easy, medium, hard):
     segments = []
     circumference = 2 * math.pi * 76
     offset = 0
-    for _, count, color in counts:
+    for _, count, color in counts + [("Pending", pending, "#94a3b8")]:
         if count:
             length = circumference * count / total
             segments.append(
@@ -93,9 +94,12 @@ def write_overview(easy, medium, hard):
             offset += length
 
     easy_share = round(100 * easy / total) if total else 0
+    pending_description = f" {pending} awaiting difficulty." if pending else ""
+    pending_label = (f'<text x="40" y="371" class="ring-label">{pending} awaiting difficulty (gray)</text>'
+                     if pending else "")
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" role="img" aria-labelledby="title desc">
 <title id="title">Baraa's coding journal — Problem Solving</title>
-<desc id="desc">{total} problems solved: {easy} easy, {medium} medium, and {hard} hard.</desc>
+<desc id="desc">{total} problems solved: {easy} easy, {medium} medium, and {hard} hard.{pending_description}</desc>
 <style>
 text {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }}
 .eyebrow {{ fill: #566271; font-size: 12px; font-weight: 600; letter-spacing: 1.4px; }}
@@ -115,7 +119,7 @@ text {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; 
 <text x="62" y="114" class="subtitle">A curated archive of accepted C++ solutions.</text>
 <text x="36" y="219" class="total">{total}</text>
 <text x="40" y="247" class="subtitle">problems solved</text>
-{''.join(bars)}
+{''.join(bars)}{pending_label}
 <circle cx="708" cy="254" r="76" fill="none" stroke="#f5f8fa" stroke-width="22"/>
 {''.join(segments)}
 <text x="708" y="256" class="percentage" text-anchor="middle">{easy_share}%</text>
@@ -129,6 +133,10 @@ text {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; 
 
 # Known NeetCode -> LeetCode slug mappings
 NEETCODE_ALIASES = {
+    "anagram-groups": "group-anagrams",
+    "string-encode-and-decode": "encode-and-decode-strings",
+    "search-2d-matrix": "search-a-2d-matrix",
+    "products-of-array-discluding-self": "product-of-array-except-self",
     "eating-bananas": "koko-eating-bananas",
     "three-integer-sum": "3sum",
     "top-k-elements-in-list": "top-k-frequent-elements",
@@ -179,6 +187,11 @@ def save_metadata(meta):
     except Exception as e:
         print(f"Warning: Could not save metadata file: {e}")
 
+def valid_difficulty(value):
+    value = value.strip().capitalize() if isinstance(value, str) else None
+    return value if value in {"Easy", "Medium", "Hard"} else None
+
+
 def fetch_leetcode_info(slug):
     leetcode_slug = NEETCODE_ALIASES.get(slug, slug)
     query = """
@@ -205,16 +218,81 @@ def fetch_leetcode_info(slug):
     try:
         with urllib.request.urlopen(req, timeout=5) as response:
             payload = json.loads(response.read().decode("utf-8"))
-            q = payload.get("data", {}).get("question")
+            q = (payload.get("data") or {}).get("question")
             if q:
                 title = q.get("title")
-                diff = q.get("difficulty", "Medium")
+                diff = valid_difficulty(q.get("difficulty"))
+                if not title or not diff:
+                    return None
                 tags = [t["name"] for t in q.get("topicTags", [])[:2]]
                 cat = " / ".join(tags) if tags else "Algorithms"
-                return {"title": title, "difficulty": diff, "category": cat}
+                return {"title": title, "difficulty": diff, "category": cat,
+                        "source": f"https://leetcode.com/problems/{leetcode_slug}/"}
     except Exception as e:
         print(f"Notice: Could not fetch info from LeetCode for {slug}: {e}")
     return None
+
+
+NEETCODE_CATALOG_URL = "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/.problemSiteData.json"
+
+
+@lru_cache(maxsize=1)
+def load_neetcode_catalog():
+    """Fetch once per run, including when multiple lookups need the fallback."""
+    try:
+        with urllib.request.urlopen(NEETCODE_CATALOG_URL, timeout=10) as response:
+            rows = json.load(response)
+        if not isinstance(rows, list):
+            return {}
+        return {row["link"].strip("/"): row for row in rows
+                if isinstance(row, dict) and isinstance(row.get("link"), str)}
+    except Exception as e:
+        print(f"Notice: Could not fetch NeetCode catalog: {e}")
+        return {}
+
+
+def fetch_problem_info(slug):
+    meta = fetch_leetcode_info(slug)
+    if meta:
+        return meta
+    canonical_slug = NEETCODE_ALIASES.get(slug, slug)
+    row = load_neetcode_catalog().get(canonical_slug, {})
+    difficulty = valid_difficulty(row.get("difficulty"))
+    if difficulty and row.get("problem"):
+        return {"title": row["problem"], "difficulty": difficulty,
+                "category": row.get("pattern") or "Algorithms",
+                "source": NEETCODE_CATALOG_URL}
+    return None
+
+
+def resolve_metadata(item, metadata):
+    """Cache known difficulties only; unresolved entries are retried next run."""
+    slug = item["slug"]
+    cached = metadata.get(slug) or {}
+    readme_diff = valid_difficulty(item.get("readme_diff"))
+    if readme_diff:
+        resolved = {**cached,
+                    "title": item.get("readme_title") or cached.get("title") or slug_to_title(slug),
+                    "difficulty": readme_diff,
+                    "category": cached.get("category") or "Algorithms",
+                    "source": f'{item["folder_relpath"]}/README.md'}
+    else:
+        # The old fallback stored fabricated Easy entries with this signature.
+        legacy_fallback = not cached.get("source") and cached.get("category") == "Algorithms"
+        difficulty = valid_difficulty(cached.get("difficulty"))
+        if difficulty and not legacy_fallback:
+            return {**cached, "difficulty": difficulty}
+        resolved = fetch_problem_info(slug)
+
+    if resolved:
+        metadata[slug] = resolved
+        return resolved
+
+    # Remove stale guesses, rather than allowing a failed refresh to preserve them.
+    metadata.pop(slug, None)
+    print(f"::warning::Difficulty pending for {slug}; it will be retried on the next update.")
+    return {"title": item.get("readme_title") or cached.get("title") or slug_to_title(slug),
+            "difficulty": "Pending", "category": cached.get("category") or "Algorithms"}
 
 def slug_to_title(slug):
     parts = slug.split("-")
@@ -296,34 +374,18 @@ def find_all_problems():
 
 def main():
     metadata = load_metadata()
-    updated_meta = False
+    original_metadata = json.dumps(metadata, sort_keys=True)
+    load_neetcode_catalog.cache_clear()
 
     problems = find_all_problems()
     print(f"Total problems discovered across repository: {len(problems)}")
 
-    problems_by_diff = {"Easy": [], "Medium": [], "Hard": []}
+    problems_by_diff = {"Easy": [], "Medium": [], "Hard": [], "Pending": []}
 
     for item in problems:
         slug = item["slug"]
-        meta = metadata.get(slug)
-        if not meta:
-            fetched = fetch_leetcode_info(slug)
-            if fetched:
-                meta = fetched
-            else:
-                title = item.get("readme_title") or slug_to_title(slug)
-                diff = item.get("readme_diff") or "Easy"
-                meta = {
-                    "title": title,
-                    "difficulty": diff,
-                    "category": "Algorithms"
-                }
-            metadata[slug] = meta
-            updated_meta = True
-
-        diff = (item.get("readme_diff") or meta.get("difficulty", "Easy")).capitalize()
-        if diff not in problems_by_diff:
-            problems_by_diff[diff] = []
+        meta = resolve_metadata(item, metadata)
+        diff = meta["difficulty"]
 
         title = item.get("readme_title") or meta.get("title", slug_to_title(slug))
         category = meta.get("category", "Algorithms")
@@ -336,7 +398,7 @@ def main():
             "sol_relpath": item["sol_relpath"]
         })
 
-    if updated_meta:
+    if json.dumps(metadata, sort_keys=True) != original_metadata:
         save_metadata(metadata)
 
     # Sort each list alphabetically by problem title
@@ -346,15 +408,17 @@ def main():
     easy_count = len(problems_by_diff.get("Easy", []))
     medium_count = len(problems_by_diff.get("Medium", []))
     hard_count = len(problems_by_diff.get("Hard", []))
-    total_count = easy_count + medium_count + hard_count
-    write_overview(easy_count, medium_count, hard_count)
+    pending_count = len(problems_by_diff["Pending"])
+    total_count = easy_count + medium_count + hard_count + pending_count
+    write_overview(easy_count, medium_count, hard_count, pending_count)
+    pending_description = f" {pending_count} awaiting difficulty." if pending_count else ""
     pattern_cards = write_pattern_cards()
 
     # Own the entire README so older LeetBridge panels cannot survive a refresh.
     lines = [
         "<!-- Generated by .github/scripts/update_readme.py. Edit the generator to change this README. -->",
         "",
-        f'<p align="center"><img src="{asset_url(OVERVIEW_PATH)}" alt="Baraa\'s coding journal: {total_count} problems solved — {easy_count} Easy, {medium_count} Medium, {hard_count} Hard." width="100%"></p>',
+        f'<p align="center"><img src="{asset_url(OVERVIEW_PATH)}" alt="Baraa\'s coding journal: {total_count} problems solved — {easy_count} Easy, {medium_count} Medium, {hard_count} Hard.{pending_description}" width="100%"></p>',
         "",
         pattern_cards,
         "",
@@ -373,7 +437,7 @@ def main():
         table_lines = [
             "---",
             "",
-            f'<a id="{diff_label.lower()}"></a>',
+            f'<a id="{diff_label.lower().replace(" ", "-")}"></a>',
             "",
             f"### {emoji} {diff_label} ({len(problem_items)} Problems)",
             "",
@@ -396,6 +460,9 @@ def main():
     lines.extend(render_table("Medium", "🟡", problems_by_diff.get("Medium", [])))
     if hard_count > 0:
         lines.extend(render_table("Hard", "🔴", problems_by_diff.get("Hard", [])))
+    if pending_count:
+        lines.extend(render_table("Difficulty pending", "⚪", problems_by_diff["Pending"]))
+        lines.extend(["Difficulty could not be verified yet. These solutions count toward the total and are checked again on each automatic update.", ""])
 
     lines.extend(["</details>", ""])
     final_content = "\n".join(lines)
