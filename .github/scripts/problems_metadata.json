@@ -187,7 +187,8 @@
   "two-sum": {
     "title": "Two Sum",
     "difficulty": "Easy",
-    "category": "Array / Hash Table"
+    "category": "Array / Hash Table",
+    "source": "0001-two-sum/README.md"
   },
   "design-linked-list": {
     "title": "Design Linked List",
@@ -225,9 +226,10 @@
     "category": "Array / String"
   },
   "anagram-groups": {
-    "title": "Anagram Groups",
-    "difficulty": "Easy",
-    "category": "Algorithms"
+    "title": "Group Anagrams",
+    "difficulty": "Medium",
+    "category": "Array / Hash Table",
+    "source": "https://leetcode.com/problems/group-anagrams/"
   },
   "isomorphic-strings": {
     "title": "Isomorphic Strings",
@@ -450,9 +452,10 @@
     "category": "Array / Design"
   },
   "string-encode-and-decode": {
-    "title": "String Encode And Decode",
-    "difficulty": "Easy",
-    "category": "Algorithms"
+    "title": "Encode and Decode Strings",
+    "difficulty": "Medium",
+    "category": "Array / String",
+    "source": "https://leetcode.com/problems/encode-and-decode-strings/"
   },
   "binary-search": {
     "title": "Binary Search",
@@ -460,14 +463,16 @@
     "category": "Array / Binary Search"
   },
   "search-2d-matrix": {
-    "title": "Search 2d Matrix",
-    "difficulty": "Easy",
-    "category": "Algorithms"
+    "title": "Search a 2D Matrix",
+    "difficulty": "Medium",
+    "category": "Array / Binary Search",
+    "source": "https://leetcode.com/problems/search-a-2d-matrix/"
   },
   "products-of-array-discluding-self": {
-    "title": "Products Of Array Discluding Self",
-    "difficulty": "Easy",
-    "category": "Algorithms"
+    "title": "Product of Array Except Self",
+    "difficulty": "Medium",
+    "category": "Array / Prefix Sum",
+    "source": "https://leetcode.com/problems/product-of-array-except-self/"
   },
   "find-all-duplicates-in-an-array": {
     "title": "Find All Duplicates in an Array",
