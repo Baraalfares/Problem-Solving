@@ -129,6 +129,8 @@ text {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; 
 
 # Known NeetCode -> LeetCode slug mappings
 NEETCODE_ALIASES = {
+    "eating-bananas": "koko-eating-bananas",
+    "three-integer-sum": "3sum",
     "top-k-elements-in-list": "top-k-frequent-elements",
     "duplicate-integer": "contains-duplicate",
     "is-anagram": "valid-anagram",
