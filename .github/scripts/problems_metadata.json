@@ -669,5 +669,11 @@
     "difficulty": "Medium",
     "category": "Array / Two Pointers",
     "source": "https://leetcode.com/problems/container-with-most-water/"
+  },
+  "number-of-subsequences-that-satisfy-the-given-sum-condition": {
+    "title": "Number of Subsequences That Satisfy the Given Sum Condition",
+    "difficulty": "Medium",
+    "category": "Array / Two Pointers",
+    "source": "https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/"
   }
 }
