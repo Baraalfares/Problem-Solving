@@ -681,5 +681,11 @@
     "difficulty": "Medium",
     "category": "Array / Greedy",
     "source": "https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/"
+  },
+  "divide-players-into-teams-of-equal-skill": {
+    "title": "Divide Players Into Teams of Equal Skill",
+    "difficulty": "Medium",
+    "category": "Array / Hash Table",
+    "source": "https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/"
   }
 }
