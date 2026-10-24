@@ -687,5 +687,11 @@
     "difficulty": "Medium",
     "category": "Array / Hash Table",
     "source": "https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/"
+  },
+  "boats-to-save-people": {
+    "title": "Boats to Save People",
+    "difficulty": "Medium",
+    "category": "Array / Two Pointers",
+    "source": "https://leetcode.com/problems/boats-to-save-people/"
   }
 }
