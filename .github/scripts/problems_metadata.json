@@ -693,5 +693,11 @@
     "difficulty": "Medium",
     "category": "Array / Two Pointers",
     "source": "https://leetcode.com/problems/boats-to-save-people/"
+  },
+  "check-if-two-string-arrays-are-equivalent": {
+    "title": "Check If Two String Arrays are Equivalent",
+    "difficulty": "Easy",
+    "category": "Array / String",
+    "source": "https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/"
   }
 }
