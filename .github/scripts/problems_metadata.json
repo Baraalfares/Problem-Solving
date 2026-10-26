@@ -717,5 +717,11 @@
     "difficulty": "Medium",
     "category": "Array / Two Pointers",
     "source": "https://leetcode.com/problems/bag-of-tokens/"
+  },
+  "minimum-length-of-string-after-deleting-similar-ends": {
+    "title": "Minimum Length of String After Deleting Similar Ends",
+    "difficulty": "Medium",
+    "category": "Two Pointers / String",
+    "source": "https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/"
   }
 }
