@@ -699,5 +699,11 @@
     "difficulty": "Easy",
     "category": "Array / String",
     "source": "https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/"
+  },
+  "minimum-time-to-make-rope-colorful": {
+    "title": "Minimum Time to Make Rope Colorful",
+    "difficulty": "Medium",
+    "category": "Array / String",
+    "source": "https://leetcode.com/problems/minimum-time-to-make-rope-colorful/"
   }
 }
