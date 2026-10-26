@@ -705,5 +705,11 @@
     "difficulty": "Medium",
     "category": "Array / String",
     "source": "https://leetcode.com/problems/minimum-time-to-make-rope-colorful/"
+  },
+  "rearrange-array-elements-by-sign": {
+    "title": "Rearrange Array Elements by Sign",
+    "difficulty": "Medium",
+    "category": "Array / Two Pointers",
+    "source": "https://leetcode.com/problems/rearrange-array-elements-by-sign/"
   }
 }
