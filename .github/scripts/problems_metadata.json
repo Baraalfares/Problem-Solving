@@ -723,5 +723,11 @@
     "difficulty": "Medium",
     "category": "Two Pointers / String",
     "source": "https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/"
+  },
+  "4sum": {
+    "title": "4Sum",
+    "difficulty": "Medium",
+    "category": "Array / Two Pointers",
+    "source": "https://leetcode.com/problems/4sum/"
   }
 }
