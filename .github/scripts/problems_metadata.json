@@ -729,5 +729,11 @@
     "difficulty": "Medium",
     "category": "Array / Two Pointers",
     "source": "https://leetcode.com/problems/4sum/"
+  },
+  "sentence-similarity-iii": {
+    "title": "Sentence Similarity III",
+    "difficulty": "Medium",
+    "category": "Array / Two Pointers",
+    "source": "https://leetcode.com/problems/sentence-similarity-iii/"
   }
 }
