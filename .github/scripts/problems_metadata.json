@@ -741,5 +741,11 @@
     "difficulty": "Easy",
     "category": "Array / Binary Search",
     "source": "https://leetcode.com/problems/search-insert-position/"
+  },
+  "guess-number-higher-or-lower": {
+    "title": "Guess Number Higher or Lower",
+    "difficulty": "Easy",
+    "category": "Binary Search / Interactive",
+    "source": "https://leetcode.com/problems/guess-number-higher-or-lower/"
   }
 }
