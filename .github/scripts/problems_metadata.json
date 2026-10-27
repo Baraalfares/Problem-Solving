@@ -735,5 +735,11 @@
     "difficulty": "Medium",
     "category": "Array / Two Pointers",
     "source": "https://leetcode.com/problems/sentence-similarity-iii/"
+  },
+  "search-insert-position": {
+    "title": "Search Insert Position",
+    "difficulty": "Easy",
+    "category": "Array / Binary Search",
+    "source": "https://leetcode.com/problems/search-insert-position/"
   }
 }
