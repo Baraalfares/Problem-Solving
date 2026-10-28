@@ -765,5 +765,11 @@
     "difficulty": "Easy",
     "category": "Math / Binary Search",
     "source": "https://leetcode.com/problems/sqrtx/"
+  },
+  "search-in-a-sorted-array-of-unknown-size": {
+    "title": "Search in a Sorted Array of Unknown Size",
+    "difficulty": "Medium",
+    "category": "Array / Binary Search",
+    "source": "https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/"
   }
 }
