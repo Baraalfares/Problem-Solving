@@ -759,5 +759,11 @@
     "difficulty": "Easy",
     "category": "Math / Binary Search",
     "source": "https://leetcode.com/problems/valid-perfect-square/"
+  },
+  "sqrtx": {
+    "title": "Sqrt(x)",
+    "difficulty": "Easy",
+    "category": "Math / Binary Search",
+    "source": "https://leetcode.com/problems/sqrtx/"
   }
 }
