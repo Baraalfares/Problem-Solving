@@ -753,5 +753,11 @@
     "difficulty": "Easy",
     "category": "Math / Binary Search",
     "source": "https://leetcode.com/problems/arranging-coins/"
+  },
+  "valid-perfect-square": {
+    "title": "Valid Perfect Square",
+    "difficulty": "Easy",
+    "category": "Math / Binary Search",
+    "source": "https://leetcode.com/problems/valid-perfect-square/"
   }
 }
