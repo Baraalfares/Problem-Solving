@@ -771,5 +771,11 @@
     "difficulty": "Medium",
     "category": "Array / Binary Search",
     "source": "https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/"
+  },
+  "single-element-in-a-sorted-array": {
+    "title": "Single Element in a Sorted Array",
+    "difficulty": "Medium",
+    "category": "Array / Binary Search",
+    "source": "https://leetcode.com/problems/single-element-in-a-sorted-array/"
   }
 }
