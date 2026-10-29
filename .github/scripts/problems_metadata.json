@@ -789,5 +789,11 @@
     "difficulty": "Medium",
     "category": "Array / Binary Search",
     "source": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/"
+  },
+  "contains-duplicate-ii": {
+    "title": "Contains Duplicate II",
+    "difficulty": "Easy",
+    "category": "Array / Hash Table",
+    "source": "https://leetcode.com/problems/contains-duplicate-ii/"
   }
 }
