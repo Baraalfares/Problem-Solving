@@ -777,5 +777,11 @@
     "difficulty": "Medium",
     "category": "Array / Binary Search",
     "source": "https://leetcode.com/problems/single-element-in-a-sorted-array/"
+  },
+  "find-peak-element": {
+    "title": "Find Peak Element",
+    "difficulty": "Medium",
+    "category": "Array / Binary Search",
+    "source": "https://leetcode.com/problems/find-peak-element/"
   }
 }
