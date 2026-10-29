@@ -783,5 +783,11 @@
     "difficulty": "Medium",
     "category": "Array / Binary Search",
     "source": "https://leetcode.com/problems/find-peak-element/"
+  },
+  "capacity-to-ship-packages-within-d-days": {
+    "title": "Capacity To Ship Packages Within D Days",
+    "difficulty": "Medium",
+    "category": "Array / Binary Search",
+    "source": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/"
   }
 }
