@@ -795,5 +795,11 @@
     "difficulty": "Easy",
     "category": "Array / Hash Table",
     "source": "https://leetcode.com/problems/contains-duplicate-ii/"
+  },
+  "missing-element-in-sorted-array": {
+    "title": "Missing Element in Sorted Array",
+    "difficulty": "Medium",
+    "category": "Array / Binary Search",
+    "source": "https://leetcode.com/problems/missing-element-in-sorted-array/"
   }
 }
