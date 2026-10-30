@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" role="img" aria-labelledby="title desc">
+<title id="title">Baraa's coding journal — Problem Solving</title>
+<desc id="desc">158 problems solved: 81 easy, 75 medium, and 1 hard. 1 awaiting difficulty.</desc>
+<style>
+text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.eyebrow { fill: #566271; font-size: 12px; font-weight: 600; letter-spacing: 1.4px; }
+.heading { fill: #172331; font-size: 34px; font-weight: 700; letter-spacing: -1.2px; }
+.total { fill: #172331; font-size: 76px; font-weight: 700; letter-spacing: -4px; }
+.subtitle { fill: #566271; font-size: 16px; }
+.label { fill: #172331; font-size: 14px; }
+.count { fill: #172331; font-size: 14px; font-weight: 700; }
+.percentage { fill: #172331; font-size: 36px; font-weight: 700; }
+.ring-label { fill: #566271; font-size: 14px; }
+.section { fill: #8b5bd5; font-size: 13px; font-weight: 700; letter-spacing: 1.2px; }
+</style>
+<rect x="1" y="1" width="898" height="438" rx="14" fill="#ffffff" stroke="#dce2e8"/>
+<rect x="40" y="36" width="4" height="86" fill="#8b5bd5"/>
+<text x="62" y="50" class="eyebrow">BARAA'S CODING JOURNAL</text>
+<text x="60" y="87" class="heading">Problem Solving</text>
+<text x="62" y="114" class="subtitle">A curated archive of accepted C++ solutions.</text>
+<text x="36" y="219" class="total">158</text>
+<text x="40" y="247" class="subtitle">problems solved</text>
+<text x="40" y="284" class="label">Easy</text><rect x="123" y="274" width="228" height="8" rx="4" fill="#f5f8fa"/><rect x="123" y="274" width="228.00" height="8" rx="4" fill="#36b782"/><text x="391" y="284" class="count" text-anchor="end">81</text><text x="40" y="316" class="label">Medium</text><rect x="123" y="306" width="228" height="8" rx="4" fill="#f5f8fa"/><rect x="123" y="306" width="211.11" height="8" rx="4" fill="#e5ae46"/><text x="391" y="316" class="count" text-anchor="end">75</text><text x="40" y="348" class="label">Hard</text><rect x="123" y="338" width="228" height="8" rx="4" fill="#f5f8fa"/><rect x="123" y="338" width="2.81" height="8" rx="4" fill="#ef6b73"/><text x="391" y="348" class="count" text-anchor="end">1</text><text x="40" y="371" class="ring-label">1 awaiting difficulty (gray)</text>
+<circle cx="708" cy="254" r="76" fill="none" stroke="#f5f8fa" stroke-width="22"/>
+<circle cx="708" cy="254" r="76" fill="none" stroke="#36b782" stroke-width="22" stroke-dasharray="244.8056 232.7165" stroke-dashoffset="0.0000" transform="rotate(-90 708 254)"/><circle cx="708" cy="254" r="76" fill="none" stroke="#e5ae46" stroke-width="22" stroke-dasharray="226.6719 250.8502" stroke-dashoffset="-244.8056" transform="rotate(-90 708 254)"/><circle cx="708" cy="254" r="76" fill="none" stroke="#ef6b73" stroke-width="22" stroke-dasharray="3.0223 474.4998" stroke-dashoffset="-471.4775" transform="rotate(-90 708 254)"/><circle cx="708" cy="254" r="76" fill="none" stroke="#94a3b8" stroke-width="22" stroke-dasharray="3.0223 474.4998" stroke-dashoffset="-474.4998" transform="rotate(-90 708 254)"/>
+<text x="708" y="256" class="percentage" text-anchor="middle">51%</text>
+<text x="708" y="281" class="ring-label" text-anchor="middle">easy</text>
+<line x1="40" y1="382" x2="860" y2="382" stroke="#dce2e8"/>
+<text x="40" y="417" class="section">SELECTED PATTERNS</text>
+</svg>
