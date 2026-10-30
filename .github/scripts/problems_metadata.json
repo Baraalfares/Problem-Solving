@@ -807,5 +807,11 @@
     "difficulty": "Medium",
     "category": "Array / Binary Search",
     "source": "https://leetcode.com/problems/find-the-index-of-the-large-integer/"
+  },
+  "find-minimum-in-rotated-sorted-array": {
+    "title": "Find Minimum in Rotated Sorted Array",
+    "difficulty": "Medium",
+    "category": "Array / Binary Search",
+    "source": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/"
   }
 }
