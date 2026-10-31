@@ -813,5 +813,11 @@
     "difficulty": "Medium",
     "category": "Array / Binary Search",
     "source": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/"
+  },
+  "find-first-and-last-position-of-element-in-sorted-array": {
+    "title": "Find First and Last Position of Element in Sorted Array",
+    "difficulty": "Medium",
+    "category": "Array / Binary Search",
+    "source": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/"
   }
 }
