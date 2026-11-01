@@ -819,5 +819,17 @@
     "difficulty": "Medium",
     "category": "Array / Binary Search",
     "source": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/"
+  },
+  "buy-and-sell-crypto": {
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "category": "Array / Dynamic Programming",
+    "source": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+  },
+  "find-target-in-rotated-sorted-array": {
+    "title": "Search in Rotated Sorted Array",
+    "difficulty": "Medium",
+    "category": "Array / Binary Search",
+    "source": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
   }
 }
