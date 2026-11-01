@@ -168,7 +168,9 @@ NEETCODE_ALIASES = {
     "construct-binary-tree-from-preorder-and-inorder-traversal": "construct-binary-tree-from-preorder-and-inorder-traversal",
     "binary-tree-maximum-path-sum": "binary-tree-maximum-path-sum",
     "serialize-and-deserialize-binary-tree": "serialize-and-deserialize-binary-tree",
-    "max-water-container": "container-with-most-water"
+    "max-water-container": "container-with-most-water",
+    "buy-and-sell-crypto": "best-time-to-buy-and-sell-stock",
+    "find-target-in-rotated-sorted-array": "search-in-rotated-sorted-array",
 }
 
 def load_metadata():
