@@ -831,5 +831,11 @@
     "difficulty": "Medium",
     "category": "Array / Binary Search",
     "source": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+  },
+  "minimum-recolors-to-get-k-consecutive-black-blocks": {
+    "title": "Minimum Recolors to Get K Consecutive Black Blocks",
+    "difficulty": "Easy",
+    "category": "String / Sliding Window",
+    "source": "https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/"
   }
 }
