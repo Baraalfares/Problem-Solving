@@ -837,5 +837,11 @@
     "difficulty": "Easy",
     "category": "String / Sliding Window",
     "source": "https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/"
+  },
+  "minimum-difference-between-highest-and-lowest-of-k-scores": {
+    "title": "Minimum Difference Between Highest and Lowest of K Scores",
+    "difficulty": "Easy",
+    "category": "Array / Sliding Window",
+    "source": "https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/"
   }
 }
