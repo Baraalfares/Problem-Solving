@@ -843,5 +843,11 @@
     "difficulty": "Easy",
     "category": "Array / Sliding Window",
     "source": "https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/"
+  },
+  "number-of-unique-flavors-after-sharing-k-candies": {
+    "title": "Number of Unique Flavors After Sharing K Candies",
+    "difficulty": "Medium",
+    "category": "Array / Hash Table",
+    "source": "https://leetcode.com/problems/number-of-unique-flavors-after-sharing-k-candies/"
   }
 }
