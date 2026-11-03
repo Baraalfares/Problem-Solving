@@ -849,5 +849,11 @@
     "difficulty": "Medium",
     "category": "Array / Hash Table",
     "source": "https://leetcode.com/problems/number-of-unique-flavors-after-sharing-k-candies/"
+  },
+  "distinct-numbers-in-each-subarray": {
+    "title": "Distinct Numbers in Each Subarray",
+    "difficulty": "Medium",
+    "category": "Array / Hash Table",
+    "source": "https://leetcode.com/problems/distinct-numbers-in-each-subarray/"
   }
 }
