@@ -861,5 +861,11 @@
     "difficulty": "Medium",
     "category": "Hash Table / String",
     "source": "https://leetcode.com/problems/number-of-equal-count-substrings/"
+  },
+  "minimum-swaps-to-group-all-1s-together": {
+    "title": "Minimum Swaps to Group All 1's Together",
+    "difficulty": "Medium",
+    "category": "Array / Sliding Window",
+    "source": "https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/"
   }
 }
