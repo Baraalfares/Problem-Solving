@@ -134,7 +134,7 @@ LeetCode and NeetCode solutions, organized by difficulty and problem pattern.
 | 16 | [Custom Sort String](<Data Structures & Algorithms/custom-sort-string>) | Hash Table / String | [C++](<Data Structures & Algorithms/custom-sort-string/submission-0.cpp>) |
 | 17 | [Design Browser History](<Data Structures & Algorithms/design-browser-history>) | Array / Linked List | [C++](<Data Structures & Algorithms/design-browser-history/submission-0.cpp>) |
 | 18 | [Design Linked List](<0707-design-linked-list>) | Linked List / Design | [C++](<0707-design-linked-list/solution.cpp>) |
-| 19 | [Distinct Numbers in Each Subarray](<Data Structures & Algorithms/distinct-numbers-in-each-subarray>) | Array / Hash Table | [C++](<Data Structures & Algorithms/distinct-numbers-in-each-subarray/submission-0.cpp>) |
+| 19 | [Distinct Numbers in Each Subarray](<Data Structures & Algorithms/distinct-numbers-in-each-subarray>) | Array / Hash Table | [C++](<Data Structures & Algorithms/distinct-numbers-in-each-subarray/submission-1.cpp>) |
 | 20 | [Divide Players Into Teams of Equal Skill](<Data Structures & Algorithms/divide-players-into-teams-of-equal-skill>) | Array / Hash Table | [C++](<Data Structures & Algorithms/divide-players-into-teams-of-equal-skill/submission-0.cpp>) |
 | 21 | [Elements in Array After Removing and Replacing Elements](<Data Structures & Algorithms/elements-in-array-after-removing-and-replacing-elements>) | Array | [C++](<Data Structures & Algorithms/elements-in-array-after-removing-and-replacing-elements/submission-0.cpp>) |
 | 22 | [Encode and Decode Strings](<Data Structures & Algorithms/string-encode-and-decode>) | Array / String | [C++](<Data Structures & Algorithms/string-encode-and-decode/submission-1.cpp>) |
