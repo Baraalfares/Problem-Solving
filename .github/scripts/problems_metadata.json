@@ -879,5 +879,11 @@
     "difficulty": "Medium",
     "category": "Array / Dynamic Programming",
     "source": "https://leetcode.com/problems/max-consecutive-ones-ii/"
+  },
+  "longest-substring-with-at-most-two-distinct-characters": {
+    "title": "Longest Substring with At Most Two Distinct Characters",
+    "difficulty": "Medium",
+    "category": "Hash Table / String",
+    "source": "https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/"
   }
 }
