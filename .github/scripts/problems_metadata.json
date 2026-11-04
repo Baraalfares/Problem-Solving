@@ -885,5 +885,11 @@
     "difficulty": "Medium",
     "category": "Hash Table / String",
     "source": "https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/"
+  },
+  "longest-substring-with-at-most-k-distinct-characters": {
+    "title": "Longest Substring with At Most K Distinct Characters",
+    "difficulty": "Medium",
+    "category": "Hash Table / String",
+    "source": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/"
   }
 }
