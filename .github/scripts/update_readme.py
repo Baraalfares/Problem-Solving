@@ -93,7 +93,13 @@ def write_overview(easy, medium, hard, pending=0):
             )
             offset += length
 
-    easy_share = round(100 * easy / total) if total else 0
+    # On a tie, use the first category in the legend (Easy, Medium, Hard).
+    leading_label, leading_count, _ = max(counts, key=lambda entry: entry[1])
+    leading_share = round(100 * leading_count / total) if total else 0
+    center_label = leading_label.lower()
+    if not leading_count:
+        center_label = "pending" if pending else "solved"
+        leading_share = 100 if pending else 0
     pending_description = f" {pending} awaiting difficulty." if pending else ""
     pending_label = (f'<text x="40" y="371" class="ring-label">{pending} awaiting difficulty (gray)</text>'
                      if pending else "")
@@ -122,8 +128,8 @@ text {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; 
 {''.join(bars)}{pending_label}
 <circle cx="708" cy="254" r="76" fill="none" stroke="#f5f8fa" stroke-width="22"/>
 {''.join(segments)}
-<text x="708" y="256" class="percentage" text-anchor="middle">{easy_share}%</text>
-<text x="708" y="281" class="ring-label" text-anchor="middle">easy</text>
+<text x="708" y="256" class="percentage" text-anchor="middle">{leading_share}%</text>
+<text x="708" y="281" class="ring-label" text-anchor="middle">{center_label}</text>
 <line x1="40" y1="382" x2="860" y2="382" stroke="#dce2e8"/>
 <text x="40" y="417" class="section">SELECTED PATTERNS</text>
 </svg>
