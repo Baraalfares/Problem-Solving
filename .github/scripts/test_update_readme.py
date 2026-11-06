@@ -71,6 +71,21 @@ class DifficultyTests(unittest.TestCase):
                 self.assertEqual(json.loads(request.data)["variables"]["titleSlug"], "koko-eating-bananas")
                 self.assertEqual(result["difficulty"] if result else None, "Medium" if difficulty == "Medium" else None)
 
+    def test_new_neetcode_aliases_resolve_to_accepted_leetcode_slugs(self):
+        aliases = {
+            "linked-list-cycle-detection": ("linked-list-cycle", "Easy"),
+            "longest-repeating-substring-with-replacement": ("longest-repeating-character-replacement", "Medium"),
+            "permutation-string": ("permutation-in-string", "Medium"),
+        }
+        for slug, (leetcode_slug, difficulty) in aliases.items():
+            payload = {"data": {"question": {"title": slug, "difficulty": difficulty, "topicTags": []}}}
+            with self.subTest(slug=slug), patch.object(generator.urllib.request, "urlopen",
+                    return_value=io.BytesIO(json.dumps(payload).encode())) as fetch:
+                result = generator.fetch_leetcode_info(slug)
+                request = fetch.call_args.args[0]
+                self.assertEqual(json.loads(request.data)["variables"]["titleSlug"], leetcode_slug)
+                self.assertEqual(result["difficulty"], difficulty)
+
     def test_catalog_fallback_and_single_fetch(self):
         rows = [{"link": "koko-eating-bananas/", "problem": "Koko Eating Bananas",
                  "difficulty": "Medium", "pattern": "Binary Search"}]

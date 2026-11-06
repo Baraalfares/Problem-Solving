@@ -897,5 +897,23 @@
     "difficulty": "Medium",
     "category": "Hash Table / String",
     "source": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+  },
+  "linked-list-cycle-detection": {
+    "title": "Linked List Cycle",
+    "difficulty": "Easy",
+    "category": "Hash Table / Linked List",
+    "source": "https://leetcode.com/problems/linked-list-cycle/"
+  },
+  "longest-repeating-substring-with-replacement": {
+    "title": "Longest Repeating Character Replacement",
+    "difficulty": "Medium",
+    "category": "Hash Table / String",
+    "source": "https://leetcode.com/problems/longest-repeating-character-replacement/"
+  },
+  "permutation-string": {
+    "title": "Permutation in String",
+    "difficulty": "Medium",
+    "category": "Hash Table / Two Pointers",
+    "source": "https://leetcode.com/problems/permutation-in-string/"
   }
 }
