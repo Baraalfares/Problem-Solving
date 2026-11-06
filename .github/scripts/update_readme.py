@@ -177,7 +177,10 @@ NEETCODE_ALIASES = {
     "max-water-container": "container-with-most-water",
     "buy-and-sell-crypto": "best-time-to-buy-and-sell-stock",
     "find-target-in-rotated-sorted-array": "search-in-rotated-sorted-array",
-    "longest-substring-without-duplicates": "longest-substring-without-repeating-characters"
+    "longest-substring-without-duplicates": "longest-substring-without-repeating-characters",
+    "linked-list-cycle-detection": "linked-list-cycle",
+    "longest-repeating-substring-with-replacement": "longest-repeating-character-replacement",
+    "permutation-string": "permutation-in-string"
 
 }
 
