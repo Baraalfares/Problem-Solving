@@ -915,5 +915,11 @@
     "difficulty": "Medium",
     "category": "Hash Table / Two Pointers",
     "source": "https://leetcode.com/problems/permutation-in-string/"
+  },
+  "frequency-of-the-most-frequent-element": {
+    "title": "Frequency of the Most Frequent Element",
+    "difficulty": "Medium",
+    "category": "Array / Binary Search",
+    "source": "https://leetcode.com/problems/frequency-of-the-most-frequent-element/"
   }
 }
