@@ -921,5 +921,11 @@
     "difficulty": "Medium",
     "category": "Array / Binary Search",
     "source": "https://leetcode.com/problems/frequency-of-the-most-frequent-element/"
+  },
+  "sort-array-by-parity": {
+    "title": "Sort Array By Parity",
+    "difficulty": "Easy",
+    "category": "Array / Two Pointers",
+    "source": "https://leetcode.com/problems/sort-array-by-parity/"
   }
 }
