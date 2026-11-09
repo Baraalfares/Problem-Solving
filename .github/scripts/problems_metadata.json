@@ -927,5 +927,11 @@
     "difficulty": "Easy",
     "category": "Array / Two Pointers",
     "source": "https://leetcode.com/problems/sort-array-by-parity/"
+  },
+  "maximum-number-of-vowels-in-a-substring-of-given-length": {
+    "title": "Maximum Number of Vowels in a Substring of Given Length",
+    "difficulty": "Medium",
+    "category": "String / Sliding Window",
+    "source": "https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/"
   }
 }
