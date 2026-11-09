@@ -939,5 +939,11 @@
     "difficulty": "Medium",
     "category": "Array / Binary Search",
     "source": "https://leetcode.com/problems/minimum-size-subarray-sum/"
+  },
+  "minimum-operations-to-reduce-x-to-zero": {
+    "title": "Minimum Operations to Reduce X to Zero",
+    "difficulty": "Medium",
+    "category": "Array / Hash Table",
+    "source": "https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/"
   }
 }
