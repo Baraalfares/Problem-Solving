@@ -945,5 +945,11 @@
     "difficulty": "Medium",
     "category": "Array / Hash Table",
     "source": "https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/"
+  },
+  "binary-tree-inorder-traversal": {
+    "title": "Binary Tree Inorder Traversal",
+    "difficulty": "Easy",
+    "category": "Stack / Tree",
+    "source": "https://leetcode.com/problems/binary-tree-inorder-traversal/"
   }
 }
