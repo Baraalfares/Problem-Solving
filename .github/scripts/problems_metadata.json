@@ -957,5 +957,11 @@
     "difficulty": "Easy",
     "category": "Stack / Tree",
     "source": "https://leetcode.com/problems/binary-tree-preorder-traversal/"
+  },
+  "binary-tree-postorder-traversal": {
+    "title": "Binary Tree Postorder Traversal",
+    "difficulty": "Easy",
+    "category": "Stack / Tree",
+    "source": "https://leetcode.com/problems/binary-tree-postorder-traversal/"
   }
 }
