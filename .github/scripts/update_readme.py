@@ -161,6 +161,7 @@ NEETCODE_ALIASES = {
     "find-duplicate-integer": "find-the-duplicate-number",
     "invert-a-binary-tree": "invert-binary-tree",
     "maximum-depth-of-binary-tree": "maximum-depth-of-binary-tree",
+    "depth-of-binary-tree": "maximum-depth-of-binary-tree",
     "diameter-of-binary-tree": "diameter-of-binary-tree",
     "balanced-binary-tree": "balanced-binary-tree",
     "same-binary-tree": "same-tree",

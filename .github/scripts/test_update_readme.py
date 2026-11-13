@@ -73,6 +73,7 @@ class DifficultyTests(unittest.TestCase):
 
     def test_new_neetcode_aliases_resolve_to_accepted_leetcode_slugs(self):
         aliases = {
+            "depth-of-binary-tree": ("maximum-depth-of-binary-tree", "Easy"),
             "linked-list-cycle-detection": ("linked-list-cycle", "Easy"),
             "longest-repeating-substring-with-replacement": ("longest-repeating-character-replacement", "Medium"),
             "permutation-string": ("permutation-in-string", "Medium"),
