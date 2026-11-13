@@ -963,5 +963,11 @@
     "difficulty": "Easy",
     "category": "Stack / Tree",
     "source": "https://leetcode.com/problems/binary-tree-postorder-traversal/"
+  },
+  "find-all-the-lonely-nodes": {
+    "title": "Find All The Lonely Nodes",
+    "difficulty": "Easy",
+    "category": "Tree / Depth-First Search",
+    "source": "https://leetcode.com/problems/find-all-the-lonely-nodes/"
   }
 }
