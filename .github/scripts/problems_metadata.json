@@ -975,5 +975,11 @@
     "difficulty": "Easy",
     "category": "Tree / Depth-First Search",
     "source": "https://leetcode.com/problems/maximum-depth-of-binary-tree/"
+  },
+  "same-binary-tree": {
+    "title": "Same Tree",
+    "difficulty": "Easy",
+    "category": "Tree / Depth-First Search",
+    "source": "https://leetcode.com/problems/same-tree/"
   }
 }
