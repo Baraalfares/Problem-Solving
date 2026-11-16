@@ -993,5 +993,11 @@
     "difficulty": "Easy",
     "category": "Array / Hash Table",
     "source": "https://leetcode.com/problems/majority-element/"
+  },
+  "minimum-number-of-operations-to-move-all-balls-to-each-box": {
+    "title": "Minimum Number of Operations to Move All Balls to Each Box",
+    "difficulty": "Medium",
+    "category": "Array / String",
+    "source": "https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/"
   }
 }
