@@ -1005,5 +1005,11 @@
     "difficulty": "Medium",
     "category": "String / Binary Search",
     "source": "https://leetcode.com/problems/get-equal-substrings-within-budget/"
+  },
+  "maximum-subarray": {
+    "title": "Maximum Subarray",
+    "difficulty": "Medium",
+    "category": "Array / Divide and Conquer",
+    "source": "https://leetcode.com/problems/maximum-subarray/"
   }
 }
