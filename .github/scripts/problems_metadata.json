@@ -999,5 +999,11 @@
     "difficulty": "Medium",
     "category": "Array / String",
     "source": "https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/"
+  },
+  "get-equal-substrings-within-budget": {
+    "title": "Get Equal Substrings Within Budget",
+    "difficulty": "Medium",
+    "category": "String / Binary Search",
+    "source": "https://leetcode.com/problems/get-equal-substrings-within-budget/"
   }
 }
