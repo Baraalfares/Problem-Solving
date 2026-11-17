@@ -1023,5 +1023,11 @@
     "difficulty": "Medium",
     "category": "Array / Hash Table",
     "source": "https://leetcode.com/problems/count-number-of-nice-subarrays/"
+  },
+  "binary-subarrays-with-sum": {
+    "title": "Binary Subarrays With Sum",
+    "difficulty": "Medium",
+    "category": "Array / Hash Table",
+    "source": "https://leetcode.com/problems/binary-subarrays-with-sum/"
   }
 }
