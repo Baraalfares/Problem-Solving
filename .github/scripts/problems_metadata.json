@@ -1011,5 +1011,11 @@
     "difficulty": "Medium",
     "category": "Array / Divide and Conquer",
     "source": "https://leetcode.com/problems/maximum-subarray/"
+  },
+  "maximum-sum-circular-subarray": {
+    "title": "Maximum Sum Circular Subarray",
+    "difficulty": "Medium",
+    "category": "Array / Divide and Conquer",
+    "source": "https://leetcode.com/problems/maximum-sum-circular-subarray/"
   }
 }
