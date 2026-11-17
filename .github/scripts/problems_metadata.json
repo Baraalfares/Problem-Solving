@@ -1029,5 +1029,11 @@
     "difficulty": "Medium",
     "category": "Array / Hash Table",
     "source": "https://leetcode.com/problems/binary-subarrays-with-sum/"
+  },
+  "number-of-substrings-containing-all-three-characters": {
+    "title": "Number of Substrings Containing All Three Characters",
+    "difficulty": "Medium",
+    "category": "Hash Table / String",
+    "source": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/"
   }
 }
