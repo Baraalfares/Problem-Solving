@@ -1035,5 +1035,11 @@
     "difficulty": "Medium",
     "category": "Hash Table / String",
     "source": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/"
+  },
+  "longest-turbulent-subarray": {
+    "title": "Longest Turbulent Subarray",
+    "difficulty": "Medium",
+    "category": "Array / Dynamic Programming",
+    "source": "https://leetcode.com/problems/longest-turbulent-subarray/"
   }
 }
