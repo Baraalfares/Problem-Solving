@@ -1041,5 +1041,11 @@
     "difficulty": "Medium",
     "category": "Array / Dynamic Programming",
     "source": "https://leetcode.com/problems/longest-turbulent-subarray/"
+  },
+  "trapping-rain-water": {
+    "title": "Trapping Rain Water",
+    "difficulty": "Hard",
+    "category": "Array / Two Pointers",
+    "source": "https://leetcode.com/problems/trapping-rain-water/"
   }
 }
