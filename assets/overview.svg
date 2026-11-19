@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440" role="img" aria-labelledby="title desc">
 <title id="title">Baraa's coding journal — Problem Solving</title>
-<desc id="desc">199 problems solved: 94 easy, 103 medium, and 2 hard.</desc>
+<desc id="desc">200 problems solved: 94 easy, 104 medium, and 2 hard.</desc>
 <style>
 text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
 .eyebrow { fill: #566271; font-size: 12px; font-weight: 600; letter-spacing: 1.4px; }
@@ -18,11 +18,11 @@ text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
 <text x="62" y="50" class="eyebrow">BARAA'S CODING JOURNAL</text>
 <text x="60" y="87" class="heading">Problem Solving</text>
 <text x="62" y="114" class="subtitle">A curated archive of accepted C++ solutions.</text>
-<text x="36" y="219" class="total">199</text>
+<text x="36" y="219" class="total">200</text>
 <text x="40" y="247" class="subtitle">problems solved</text>
-<text x="40" y="284" class="label">Easy</text><rect x="123" y="274" width="228" height="8" rx="4" fill="#f5f8fa"/><rect x="123" y="274" width="208.08" height="8" rx="4" fill="#36b782"/><text x="391" y="284" class="count" text-anchor="end">94</text><text x="40" y="316" class="label">Medium</text><rect x="123" y="306" width="228" height="8" rx="4" fill="#f5f8fa"/><rect x="123" y="306" width="228.00" height="8" rx="4" fill="#e5ae46"/><text x="391" y="316" class="count" text-anchor="end">103</text><text x="40" y="348" class="label">Hard</text><rect x="123" y="338" width="228" height="8" rx="4" fill="#f5f8fa"/><rect x="123" y="338" width="4.43" height="8" rx="4" fill="#ef6b73"/><text x="391" y="348" class="count" text-anchor="end">2</text>
+<text x="40" y="284" class="label">Easy</text><rect x="123" y="274" width="228" height="8" rx="4" fill="#f5f8fa"/><rect x="123" y="274" width="206.08" height="8" rx="4" fill="#36b782"/><text x="391" y="284" class="count" text-anchor="end">94</text><text x="40" y="316" class="label">Medium</text><rect x="123" y="306" width="228" height="8" rx="4" fill="#f5f8fa"/><rect x="123" y="306" width="228.00" height="8" rx="4" fill="#e5ae46"/><text x="391" y="316" class="count" text-anchor="end">104</text><text x="40" y="348" class="label">Hard</text><rect x="123" y="338" width="228" height="8" rx="4" fill="#f5f8fa"/><rect x="123" y="338" width="4.38" height="8" rx="4" fill="#ef6b73"/><text x="391" y="348" class="count" text-anchor="end">2</text>
 <circle cx="708" cy="254" r="76" fill="none" stroke="#f5f8fa" stroke-width="22"/>
-<circle cx="708" cy="254" r="76" fill="none" stroke="#36b782" stroke-width="22" stroke-dasharray="225.5632 251.9589" stroke-dashoffset="0.0000" transform="rotate(-90 708 254)"/><circle cx="708" cy="254" r="76" fill="none" stroke="#e5ae46" stroke-width="22" stroke-dasharray="247.1597 230.3624" stroke-dashoffset="-225.5632" transform="rotate(-90 708 254)"/><circle cx="708" cy="254" r="76" fill="none" stroke="#ef6b73" stroke-width="22" stroke-dasharray="4.7992 472.7229" stroke-dashoffset="-472.7229" transform="rotate(-90 708 254)"/>
+<circle cx="708" cy="254" r="76" fill="none" stroke="#36b782" stroke-width="22" stroke-dasharray="224.4354 253.0867" stroke-dashoffset="0.0000" transform="rotate(-90 708 254)"/><circle cx="708" cy="254" r="76" fill="none" stroke="#e5ae46" stroke-width="22" stroke-dasharray="248.3115 229.2106" stroke-dashoffset="-224.4354" transform="rotate(-90 708 254)"/><circle cx="708" cy="254" r="76" fill="none" stroke="#ef6b73" stroke-width="22" stroke-dasharray="4.7752 472.7469" stroke-dashoffset="-472.7469" transform="rotate(-90 708 254)"/>
 <text x="708" y="256" class="percentage" text-anchor="middle">52%</text>
 <text x="708" y="281" class="ring-label" text-anchor="middle">medium</text>
 <line x1="40" y1="382" x2="860" y2="382" stroke="#dce2e8"/>
