@@ -1047,5 +1047,11 @@
     "difficulty": "Hard",
     "category": "Array / Two Pointers",
     "source": "https://leetcode.com/problems/trapping-rain-water/"
+  },
+  "subarray-product-less-than-k": {
+    "title": "Subarray Product Less Than K",
+    "difficulty": "Medium",
+    "category": "Array / Binary Search",
+    "source": "https://leetcode.com/problems/subarray-product-less-than-k/"
   }
 }
