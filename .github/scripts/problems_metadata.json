@@ -1089,5 +1089,11 @@
     "difficulty": "Medium",
     "category": "Array / Sliding Window",
     "source": "https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/"
+  },
+  "palindrome-linked-list": {
+    "title": "Palindrome Linked List",
+    "difficulty": "Easy",
+    "category": "Linked List / Two Pointers",
+    "source": "https://leetcode.com/problems/palindrome-linked-list/"
   }
 }
