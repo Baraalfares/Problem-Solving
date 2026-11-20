@@ -1083,5 +1083,11 @@
     "difficulty": "Medium",
     "category": "Array / Hash Table",
     "source": "https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/"
+  },
+  "count-subarrays-where-max-element-appears-at-least-k-times": {
+    "title": "Count Subarrays Where Max Element Appears at Least K Times",
+    "difficulty": "Medium",
+    "category": "Array / Sliding Window",
+    "source": "https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/"
   }
 }
