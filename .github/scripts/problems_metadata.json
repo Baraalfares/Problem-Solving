@@ -1095,5 +1095,11 @@
     "difficulty": "Easy",
     "category": "Linked List / Two Pointers",
     "source": "https://leetcode.com/problems/palindrome-linked-list/"
+  },
+  "maximum-twin-sum-of-a-linked-list": {
+    "title": "Maximum Twin Sum of a Linked List",
+    "difficulty": "Medium",
+    "category": "Linked List / Two Pointers",
+    "source": "https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/"
   }
 }
