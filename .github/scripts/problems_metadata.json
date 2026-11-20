@@ -1077,5 +1077,11 @@
     "difficulty": "Medium",
     "category": "Array / Hash Table",
     "source": "https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/"
+  },
+  "length-of-longest-subarray-with-at-most-k-frequency": {
+    "title": "Length of Longest Subarray With at Most K Frequency",
+    "difficulty": "Medium",
+    "category": "Array / Hash Table",
+    "source": "https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/"
   }
 }
