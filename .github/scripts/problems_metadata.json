@@ -1101,5 +1101,11 @@
     "difficulty": "Medium",
     "category": "Linked List / Two Pointers",
     "source": "https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/"
+  },
+  "middle-of-the-linked-list": {
+    "title": "Middle of the Linked List",
+    "difficulty": "Easy",
+    "category": "Linked List / Two Pointers",
+    "source": "https://leetcode.com/problems/middle-of-the-linked-list/"
   }
 }
