@@ -1107,5 +1107,11 @@
     "difficulty": "Easy",
     "category": "Linked List / Two Pointers",
     "source": "https://leetcode.com/problems/middle-of-the-linked-list/"
+  },
+  "remove-duplicates-from-sorted-list": {
+    "title": "Remove Duplicates from Sorted List",
+    "difficulty": "Easy",
+    "category": "Linked List",
+    "source": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/"
   }
 }
