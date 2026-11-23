@@ -1113,5 +1113,11 @@
     "difficulty": "Easy",
     "category": "Linked List",
     "source": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/"
+  },
+  "maximum-beauty-of-an-array-after-applying-operation": {
+    "title": "Maximum Beauty of an Array After Applying Operation",
+    "difficulty": "Medium",
+    "category": "Array / Binary Search",
+    "source": "https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/"
   }
 }
