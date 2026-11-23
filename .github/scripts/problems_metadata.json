@@ -1119,5 +1119,11 @@
     "difficulty": "Medium",
     "category": "Array / Binary Search",
     "source": "https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/"
+  },
+  "take-k-of-each-character-from-left-and-right": {
+    "title": "Take K of Each Character From Left and Right",
+    "difficulty": "Medium",
+    "category": "Hash Table / String",
+    "source": "https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/"
   }
 }
