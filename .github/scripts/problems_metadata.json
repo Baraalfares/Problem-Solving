@@ -1131,5 +1131,11 @@
     "difficulty": "Medium",
     "category": "Array / Math",
     "source": "https://leetcode.com/problems/product-of-the-last-k-numbers/"
+  },
+  "intersection-of-two-linked-lists": {
+    "title": "Intersection of Two Linked Lists",
+    "difficulty": "Easy",
+    "category": "Hash Table / Linked List",
+    "source": "https://leetcode.com/problems/intersection-of-two-linked-lists/"
   }
 }
