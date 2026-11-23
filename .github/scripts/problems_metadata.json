@@ -1137,5 +1137,11 @@
     "difficulty": "Easy",
     "category": "Hash Table / Linked List",
     "source": "https://leetcode.com/problems/intersection-of-two-linked-lists/"
+  },
+  "remove-linked-list-elements": {
+    "title": "Remove Linked List Elements",
+    "difficulty": "Easy",
+    "category": "Linked List / Recursion",
+    "source": "https://leetcode.com/problems/remove-linked-list-elements/"
   }
 }
