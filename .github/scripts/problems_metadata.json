@@ -1155,5 +1155,11 @@
     "difficulty": "Medium",
     "category": "Linked List / Simulation",
     "source": "https://leetcode.com/problems/merge-nodes-in-between-zeros/"
+  },
+  "find-the-minimum-and-maximum-number-of-nodes-between-critical-points": {
+    "title": "Find the Minimum and Maximum Number of Nodes Between Critical Points",
+    "difficulty": "Medium",
+    "category": "Linked List",
+    "source": "https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/"
   }
 }
