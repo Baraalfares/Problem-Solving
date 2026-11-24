@@ -1149,5 +1149,11 @@
     "difficulty": "Medium",
     "category": "Linked List",
     "source": "https://leetcode.com/problems/merge-in-between-linked-lists/"
+  },
+  "merge-nodes-in-between-zeros": {
+    "title": "Merge Nodes in Between Zeros",
+    "difficulty": "Medium",
+    "category": "Linked List / Simulation",
+    "source": "https://leetcode.com/problems/merge-nodes-in-between-zeros/"
   }
 }
