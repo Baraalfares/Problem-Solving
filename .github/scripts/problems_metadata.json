@@ -1167,5 +1167,11 @@
     "difficulty": "Medium",
     "category": "Linked List / Stack",
     "source": "https://leetcode.com/problems/remove-nodes-from-linked-list/"
+  },
+  "reorder-linked-list": {
+    "title": "Reorder List",
+    "difficulty": "Medium",
+    "category": "Linked List / Two Pointers",
+    "source": "https://leetcode.com/problems/reorder-list/"
   }
 }
