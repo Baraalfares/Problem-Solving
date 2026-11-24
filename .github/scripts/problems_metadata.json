@@ -1161,5 +1161,11 @@
     "difficulty": "Medium",
     "category": "Linked List",
     "source": "https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/"
+  },
+  "remove-nodes-from-linked-list": {
+    "title": "Remove Nodes From Linked List",
+    "difficulty": "Medium",
+    "category": "Linked List / Stack",
+    "source": "https://leetcode.com/problems/remove-nodes-from-linked-list/"
   }
 }
